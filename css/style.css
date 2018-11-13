@@ -12,6 +12,7 @@ body {
 .navbar {
   background-image: url("../images/header-background.png");
   background-size: cover;
+  background-position: bottom center;
   height: 10.4rem;
   width: 100%;
 }
@@ -1069,7 +1070,7 @@ hr{
 
 .project2-text {
   float: right;
-  background-image: url("../images/clock.png");
+  background-image: url("../images/mobile-clock.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
