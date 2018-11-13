@@ -8,37 +8,36 @@ html {
 
 body {
 }
-
-.navbar {
-  background-image: url("../images/header-background.png");
+.navbar{
+  background-image: url("../images/mobile-header-rectangle.png");
+  height: 104px;
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom center;
-  height: 10.4rem;
-  width: 100%;
 }
 
-.navigation {
+.navigation{
   color: #8B8100;
   text-align: right;
   display: inline-flex;
   float: right;
-  margin-top: 5.3rem;
-  font-size: 1.5rem;
+  margin-top: 53px;
+  font-size: 1.8rem;
   font-family: "WellrockSlab";
+  margin-left: 0rem;
 }
 
 .about{
-  margin-right: 7%;
+  margin-right: 2rem;
 }
 
 .projects{
-  margin-right: 7%;
+  margin-right: 2rem;
 }
 
 .connect{
-  margin-right: 4rem;
+  margin-right: 3rem;
 }
-
 
 .personal-logo{
   padding-top: 2rem;
