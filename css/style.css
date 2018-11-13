@@ -16,34 +16,51 @@ body {
   background-position: bottom center;
 }
 
+
+
+a{
+  color: #8B8100;
+  text-align: right;
+  padding-top: 53px;
+  font-size: 1.8rem;
+  font-family: "WellrockSlab";
+  text-decoration: none;
+}
+
 .navigation{
   color: #8B8100;
   text-align: right;
-  display: inline-flex;
-  float: right;
-  margin-top: 53px;
+  padding-top: 4.5rem;
   font-size: 1.8rem;
   font-family: "WellrockSlab";
-  margin-left: 0rem;
+  width: 60%;
+  float: right;
+  display: inline-flex;
 }
 
 .about{
-  margin-right: 2rem;
+  padding-right: 5%;
 }
 
 .projects{
-  margin-right: 2rem;
+  padding-right: 5%;
+
 }
 
 .connect{
-  margin-right: 3rem;
+  padding-right: 5%;
 }
 
-.personal-logo{
+.personal-logo {
   padding-top: 2rem;
   margin-left: 3.8rem;
   width: 30%;
 }
+
+.personal-logo img{
+  width: 30%;
+}
+
 
 .hero{
   background-image: url("../images/mobile-arrow1.png");
@@ -265,7 +282,7 @@ footer{
   display: none;
 }
 
-.footer-connect h2{
+#footer-connect h2{
   color: #9486B5;
   font-family: "Champagne & Limousines";
   font-size: 3rem;
@@ -306,22 +323,39 @@ footer{
   html {
     font-size: 10px;
 }
+.navigation{
+  color: #8B8100;
+  text-align: right;
+  padding-top: 4.5rem;
+  font-size: 1.8rem;
+  font-family: "WellrockSlab";
+  width: 50%;
+  float: right;
+  display: inline-flex;
+}
 
 .about{
-  margin-right: 12%;
+  padding-right: 2rem;
+  padding-left: 4%;
 }
 
 .projects{
-  margin-right: 12%;
+  padding-right: 2rem;
+
 }
 
 .connect{
-  margin-right: 8rem;
+  padding-right: 3rem;
 }
 
+
 .personal-logo{
-  padding-top: 3rem;
+  padding-top: 2rem;
   margin-left: 7.5rem;
+  width: 30%;
+}
+
+.personal-logo img{
   width: 30%;
 }
 
@@ -527,7 +561,7 @@ footer{
     background-position: top center;
 }
 
-.footer-connect h2{
+#footer-connect h2{
   color: #9486B5;
   font-family: "Champagne & Limousines";
   font-size: 4.5rem;
@@ -563,17 +597,12 @@ footer{
 
 
 @media screen and (min-width: 580px){
+
   .about{
-    margin-right: 10%;
+    padding-left: 15%;
   }
 
-  .projects{
-    margin-right: 10%;
-  }
 
-  .connect{
-    margin-right: 7rem;
-  }
   .trunk {
     background-image: url("../images/mobile-trunk-screenshot.png");
     background-repeat: no-repeat;
@@ -640,7 +669,7 @@ footer{
     text-align: center;
   }
 
-  .footer-connect h2{
+  #footer-connect h2{
     color: #9486B5;
     font-family: "Champagne & Limousines";
     font-size: 4.5rem;
@@ -668,6 +697,40 @@ footer{
 
 
 @media screen and (min-width: 680px){
+
+
+  .navigation{
+    color: #8B8100;
+    text-align: right;
+    padding-top: 4.5rem;
+    font-size: 1.8rem;
+    font-family: "WellrockSlab";
+    width: 60%;
+    float: right;
+    display: inline-flex;
+  }
+
+  .about{
+    padding-right: 5%;
+    padding-left: 40%;
+  }
+
+  .personal-logo {
+    padding-top: 1rem;
+  }
+
+  .personal-logo img{
+    width: 25%;
+  }
+
+  .projects{
+    padding-right: 5%;
+
+  }
+
+  .connect{
+    padding-right: 3rem;
+  }
 
   .trunk h2{
     font-size: 7.5rem;
@@ -766,6 +829,11 @@ footer{
 
 @media screen and (min-width: 780px){
 
+  .about{
+    padding-left: 40%;
+  }
+
+
   .intro{
     font-size: 8rem;
   }
@@ -831,7 +899,7 @@ footer{
     font-size: 3.2rem;
   }
 
-  .footer-connect h2{
+  #footer-connect h2{
     font-size: 6rem;
     padding-top: 7rem;
   }
@@ -851,6 +919,8 @@ footer{
     font-size: 2rem;
   }
 }
+
+
 
 @media screen and (min-width: 880px){
   hr{
@@ -874,22 +944,26 @@ footer{
     font-size: 15px;
 }
 
-.personal-logo{
-  padding-top: 3rem;
-  margin-left: 7.5rem;
-  width: 30%;
+.personal-logo img{
+  margin-left: 0rem;
+  width: 25%;
 }
+
+.personal-logo{
+  padding-top: 3%;
+}
+
+
+.about{
+  padding-right: 5%;
+  padding-left: 30%;
+}
+
 
 hr{
   width: 27rem;
 }
 
-.navbar {
-  background-image: url("../images/header-background.png");
-  background-size: cover;
-  height: 10.4rem;
-  width: 100%;
-}
 
 .hero {
   background-image: url("../images/arrow1.png");
@@ -1093,7 +1167,7 @@ footer{
     background-position: top center;
 }
 
-.footer-connect h2{
+#footer-connect h2{
   font-size: 6rem;
   font-weight: bold;
   text-align: center;
@@ -1133,8 +1207,46 @@ footer{
 
 
 
+@media screen and (min-width: 1150px){
+  .personal-logo{
+    padding-top: 2%;
+  }
 
-@media screen and (min-width: 1300px){
+  .about{
+    padding-left: 45%;
+  }
+}
+
+
+@media screen and (min-width: 1250px){
+  .navigation{
+    color: #8B8100;
+    text-align: right;
+    padding-top: 4.5rem;
+    font-size: 1.8rem;
+    font-family: "WellrockSlab";
+    width: 60%;
+    float: right;
+    display: inline-flex;
+  }
+
+  .about{
+    padding-right: 5%;
+    padding-left: 50%;
+  }
+
+  .projects{
+    padding-right: 5%;
+
+  }
+
+  .connect{
+    padding-right: 5%;
+  }
+
+  .personal-logo{
+    padding-top: 1%;
+  }
   .trunk-image {
     width: 32%;
     height: auto;
@@ -1144,7 +1256,7 @@ footer{
     float: right;
   }
 
-  .footer-connect h2{
+  #footer-connect h2{
     font-size: 6rem;
     font-weight: bold;
     text-align: center;
@@ -1184,7 +1296,17 @@ footer{
 
 
 @media screen and (min-width: 1450px){
+  .navbar{
+    height: 14rem;
+  }
 
+  .navigation{
+    padding-top: 7rem;
+  }
+
+  .personal-logo img{
+    padding-top: 1rem;
+  }
   .trunk-image {
     width: 30%;
     height: auto;
@@ -1197,7 +1319,12 @@ footer{
 
 
 @media screen and (min-width: 1600px){
-
+  html{
+    font-size: 20px;
+  }
+  .personal-logo img{
+    padding-top: 0rem;
+  }
   .trunk{
     width: 30%;
     margin-left: 12.5%;
@@ -1215,9 +1342,14 @@ footer{
     margin-right: 12%;
     float: right;
   }
+
+  #footer-connect h2{
+    font-size: 5rem;
+    font-weight: bold;
+  }
 }
 
-@media screen and (min-width: 1600px){
+@media screen and (min-width: 1750px){
   .trunk-image {
     width: 30%;
     height: auto;
