@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+
+}
+
+.grid-container{
+  display: grid;
+  grid-template-areas:
+  "navbar"
+  "hero"
+  "process"
+}
+
+.navbar, .hero, .process{
+  padding: 2rem;
+}
+
+.navbar {
+  background-color: orange;
+  grid-area: navbar;
+}
+
+.hero {
+  background-color: blue;
+  grid-area: hero;
+  padding: 2rem;
+}
+
+.process {
+  background-color: #ffff00;
+  grid-area: process;
+}
+
+@media (min-width: 70rem) {
+  body{
+  grid-template-columns: 2fr 8fr 2fr;
+  grid-template-areas:
+  "navbar navbar navbar"
+  "hero hero ."
+  "process process process"
