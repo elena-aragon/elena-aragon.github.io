@@ -869,28 +869,30 @@ hr{
 
 
 @media screen and (min-width: 991px) {
-  html {
-    font-size: 15px;
-}
+  html{
+    font-size: 17px;
+  }
 
-.personal-logo img{
-  margin-left: 0rem;
-  width: 25%;
-}
+  .navbar{
+    height: 104px;
+  }
 
-.personal-logo{
-  padding-top: 3%;
-}
+  .navigation p{
+    font-size: 1.3rem;
+    margin-top: 2.4rem;
+  }
+
+  .personal-logo{
+    width: 30%;
+  }
+
+  .about{
+    padding-left: 33.5%;
+  }
 
 
-.about{
-  padding-right: 5%;
-  padding-left: 30%;
-}
-
-
-hr{
-  width: 27rem;
+  hr{
+    width: 20rem;
 }
 
 
@@ -900,16 +902,18 @@ hr{
   background-repeat: no-repeat;
   background-position: bottom center;
   width: 100%;
-  padding-bottom: 10rem;
-  margin-bottom: 8rem;
+  height: 25rem;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
   align-items: center;
 }
 
 
 .intro {
-  font-size: 6rem;
+  font-size: 4rem;
   padding-top: 3rem;
   padding-bottom: 0rem;
+  margin-bottom: 1rem;
   padding-left: 12.5%;
   color: #8B8100;
   font-family: "Champagne & Limousines";
@@ -919,9 +923,9 @@ hr{
 
 
 .elena {
-  font-size: 5rem;
-  padding-top: 4rem;
-  margin-bottom: 5rem;
+  font-size: 3rem;
+  padding-top: 2.5rem;
+  margin-bottom: 3rem;
   margin-left: 12.5%;
   margin-right: 12.5%;
   color: #8F8ACD;
@@ -930,19 +934,22 @@ hr{
 }
 
 .bio {
-  font-size: 2rem;
-  width: 95%;
+  font-size: 1.2rem;
+  width: 100%;
   /* padding-bottom: 1rem; */
   padding-left: 12.5%;
   padding-top: 0px;
-  padding-right: 15%;
+  margin-right: 0rem;
+  padding-right: 6rem;
   color: #C5C5C5;
   line-height: 140%;
   font-family: "WellrockSlab";
-  letter-spacing: .15rem;
+  letter-spacing: .1rem;
 }
 
-
+#featured-project h2{
+  font-size: 4rem;
+}
 
 .trunk {
   float: left;
@@ -963,7 +970,7 @@ hr{
   color: #8B8100;
   margin-left: 1rem;
   font-family:"Madeleina Sans";
-  font-size: 7rem;
+  font-size: 6rem;
   padding-top: 2.5rem;
   text-align: center;
   /* width: ; */
@@ -973,24 +980,20 @@ hr{
 }
 
 .trunk h3{
-  color: #fff;
-  font-family: "Madeleina Sans";
-  font-size: 2.5rem;
+  font-size: 2rem;
   padding-top: 2rem;
   padding-bottom: 2.5rem;
   padding-left: 2rem;
   padding-right: 2rem;
-  letter-spacing: .3rem;
-  line-height: 100%;
-  width: 100%;
-  text-align: center;
+  letter-spacing: .1rem;
+  line-height: 2rem;
 }
 
 .trunk h4{
   color: #9486B5;
   font-family: "WellrockSlab";
-  font-size: 2.2rem;
-  padding-bottom: 3rem;
+  font-size: 2rem;
+  padding-bottom: 4rem;
   text-align: center;
 }
 
@@ -999,17 +1002,12 @@ hr{
   height: auto;
   margin-top: 4rem;
   margin-left: 1rem;
-  margin-bottom: 10%;
   margin-right: 10%;
   float: right;
-
-  /* margin-left: 1rem; */
 }
 
 
 .other-projects {
-  font-family: "Champagne & Limousines";
-  color: #8B8100;
   margin-top: 15rem;
   margin-bottom: .1rem;
   text-align: center;
@@ -1033,9 +1031,7 @@ hr{
 }
 
 .other-projects h2{
-  color: #8B8100;
-  font-family:"Madeleina Sans";
-  font-size: 5rem;
+  font-size: 4rem;
   padding-top: 3rem;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -1043,13 +1039,11 @@ hr{
 }
 
 .project-one h2{
-  color: #8B8100;
   text-align: center;
   margin-bottom: 3rem;
   margin-left: 1rem;
   margin-right: 1rem;
-  font-size: 8rem;
-  font-family: "Champagne & Limousines";
+  font-size: 4.5rem;
 }
 
 .other-projects h3{
@@ -1059,24 +1053,15 @@ hr{
   font-size: 2rem;
   padding-top: 1rem;
   padding-bottom: 2rem;
-  letter-spacing: .2rem;
+  letter-spacing: .1rem;
 }
 
 .other-projects h4{
-  color: #9486B5;
-  font-family: "WellrockSlab";
-  font-size: 2rem;
-  padding-bottom: 7rem;
-  clear: both;
+  font-size: 1.6rem;
 }
 
 .project2-text {
   float: right;
-  background-image: url("../images/mobile-clock.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  text-align: center;
   letter-spacing: .4rem;
   margin-right: 10%;
   margin-left: 1%;
@@ -1087,49 +1072,34 @@ hr{
 
 
 footer{
-  clear: both;
-    background-image: url("../images/footer-background.png");
-    background-repeat: no-repeat;
-    margin-top: 10rem;
-    width: 100%;
-    background-size: cover;
-    background-position: top center;
+    clear: both;
 }
 
 #footer-connect h2{
-  font-size: 6rem;
-  font-weight: bold;
-  text-align: center;
-  padding-top: 10rem;
-  margin-bottom: 1rem;
-  letter-spacing: .5rem
+  font-size: 4rem;
+  font-weight: normal;
+  padding-top: 7rem;
+  letter-spacing: .2rem
 }
 
 .footer-icons {
   margin-right: 25%;
-  margin-left: 25%;
-  margin-top: 1%;
+  margin-left: 27%;
   display: flex;
   justify-content: space-between;
 }
 
-.linkedin, .twitter, .email, .github {
-  width: 80px;
-  height: 80px;
-  margin-left: 0px;
-  margin-right: 0px;
-  /* width: 100%; */
+.footer-icons img {
+  width: 60%;
 }
 
 .designed h4{
-  font-size: 2rem;
+  font-size: 1.3rem;
   color: #fff;
-  letter-spacing: .3rem;
+  letter-spacing: .1rem;
   font-family: "WellrockSlab";
   text-align: center;
-  margin-top: 3%;
-  margin-bottom: 0rem;
-  padding-bottom: 8rem;
+  padding-bottom: 2rem;
 }
 }
 
@@ -1138,7 +1108,10 @@ footer{
 
 @media screen and (min-width: 1150px){
   .personal-logo{
-    padding-top: 2%;
+    padding-top: 1%;
+  }
+  .personal-logo img {
+    width: 17%;
   }
 
   .about{
@@ -1147,7 +1120,7 @@ footer{
 }
 
 
-@media screen and (min-width: 1250px){
+/* @media screen and (min-width: 1250px){
   .navigation{
     color: #8B8100;
     text-align: right;
@@ -1206,9 +1179,9 @@ footer{
     width: 80px;
     height: 80px;
     margin-left: 0px;
-    margin-right: 0px;
+    margin-right: 0px; */
     /* width: 100%; */
-  }
+  /* }
 
   .designed h4{
     font-size: 2rem;
@@ -1220,7 +1193,7 @@ footer{
     margin-bottom: 0rem;
     padding-bottom: 7rem;
   }
-}
+} */
 
 
 
