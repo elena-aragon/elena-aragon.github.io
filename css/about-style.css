@@ -11,6 +11,55 @@ body{
 
 .navbar{
   background-image: url("../images/mobile-header-rectangle.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 10.4rem;
+  margin-left: 0px;
+  margin-right: 0px;
+  background-position: bottom center;
+}
+
+.navigation{
+  float: right;
+}
+
+.navigation p{
+  display: inline-flex;
+  font-family: "WellrockSlab";
+  font-size: 1.5rem;
+  margin-left: 0rem;
+  margin-top: 4.6rem;
+  text-align: right;
+}
+
+.navigation a{
+  color: #8B8100;
+  text-decoration: none;
+}
+
+.about{
+  margin-right: 1.5rem;
+}
+
+.projects{
+  margin-right: 1.5rem;
+}
+
+.connect{
+  margin-right: 2.5rem;
+}
+
+.personal-logo{
+  margin-left: 3.8rem;
+  padding-top: 2rem;
+}
+
+.personal-logo img{
+  width: 15%;
+  float: left;
+}
+/* .navbar{
+  background-image: url("../images/mobile-header-rectangle.png");
   height: 104px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -40,11 +89,11 @@ body{
   margin-right: 3rem;
 }
 
-.personal-logo{
+.personal-logo {
   padding-top: 2rem;
   margin-left: 3.8rem;
   width: 30%;
-}
+} */
 
 .hero{
   background-image: url(../images/mobile-arrow.png);
@@ -52,7 +101,7 @@ body{
   background-position: bottom center;
   color: #8B8100;
   font-family: "Champagne & Limousines";
-  padding-bottom: 32rem;
+  padding-bottom: 28rem;
 
 }
 
@@ -60,12 +109,12 @@ body{
   padding-top: 7.1rem;
   float: left;
   width: 60%;
-  font-size: 5rem;
+  font-size: 4.5rem;
   margin-left: 8%;
 }
 
 hr {
-  width: 18rem;
+  width: 17rem;
   float: left;
   margin-top: auto;
   margin-left: 8%;
@@ -120,11 +169,11 @@ footer{
 }
 
 
-.footer-icons h4{
+.footer-icons h2{
   display: none;
 }
 
-.footer-connect h2{
+#footer-connect h2{
   color: #9486B5;
   font-family: "Champagne & Limousines";
   font-size: 3rem;
@@ -135,9 +184,8 @@ footer{
 }
 
 
-
 .linkedin, .twitter, .email, .github {
-  width: 8rem;
+  width: 3rem;
   padding: 6%;
 }
 
@@ -152,7 +200,68 @@ footer{
   padding-bottom: 5%;
 }
 
+
+@media screen and (min-width: 480px) {
+  .navigation{
+    color: #8B8100;
+    text-align: right;
+    font-size: 1.8rem;
+    display: inline-flex;
+  }
+
+  .about{
+    padding-right: 1.5rem;
+  }
+
+  .projects{
+    padding-right: 1.5rem;
+
+  }
+
+  .connect{
+    padding-right: 2rem;
+  }
+
+
+  .personal-logo{
+    padding-top: 2rem;
+    margin-left: 7.5rem;
+    width: 37%;
+  }
+
+  .personal-logo img{
+    width: 30%;
+  }
+
+  hr{
+    width: 16.5rem;
+  }
+
+  .navbar {
+    background-image: url("../images/header-background.png");
+    background-size: cover;
+    height: 10.4rem;
+    width: 100%;
+  }
+
+  #footer-connect h2{
+    font-size: 4.5rem;
+    font-weight: bold;
+  }
+}
+
+
+
 @media screen and (min-width: 580px) {
+
+  .personal-logo img{
+    padding-top: 1rem;
+  }
+
+  .personal-logo{
+    padding-top: 0rem;
+  }
+
   hr {
     width: 20rem;
   }
@@ -161,27 +270,30 @@ footer{
     margin-left: 0%;
     width: 25%;
   }
+
   .footer-connect h2{
-    color: #9486B5;
-    font-family: "Champagne & Limousines";
     font-size: 4.5rem;
-    font-weight: bold;
-    text-align: center;
-    padding-top: 9rem;
-    margin-bottom: 1rem;
-    letter-spacing: .5rem
   }
 
-  .linkedin, .twitter, .email, .github {
-    width: 20%;
-    margin-left: none;
-  }
 }
+
+
+
+
+
 
 @media screen and (min-width: 680px) {
 
   html{
-    font-size: 12px;
+    font-size: 10px;
+  }
+
+  .navigation p{
+    font-size: 1.8rem;
+  }
+
+  .personal-logo img{
+    width: 25%;
   }
 
   .hero h1{
@@ -211,6 +323,10 @@ footer{
 
 
 @media screen and (min-width: 780px) {
+  .personal-logo img{
+    width: 20%;
+  }
+
   .hero{
     padding-bottom: 40rem;
   }
@@ -243,8 +359,9 @@ footer{
     margin-top: 6rem;
   }
 
-  .footer-connect h2{
-    font-size: 5rem;
+
+  #footer-connect h2{
+    font-size: 6rem;
     padding-top: 7rem;
   }
 
@@ -254,15 +371,14 @@ footer{
   }
 
   .linkedin, .twitter, .email, .github {
-    width: 14%;
-    padding: 2%;
+    width: 40%;
+    padding: 0 10%;
     margin: none;
   }
 
-  .designed h4{
+  .designed h5{
     font-size: 2rem;
   }
-}
 
 @media screen and (min-width: 900px;){
   .hero img{
@@ -363,6 +479,6 @@ footer{
 
   .footer-icons{
     margin-left: 40%;
-    margin-right: 40%;
+      margin-right: 40%;
   }
 }

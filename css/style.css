@@ -8,6 +8,7 @@ html {
 
 body {
 }
+
 .navbar{
   background-image: url("../images/mobile-header-rectangle.png");
   height: 104px;
@@ -16,49 +17,53 @@ body {
   background-position: bottom center;
 }
 
-
-
-a{
-  color: #8B8100;
-  text-align: right;
-  padding-top: 53px;
-  font-size: 1.8rem;
-  font-family: "WellrockSlab";
-  text-decoration: none;
+.navbar{
+  background-image: url("../images/mobile-header-rectangle.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 10.4rem;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .navigation{
-  color: #8B8100;
-  text-align: right;
-  padding-top: 4.5rem;
-  font-size: 1.8rem;
-  font-family: "WellrockSlab";
-  width: 60%;
   float: right;
+}
+
+.navigation p{
+
   display: inline-flex;
+  font-family: "WellrockSlab";
+  font-size: 1.5rem;
+  margin-left: 0rem;
+  margin-top: 4.6rem;
+  text-align: right;
+}
+
+.navigation a{
+  color: #8B8100;
+  text-decoration: none;
 }
 
 .about{
-  padding-right: 5%;
+  margin-right: 1.5rem;
 }
 
 .projects{
-  padding-right: 5%;
-
+  margin-right: 1.5rem;
 }
 
 .connect{
-  padding-right: 5%;
+  margin-right: 2.5rem;
 }
 
 .personal-logo {
   padding-top: 2rem;
   margin-left: 3.8rem;
-  width: 30%;
 }
 
 .personal-logo img{
-  width: 30%;
+  width: 15%;
 }
 
 
@@ -67,7 +72,7 @@ a{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom center;
-  height: 44rem;
+  height: 41rem;
   padding-bottom: 1rem;
   margin-bottom: 4rem;
   width: 100%;
@@ -77,9 +82,9 @@ a{
 
 .intro{
   grid-area: intro;
-  font-size: 6rem;
-  padding-top: 4rem;
-  margin-bottom: 3.8rem;
+  font-size: 4.8rem;
+  padding-top: 5rem;
+  margin-bottom: 5rem;
   color: #8B8100;
   font-family: "Champagne & Limousines";
   font-weight: bold;
@@ -92,9 +97,9 @@ hr {
 }
 
 .elena {
-  font-size: 5rem;
+  font-size: 3.8rem;
   /* padding-top: 3rem; */
-  margin-bottom: 3.8rem;
+  margin-bottom: 5rem;
   color: #8F8ACD;
   font-family: "Madeleina Sans";
   letter-spacing: .2rem;
@@ -113,8 +118,8 @@ hr {
 }
 
 .bio {
-  font-size: 2rem;
-  padding-bottom: 3rem;
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
   color: #C5C5C5;
   line-height: 180%;
   font-family: "WellrockSlab";
@@ -124,11 +129,11 @@ hr {
 
 .featured {
   font-family: "Champagne & Limousines";
-  font-size: 7.5rem;
+  font-size: 4.8rem;
   color: #8B8100;
   text-align: center;
-  margin-left: 2rem;
-  margin-right: 2rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
 }
 
 .trunk {
@@ -136,7 +141,6 @@ hr {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
-  /* height: 26rem; */
   text-align: center;
   letter-spacing: .4rem;
   margin-top: 3rem;
@@ -148,7 +152,7 @@ hr {
 .trunk h2{
   color: #8B8100;
   font-family:"Madeleina Sans";
-  font-size: 7rem;
+  font-size: 5.5rem;
   padding-top: 8%;
   text-align: center;
   width: 100%;
@@ -158,8 +162,9 @@ hr {
   color: #fff;
   font-family: "Madeleina Sans";
   font-size: 2.5rem;
+  text-align: center;
   padding: 8%;
-  letter-spacing: .3rem;
+  letter-spacing: .2rem;
 }
 
 .trunk h4{
@@ -167,6 +172,8 @@ hr {
   font-family: "WellrockSlab";
   font-size: 2.5rem;
   padding-bottom: 12%;
+  letter-spacing: .1rem;
+  text-align: center;
 }
 
 .trunk-image{
@@ -191,9 +198,9 @@ hr {
 .project-one h2{
   color: #8B8100;
   text-align: center;
-  font-size: 7.5rem;
-  margin-left: 10%;
-  margin-right: 10%;
+  font-size: 5rem;
+  margin-left: 13%;
+  margin-right: 13%;
   padding-top: 1rem;
 }
 
@@ -210,7 +217,7 @@ hr {
 .project1-text h2{
   color: #8B8100;
   font-family:"Madeleina Sans";
-  font-size: 6rem;
+  font-size: 5.5rem;
   text-align: center;
   padding-top: 8%;
 }
@@ -219,16 +226,17 @@ hr {
   color: #fff;
   font-family: "Madeleina Sans";
   font-size: 2.5rem;
-  padding: 8%;
-  letter-spacing: .3rem;
   text-align: center;
+  padding: 8%;
+  letter-spacing: .2rem;
 }
 
 .project1-text h4{
   color: #9486B5;
   font-family: "WellrockSlab";
-  font-size: 3rem;
+  font-size: 2.5rem;
   padding-bottom: 12%;
+  letter-spacing: .1rem;
   text-align: center;
 }
 
@@ -244,23 +252,26 @@ hr {
 .project2-text h2{
   color: #8B8100;
   font-family:"Madeleina Sans";
-  font-size: 6rem;
+  font-size: 5.5rem;
   padding-top: 8%;
 }
 
 .project2-text h3{
   color: #fff;
   font-family: "Madeleina Sans";
-  padding: 8%;
   font-size: 2.5rem;
-  letter-spacing: .3rem;
+  text-align: center;
+  padding: 8%;
+  letter-spacing: .2rem;
 }
 
 .project2-text h4{
   color: #9486B5;
   font-family: "WellrockSlab";
-  font-size: 3rem;
+  font-size: 2.5rem;
   padding-bottom: 12%;
+  letter-spacing: .1rem;
+  text-align: center;
 }
 
 footer{
@@ -294,7 +305,7 @@ footer{
 
 
 .linkedin, .twitter, .email, .github {
-  width: 8rem;
+  width: 3rem;
   padding: 6%;
 }
 
@@ -326,33 +337,28 @@ footer{
 .navigation{
   color: #8B8100;
   text-align: right;
-  padding-top: 4.5rem;
   font-size: 1.8rem;
-  font-family: "WellrockSlab";
-  width: 50%;
-  float: right;
   display: inline-flex;
 }
 
 .about{
-  padding-right: 2rem;
-  padding-left: 4%;
+  padding-right: 1.5rem;
 }
 
 .projects{
-  padding-right: 2rem;
+  padding-right: 1.5rem;
 
 }
 
 .connect{
-  padding-right: 3rem;
+  padding-right: 2rem;
 }
 
 
 .personal-logo{
   padding-top: 2rem;
   margin-left: 7.5rem;
-  width: 30%;
+  width: 37%;
 }
 
 .personal-logo img{
@@ -360,7 +366,7 @@ footer{
 }
 
 hr{
-  width: 27rem;
+  width: 20rem;
 }
 
 .navbar {
@@ -371,100 +377,53 @@ hr{
 }
 
 .hero {
-  background-image: url("../images/arrow1.png");
-  background-size: cover;
-  background-repeat: no-repeat;
   background-position: bottom center;
   width: 100%;
-  padding-bottom: 5rem;
+  padding-bottom: 10rem;
   margin-bottom: 5rem;
   align-items: center;
 }
 
-
-.intro {
-  font-size: 6rem;
-  padding-top: 4rem;
-  padding-bottom: 2rem;
-  padding-left: 12.5%;
-  color: #8B8100;
-  font-family: "Champagne & Limousines";
-  font-weight: bold;
-  letter-spacing: .35rem;
-  margin-bottom: 2.5rem;
-}
-
 .bio {
-  font-size: 2rem;
+  font-size: 1.8rem;
   width: 95%;
-  /* padding-bottom: 1rem; */
-  padding-left: 12.5%;
-  padding-top: 0px;
-  padding-right: 15%;
-  color: #C5C5C5;
-  line-height: 140%;
-  font-family: "WellrockSlab";
-  letter-spacing: .15rem;
-  /* margin-bottom: 50rem; */
-}
-
-.elena {
-  font-size: 4rem;
-  margin-bottom: 4rem;
-  margin-left: 12.5%;
-  margin-right: 12.5%;
-  color: #8F8ACD;
-  font-family: "Madeleina Sans";
-  letter-spacing: .2rem;
 }
 
 .trunk {
-  background-image: url("../images/mobile-trunk-screenshot.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  text-align: center;
-  letter-spacing: .4rem;
   margin-left: 12.5%;
   margin-bottom: 5rem;
   margin-right: 12.5%;
   margin-top: 4rem;
   width: 75%;
-  height: auto;
+  text-decoration:none;
+}
+
+.trunk a{
+  text-decoration:none;
 }
 
 .trunk h2{
-  color: #8B8100;
+  /* color: #8B8100;
   margin-left: 1rem;
-  font-family:"Madeleina Sans";
+  /* font-family:"Madeleina Sans"; */
   font-size: 7rem;
-  padding-top: 2rem;
-  text-align: center;
+  /* padding-top: 2rem;
+  text-align: center; */
   /* width: ; */
   /* padding-left: 7rem; */
-  margin: 0rem;
-  padding-left: 0rem;
+  /* margin: 0rem;
+  padding-left: 0rem;  */
 }
 
 .trunk h3{
-  color: #fff;
-  font-family: "Madeleina Sans";
+
   font-size: 2.5rem;
-  padding-top: 3rem;
-  padding-bottom: 2.5rem;
-  padding-left: 4%;
-  padding-right: 4%;
-  letter-spacing: .3rem;
-  width: 100%;
-  text-align: center;
+
 }
 
 .trunk h4{
-  color: #9486B5;
-  font-family: "WellrockSlab";
+  text-decoration:none;
   font-size: 2.2rem;
-  padding-bottom: 3rem;
-  text-align: center;
 }
 
 .trunk-image {
@@ -473,22 +432,9 @@ hr{
   margin-top: 0rem;
   margin-right: 12.5%;
   margin-left: 12.5%;
-
-  /* margin-left: 1rem; */
-}
-
-
-.other-projects {
-  font-family: "Champagne & Limousines";
-  color: #8B8100;
-  margin-top: 10rem;
-  text-align: center;
-
 }
 
 .project1-text {
-  background-image: url("../images/mobile-balloon.png");
-  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   width: 75%;
@@ -551,44 +497,23 @@ hr{
 }
 
 
-footer{
-  clear: both;
-    background-image: url("../images/footer-background.png");
-    background-repeat: no-repeat;
-    margin-top: 3rem;
-    width: 100%;
-    background-size: cover;
-    background-position: top center;
-}
-
 #footer-connect h2{
-  color: #9486B5;
-  font-family: "Champagne & Limousines";
   font-size: 4.5rem;
   font-weight: bold;
-  text-align: center;
-  padding-top: 12rem;
-  margin-bottom: 1rem;
-  letter-spacing: .5rem
+}
+
+.footer-icons {
+  margin-right: 10%;
+  margin-left: 10%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .linkedin, .twitter, .email, .github {
-  width: 9rem;
-  margin-left: none;
-}
-
-.designed h4{
-  font-size: 1.3rem;
-  color: #fff;
-  letter-spacing: .1rem;
-  font-family: "WellrockSlab";
-  padding-top: 3rem;
-  text-align: center;
-  padding-bottom: 5rem;
+  width: 3.5rem;
+  padding: 6%;
 }
 }
-
-
 
 
 
@@ -598,8 +523,8 @@ footer{
 
 @media screen and (min-width: 580px){
 
-  .about{
-    padding-left: 15%;
+  .personal-logo{
+    padding-top: 1rem;
   }
 
 
@@ -670,24 +595,14 @@ footer{
   }
 
   #footer-connect h2{
-    color: #9486B5;
-    font-family: "Champagne & Limousines";
     font-size: 4.5rem;
-    font-weight: bold;
-    text-align: center;
-    padding-top: 12rem;
-    margin-bottom: 1rem;
-    letter-spacing: .5rem
   }
 
   .linkedin, .twitter, .email, .github {
-    width: 20%;
-    margin-left: none;
+    width: 4rem;
+    padding: 6%;
   }
 }
-
-
-
 
 
 
@@ -702,17 +617,18 @@ footer{
   .navigation{
     color: #8B8100;
     text-align: right;
-    padding-top: 4.5rem;
-    font-size: 1.8rem;
     font-family: "WellrockSlab";
     width: 60%;
     float: right;
     display: inline-flex;
   }
 
+  .navigation p{
+    font-size: 1.8rem;
+  }
+
   .about{
-    padding-right: 5%;
-    padding-left: 40%;
+    padding-left: 31%;
   }
 
   .personal-logo {
@@ -721,15 +637,6 @@ footer{
 
   .personal-logo img{
     width: 25%;
-  }
-
-  .projects{
-    padding-right: 5%;
-
-  }
-
-  .connect{
-    padding-right: 3rem;
   }
 
   .trunk h2{
@@ -811,15 +718,15 @@ footer{
     width: 75%;
   }
 
-  .footer-icons {
+  /* .footer-icons {
     margin-right: 25%;
     margin-left: 25%;
     display: flex;
     justify-content: space-between;
-  }
+  } */
 
-  .linkedin, .twitter, .email, .github {
-    width: 15%;
+.footer-icons img {
+    width: 3rem;
     padding: 2%;
     margin: none;
 }
@@ -829,74 +736,96 @@ footer{
 
 @media screen and (min-width: 780px){
 
+  .personal-logo img{
+    width: 20%;
+  }
   .about{
     padding-left: 40%;
   }
 
 
   .intro{
-    font-size: 8rem;
-  }
-
-  hr{
-    width: 60%;
-  }
-
-  .elena{
     font-size: 6rem;
   }
 
+  hr{
+    width: 40%;
+  }
+
+  .elena{
+    font-size: 4.5rem;
+  }
+
   .bio {
-    font-size: 2.3rem;
+    font-size: 2rem;
   }
 
   .featured h2{
-    font-size: 8rem;
+    font-size: 6rem;
+  }
+
+  .trunk {
+    width: 50%;
+    margin-right: 25%;
+    margin-left: 25%;
   }
 
   .trunk h2{
     padding-top: 7rem;
-    font-size: 8rem;
+    font-size: 7rem;
   }
 
   .trunk h3{
     padding-top: 4rem;
     padding-bottom: 6rem;
-    font-size: 3.6rem;
+    font-size: 3rem;
   }
 
   .trunk h4{
     padding-bottom: 6rem;
-    font-size: 3.2rem;
+    font-size: 3rem;
   }
 
   .trunk-image {
-    width: 75%;
+    width: 70%;
     height: auto;
     margin-top: 4rem;
     margin-bottom: 10%;
-    margin-right: 12%;
-    float: right;
+    margin-left: 15%;
+    margin-right: 15%;
+    /* float: right; */
   }
 
   .other-projects h2{
-    padding-top: 7rem;
-    font-size: 8rem;
+    padding-top: 6rem;
+    font-size: 7rem;
   }
 
   .project-one h2{
-    font-size: 8rem;
+    font-size: 6rem;
+    text-align: center;
+    margin: 0rem;
+  }
+
+  .project1-text{
+  width: 50%;
+  margin: 0 25%;
+}
+
+  .project2-text{
+  width: 50%;
+  margin: 0 25%;
   }
 
   .other-projects h3{
     padding-top: 4rem;
     padding-bottom: 6rem;
-    font-size: 3.6rem;
+    font-size: 3rem;
   }
 
   .other-projects h4{
     padding-bottom: 6rem;
-    font-size: 3.2rem;
+    font-size: 3rem;
   }
 
   #footer-connect h2{
