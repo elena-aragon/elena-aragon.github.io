@@ -96,7 +96,7 @@ body{
 } */
 
 .hero{
-  background-image: url(../images/mobile-arrow.png);
+  background-image: url("../images/mobile-arrow.png");
   background-size: cover;
   background-position: bottom center;
   color: #8B8100;
@@ -155,7 +155,7 @@ hr {
 
 /* Footer */
 footer{
-  background-image: url("../images/mobile-footer-background.png");
+  background-image: url("../images/footer-background.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
@@ -263,7 +263,7 @@ footer{
   }
 
   hr {
-    width: 20rem;
+    width: 16rem;
   }
 
   .hero img{

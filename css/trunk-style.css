@@ -105,6 +105,7 @@ br {
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: cover;
+  padding-bottom: 3rem;
 }
 
 .trunk-image img{
@@ -128,7 +129,7 @@ section.trunk-title h1{
 .trunk-underline{
   align-items: center;
   margin-top: auto;
-  width: 30%;
+  width: 11rem;
 }
 
 
@@ -299,8 +300,8 @@ footer{
 .footer-icons img{
   display: inline-flex;
   justify-content: space-between;
-  width: 3rem;
-  padding: 0 7%;
+  width: 8%;
+  padding: 0 8.1%;
 }
 
 
@@ -378,8 +379,8 @@ footer{
   }
 
   .footer-icons img{
-    width: 3rem;
-    padding: 0 9%;
+    width: 5%;
+    padding: 0 9.5%;
 
 }
 
@@ -422,9 +423,9 @@ footer{
     letter-spacing: .5rem
   }
 
-  .linkedin, .twitter, .email, .github {
-    width: 20%;
-    margin-left: none;
+  .footer-icons img{
+    width: 5%;
+    padding: 0 9.5%;
   }
 }
 
@@ -445,7 +446,7 @@ footer{
     text-align: left;
   }
   hr.trunk-underline {
-    width: 17%;
+    width: 10rem;
   }
   h2 {
     margin-bottom: 4rem;
@@ -493,12 +494,13 @@ footer{
 
 #footer-connect h2{
   margin-bottom: 2rem;
+  margin-left: 5%;
+  Margin-right: 5%
 }
 
   .footer-icons img {
-      width: 3rem;
-      padding: 0 10%;
-      /* margin: none; */
+      width: 5%;
+      padding: 0 9.2%;
   }
 
 }
@@ -510,6 +512,10 @@ footer{
 
   .personal-logo img{
     width: 20%;
+  }
+
+  .trunk-summary{
+    padding-bottom: 7rem;
   }
 
   .competitive-analysis img{
@@ -537,8 +543,8 @@ footer{
   }
 
   .footer-icons{
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 33%;
+    margin-right: 27%;
   }
 
   .footer-icons img {
@@ -570,6 +576,10 @@ footer{
     text-align: left;
     font-size: 3.5rem;
   }
+
+  .trunk-summary {
+    padding-bottom: 2rem;
+  }
   .trunk-summary h1{
     margin-bottom: 1rem;
   }
@@ -578,7 +588,7 @@ footer{
   }
 
   hr.trunk-underline {
-    width: 14%;
+    width: 8.5rem;
   }
 
   h2 {

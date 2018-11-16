@@ -91,7 +91,7 @@ body {
 }
 
 hr {
-  width: 70%;
+  width: 20rem;
   float: left;
   margin-top: auto;
 }
@@ -613,7 +613,6 @@ hr{
 
 @media screen and (min-width: 680px){
 
-
   .navigation{
     color: #8B8100;
     text-align: right;
@@ -749,7 +748,7 @@ hr{
   }
 
   hr{
-    width: 40%;
+    width: 25rem;
   }
 
   .elena{
@@ -853,7 +852,7 @@ hr{
 
 @media screen and (min-width: 880px){
   hr{
-    width: 55%;
+    width: 25rem;
   }
 
   .other-projects h2{
