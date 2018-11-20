@@ -9,9 +9,15 @@ html {
 body {
 }
 
+@font-face {
+  font-family: "Champagne & Limousines";
+  src: url("Champagne & Limousines.ttf");
+
+}
+
 .navbar{
   background-image: url("../images/mobile-header-rectangle.png");
-  height: 104px;
+  height: 10.4rem;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom center;
@@ -85,9 +91,10 @@ body {
   font-size: 4.8rem;
   padding-top: 5rem;
   margin-bottom: 5rem;
-  color: #8B8100;
+  color: #8FE6F9;
   font-family: "Champagne & Limousines";
   font-weight: bold;
+
 }
 
 hr {
@@ -100,7 +107,7 @@ hr {
   font-size: 3.8rem;
   /* padding-top: 3rem; */
   margin-bottom: 5rem;
-  color: #8F8ACD;
+  color: #766FC8;
   font-family: "Madeleina Sans";
   letter-spacing: .2rem;
 }
@@ -130,7 +137,7 @@ hr {
 .featured {
   font-family: "Champagne & Limousines";
   font-size: 4.8rem;
-  color: #8B8100;
+  color: #2A2A2A;
   text-align: center;
   margin-left: 3rem;
   margin-right: 3rem;
@@ -150,7 +157,7 @@ hr {
 }
 
 .trunk h2{
-  color: #8B8100;
+  color: #766FC8;
   font-family:"Madeleina Sans";
   font-size: 5.5rem;
   padding-top: 8%;
@@ -168,7 +175,7 @@ hr {
 }
 
 .trunk h4{
-  color: #9486B5;
+  color: #8FE6F9;
   font-family: "WellrockSlab";
   font-size: 2.5rem;
   padding-bottom: 12%;
@@ -196,7 +203,7 @@ hr {
 }
 
 .project-one h2{
-  color: #8B8100;
+  color: #2A2A2A;
   text-align: center;
   font-size: 5rem;
   margin-left: 13%;
@@ -215,7 +222,7 @@ hr {
 
 
 .project1-text h2{
-  color: #8B8100;
+  color: #766FC8;
   font-family:"Madeleina Sans";
   font-size: 5.5rem;
   text-align: center;
@@ -223,7 +230,7 @@ hr {
 }
 
 .project1-text h3{
-  color: #fff;
+  color: #766FC8;
   font-family: "Madeleina Sans";
   font-size: 2.5rem;
   text-align: center;
@@ -232,7 +239,7 @@ hr {
 }
 
 .project1-text h4{
-  color: #9486B5;
+  color: #8FE6F9;
   font-family: "WellrockSlab";
   font-size: 2.5rem;
   padding-bottom: 12%;
@@ -250,7 +257,7 @@ hr {
 }
 
 .project2-text h2{
-  color: #8B8100;
+  color: #766FC8;
   font-family:"Madeleina Sans";
   font-size: 5.5rem;
   padding-top: 8%;
@@ -266,7 +273,7 @@ hr {
 }
 
 .project2-text h4{
-  color: #9486B5;
+  color: #8FE6F9;
   font-family: "WellrockSlab";
   font-size: 2.5rem;
   padding-bottom: 12%;
@@ -294,7 +301,7 @@ footer{
 }
 
 #footer-connect h2{
-  color: #9486B5;
+  color: #8B8100;
   font-family: "Champagne & Limousines";
   font-size: 3rem;
   text-align: center;
@@ -448,27 +455,20 @@ hr{
 }
 
 .other-projects h2{
-  color: #8B8100;
-  font-family:"Madeleina Sans";
   font-size: 6rem;
   padding-top: 5rem;
   padding-bottom: 3rem;
 }
 
 .project-one h2{
-  color: #8B8100;
   text-align: center;
   margin-bottom: 5rem;
   margin-left: 4.9rem;
   padding-top: 8rem;
   font-size: 7rem;
-  font-family: "Champagne & Limousines";
 }
 
 .other-projects h3{
-  color: #fff;
-  text-align: center;
-  font-family: "Madeleina Sans";
   font-size: 3rem;
   padding-top: 1rem;
   padding-bottom: 5rem;
@@ -476,8 +476,6 @@ hr{
 }
 
 .other-projects h4{
-  color: #9486B5;
-  font-family: "WellrockSlab";
   font-size: 2.5rem;
   padding-bottom: 7rem;
   clear: both;
@@ -544,9 +542,7 @@ hr{
   }
 
   .trunk h2{
-    color: #8B8100;
     margin-left: 1rem;
-    font-family:"Madeleina Sans";
     font-size: 7rem;
     padding-top: 5rem;
     text-align: center;
@@ -555,8 +551,6 @@ hr{
   }
 
   .trunk h3{
-    color: #fff;
-    font-family: "Madeleina Sans";
     font-size: 2.5rem;
     padding-top: 3rem;
     padding-bottom: 4rem;
@@ -569,8 +563,6 @@ hr{
   }
 
   .trunk h4{
-    color: #9486B5;
-    font-family: "WellrockSlab";
     font-size: 2.2rem;
     padding-bottom: 4rem;
     text-align: center;
@@ -586,10 +578,8 @@ hr{
   }
 
   .other-projects {
-    font-family: "Champagne & Limousines";
     clear: both;
     font-size: 7.5rem;
-    color: #8B8100;
     margin-top: 5%;
     text-align: center;
   }
@@ -667,21 +657,16 @@ hr{
   }
 
   .other-projects h2{
-    color: #8B8100;
-    font-family:"Madeleina Sans";
     font-size: 7.5rem;
     padding-top: 5rem;
     padding-bottom: 3rem;
   }
 
   .project-one h2{
-    color: #8B8100;
-    text-align: center;
     margin-bottom: 5rem;
     margin-left: 4.9rem;
     padding-top: 8rem;
     font-size: 7.5rem;
-    font-family: "Champagne & Limousines";
   }
 
   .other-projects h3{
@@ -697,15 +682,12 @@ hr{
   }
 
   .other-projects h4{
-    color: #9486B5;
-    font-family: "WellrockSlab";
     font-size: 2.8rem;
     padding-bottom: 7rem;
     clear: both;
   }
 
   .project2-text {
-    background-image: url("../images/mobile-clock.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -905,6 +887,8 @@ hr{
   padding-bottom: 2rem;
   margin-bottom: 2rem;
   align-items: center;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 
@@ -1114,7 +1098,7 @@ footer{
   }
 
   .about{
-    padding-left: 45%;
+    padding-left: 60%;
   }
 }
 
@@ -1198,16 +1182,17 @@ footer{
 
 @media screen and (min-width: 1450px){
   .navbar{
-    height: 14rem;
+    height: 8rem;
   }
 
   .navigation{
-    padding-top: 7rem;
+    padding-top: 1.5rem;
   }
 
   .personal-logo img{
     padding-top: 1rem;
   }
+
   .trunk-image {
     width: 30%;
     height: auto;

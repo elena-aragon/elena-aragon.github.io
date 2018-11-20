@@ -6,6 +6,17 @@ body{
 
 }
 
+h2{
+  font-family: "Champagne & Limousines";
+  font-size: 3rem;
+  text-align: center;
+  text-indent: 0rem;
+  margin-bottom: 2rem;
+  color: #8B8100;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+}
+
 .container {
 }
 
@@ -147,7 +158,6 @@ hr {
   font-size: 1.6rem;
   line-height: 3rem;
   margin-top: 5rem;
-  text-indent: 2rem;
   margin-left: 8%;
   margin-right: 8%;
   margin-bottom: 5rem;
@@ -288,6 +298,10 @@ footer{
     font-size: 10px;
   }
 
+  h2{
+    font-size: 4rem;
+  }
+
   .navigation p{
     font-size: 1.8rem;
   }
@@ -392,6 +406,10 @@ footer{
     font-size: 17px;
   }
 
+  h2{
+    font-size: 3rem;
+  }
+
   .navbar{
     height: 104px;
   }
@@ -484,6 +502,7 @@ footer{
 
 
 @media screen and (min-width: 1150px){
+
   .personal-logo{
     /* padding-top: 1%; */
   }
@@ -502,14 +521,26 @@ footer{
   .connect {
     margin-right: 1.5rem;
   }
-
+  .hero img {
+    width: 17%;
+    padding-top: 4rem;
+  }
 }
 
 
 @media screen and (min-width: 1200px){
 
   .hero img{
-    padding-top: 6%;
+    padding-top: 3%;
+  }
+
+
+}
+
+@media screen and (min-width: 1380px){
+  .hero h1 {
+    margin-left: 0rem;
+    padding-left: 0rem;
   }
 }
 
