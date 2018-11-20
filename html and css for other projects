@@ -1,3 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Elena Aragon | Portfolio</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navigation">
+        <p class="about">
+          <a href="./about.html">About</a>
+        </p>
+        <p class="projects">
+          <a href="#featured-project">Projects</a>
+        </p>
+        <p class="connect">
+          <a href="#footer-connect">Connect</a>
+        </p></div>
+      <div class="personal-logo">
+        <a href="./index.html">
+          <img src="images/desktop-white-ea-logo.png" alt="personal logo">
+        </a>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <h2>Hero Section</h2>
+      <section class="intro">
+        <h2>Introduction</h2>
+        <h1>Hey There,</h1>
+        <!-- <hr> -->
+      </section>
+      <section class="elena">
+        <h4>I'm Elena.</h4>
+      </section>
+      <section class="bio">
+        <h2>Biography</h2>
+        <p>A UX/UI designer in Charlotte, NC.
+          specializing in creating simple and
+          attractive solutions to complex problems.
+        </p>
+      </section>
+    </section>
+
+
+    <!-- Featured Project -->
+    <section id="featured-project">
+      <div class="featured">
+        <h2>Featured Project</h2>
+      </div>
+      <a href="./trunk.html">
+      <div class="trunk">
+        <h2>Trunk</h2>
+        <h3>The one stop shop cloud storage app</h3>
+        <h4>Read More</h4></a>
+      </div>
+        <img src="images/trunk-screens.png" alt="trunk screenshot" class="trunk-image">
+    </section>
+
+    <!-- Other Projects -->
+    <section class="other-projects">
+      <h5>Other Projects</h5>
+      <section class="project-one">
+        <h2>Other Projects</h2>
+      </section>
+      <section class="project1-text">
+        <h2>Project</h2>
+        <h3>Project description & summary here</h3>
+        <h4>Read More</h4>
+      </section>
+      <section class="project2-text">
+        <h2>Project</h2>
+        <h3>Project description & summary here</h3>
+        <h4>Read More</h4>
+      </section>
+    </section>
+    <footer>
+      <section id="footer-connect">
+        <h2>Let's Connect!</h2>
+      </section>
+      <div class="footer-icons">
+        <h2>Social Media Icons</h2>
+          <a href="https://www.linkedin.com/in/elena-aragon">
+            <img src="images/linkedin.png" alt="linkedin logo" class="linkedin">
+          </a>
+          <a href="mailto:elena.aragon16@gmail.com">
+            <img src="images/email.png" alt="email logo" class="email">
+          </a>
+          <a href="https://twitter.com/ElenaAragon16">
+            <img src="images/twitter.png" alt="twitter logo" class="twitter">
+          </a>
+          <a href="https://github.com/elena-aragon">
+            <img src="images/github.png" alt="github logo" class="github">
+          </a>
+
+      </div>
+      <section class="designed">
+        <h4>Designed & developed by Elena Aragon</h4>
+      </section>
+    </footer>
+  </body>
+
+</html>
+
+
+
+
+
+
+
+
+
 * {
   box-sizing: border-box;
 }
@@ -94,6 +210,7 @@ body {
   color: #8FE6F9;
   font-family: "Champagne & Limousines";
   font-weight: bold;
+
 }
 
 hr {
@@ -142,16 +259,11 @@ hr {
   margin-right: 3rem;
 }
 
-a {
-  text-decoration: none;
-}
-
 .trunk {
   background-image: url("../images/mobile-trunk-screenshot.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
-  text-decoration: none;
   text-align: center;
   letter-spacing: .4rem;
   margin-top: 3rem;
@@ -193,6 +305,97 @@ a {
   margin-left: 1.5%;
 }
 
+.other-projects {
+  font-family: "Champagne & Limousines";
+  clear: both;
+  font-size: 7.5rem;
+  color: #8B8100;
+  margin-top: 16%;
+  text-align: center;
+}
+
+.other-projects h5{
+  display: none;
+}
+
+.project-one h2{
+  color: #2A2A2A;
+  text-align: center;
+  font-size: 5rem;
+  margin-left: 13%;
+  margin-right: 13%;
+  padding-top: 1rem;
+}
+
+.project1-text{
+  margin-top: 4rem;
+  background-image: url("../images/mobile-balloon.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  text-align: center;
+}
+
+
+.project1-text h2{
+  color: #766FC8;
+  font-family:"Madeleina Sans";
+  font-size: 5.5rem;
+  text-align: center;
+  padding-top: 8%;
+}
+
+.project1-text h3{
+  color: #766FC8;
+  font-family: "Madeleina Sans";
+  font-size: 2.5rem;
+  text-align: center;
+  padding: 8%;
+  letter-spacing: .2rem;
+}
+
+.project1-text h4{
+  color: #8FE6F9;
+  font-family: "WellrockSlab";
+  font-size: 2.5rem;
+  padding-bottom: 12%;
+  letter-spacing: .1rem;
+  text-align: center;
+}
+
+.project2-text {
+  margin-top: 20%;
+  background-image: url("../images/mobile-clock.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+.project2-text h2{
+  color: #766FC8;
+  font-family:"Madeleina Sans";
+  font-size: 5.5rem;
+  padding-top: 8%;
+}
+
+.project2-text h3{
+  color: #fff;
+  font-family: "Madeleina Sans";
+  font-size: 2.5rem;
+  text-align: center;
+  padding: 8%;
+  letter-spacing: .2rem;
+}
+
+.project2-text h4{
+  color: #8FE6F9;
+  font-family: "WellrockSlab";
+  font-size: 2.5rem;
+  padding-bottom: 12%;
+  letter-spacing: .1rem;
+  text-align: center;
+}
 
 footer{
   background-image: url("../images/mobile-footer-background.png");
@@ -271,7 +474,7 @@ footer{
 }
 
 .connect{
-  /* padding-right: 10%; */
+  padding-right: 2rem;
 }
 
 
@@ -315,7 +518,7 @@ hr{
   margin-right: 12.5%;
   margin-top: 4rem;
   width: 75%;
-  text-decoration: none;
+  text-decoration:none;
 }
 
 .trunk a{
@@ -997,7 +1200,7 @@ footer{
   }
 
   .about{
-    padding-left: 50%;
+    padding-left: 60%;
   }
 }
 
