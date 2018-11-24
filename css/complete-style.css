@@ -68,6 +68,8 @@ br {
   line-height: .2rem;
 }
 
+/*  Nav Bar */
+
 .navbar{
   background-image: url("../images/mobile-header-rectangle.png");
   background-position: bottom center;
@@ -84,7 +86,7 @@ br {
 
 .navigation p{
   display: inline-flex;
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-left: 0rem;
   margin-top: 4.6rem;
   text-align: right;
@@ -110,11 +112,12 @@ br {
 
 .personal-logo {
   margin-left: 3.8rem;
-  padding-top: 2rem;
 }
 
 .personal-logo img{
-  width: 15%;
+  width: 10%;
+  margin-top: 3.5rem
+
 }
 
 
@@ -135,9 +138,11 @@ br {
 
 .hero h3 {
   color: #766FC8;
-  font-size: 6rem;
+  font-family: "ChampagneLimousines";
+  font-size: 5rem;
   margin-bottom: 3rem;
   padding-top: 5rem;
+  margin-left: 1rem;
 }
 
 .hero h1{
@@ -145,11 +150,14 @@ br {
   letter-spacing: .3rem;
   margin-bottom: 3rem;
   padding-right: 0rem;
+  margin-left: 1rem;
 }
 
 .hero p {
   color: #cacaca;
   padding-bottom: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 #featured-project h1{
@@ -252,7 +260,15 @@ footer{
 
 /* Case Study */
 
-.roles{
+.roles h2{
+  color: #B6ECF8;
+}
+
+.deliverables h2{
+  color: #B6ECF8;
+}
+
+/* .roles{
   float: left;
   width: 40%;
   margin-left: 10%;
@@ -270,7 +286,7 @@ footer{
 
 .deliverables h2{
   color: #766FC8;
-}
+} */
 
 .trunk-summary {
   background-image: url("../images/summary-background.png");
@@ -310,8 +326,10 @@ section.trunk-title h1{
   letter-spacing: .1rem;
   text-decoration: none;
   background: #2a2a2a;
-  padding: 1rem 3rem 1rem 3rem;
+  padding: 1rem;
   border-radius: 20px;
+  width: 50%;
+  margin: 5rem auto 2rem auto;
 }
 
 .trunk-summary p {
@@ -321,7 +339,6 @@ section.trunk-title h1{
 
 .trunk-summary h1{
   clear: right;
-  margin-top: 30rem;
 }
 
 section.solution p{
@@ -331,6 +348,7 @@ section.solution p{
 .process h1{
   margin: 4rem auto 3rem auto;
 }
+
 table{
   display: flex;
   margin: 2rem auto 2rem auto;
