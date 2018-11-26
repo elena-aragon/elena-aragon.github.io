@@ -59,7 +59,7 @@ p {
 }
 
 a {
-  color: #766FC8;
+  color: #5a52b3;
   font-family: "WellrockSlabBold";
   text-decoration: none;
 }
@@ -71,7 +71,7 @@ br {
 /*  Nav Bar */
 
 .navbar{
-  background-image: url("../images/mobile-header-rectangle.png");
+  background-image: url("../images/header.png");
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -88,7 +88,7 @@ br {
   display: inline-flex;
   font-size: 2rem;
   margin-left: 0rem;
-  margin-top: 4.6rem;
+  margin-top: 3.6rem;
   text-align: right;
 }
 
@@ -111,13 +111,52 @@ br {
 }
 
 .personal-logo {
-  margin-left: 3.8rem;
+  margin-left: 3rem;
 }
 
 .personal-logo img{
-  width: 10%;
-  margin-top: 3.5rem
+  width: 3rem;
+  margin-top: 3.5rem;
+  margin-bottom: 3.5rem;
 
+}
+
+footer{
+  background-image: url("../images/mobile-footer-background.png");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: space-between;
+  margin: 4rem 15%;
+  margin-right: 15%;
+}
+
+#footer-connect h2{
+  color: #8B8100;
+  font-family: "ChampagneLimousines";
+  font-size: 3.7rem;
+  letter-spacing: .2rem;
+  padding-top: 20%;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+
+.linkedin, .twitter, .email, .github {
+  width: 3rem;
+}
+
+.designed h4{
+  color: #fff;
+  font-family: "ChampagneLimousines";
+  font-size: 1.3rem;
+  letter-spacing: .1rem;
+  padding-bottom: 4%;
+  text-align: center;
 }
 
 
@@ -130,9 +169,9 @@ br {
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 41rem;
+  /* height: 41rem; */
   margin-bottom: 4rem;
-  padding: 0rem 10% 1rem 10%;
+  padding: 0rem 10% 15% 10%;
   width: 100%;
 }
 
@@ -213,46 +252,6 @@ br {
 }
 
 
-footer{
-  background-image: url("../images/mobile-footer-background.png");
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.footer-icons {
-  display: flex;
-  justify-content: space-between;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-#footer-connect h2{
-  color: #8B8100;
-  font-family: "ChampagneLimousines";
-  font-size: 3rem;
-  letter-spacing: .2rem;
-  padding-top: 15%;
-  padding-bottom: 2rem;
-  text-align: center;
-}
-
-
-.linkedin, .twitter, .email, .github {
-  padding: 6%;
-  width: 3rem;
-}
-
-.designed h4{
-  color: #fff;
-  font-family: "ChampagneLimousines";
-  font-size: 1.3rem;
-  letter-spacing: .1rem;
-  padding-bottom: 5%;
-  padding-top: 4%;
-  text-align: center;
-}
-
 /* End Home Page */
 
 
@@ -260,33 +259,11 @@ footer{
 
 /* Case Study */
 
-.roles h2{
+.trunk-summary h2{
   color: #B6ECF8;
+  margin-top: 5rem;
 }
 
-.deliverables h2{
-  color: #B6ECF8;
-}
-
-/* .roles{
-  float: left;
-  width: 40%;
-  margin-left: 10%;
-}
-
-.roles h2{
-  color: #766FC8;
-}
-
-.deliverables{
-  float: right;
-  width: 40%;
-  margin-left: 10%;
-}
-
-.deliverables h2{
-  color: #766FC8;
-} */
 
 .trunk-summary {
   background-image: url("../images/summary-background.png");
@@ -303,16 +280,9 @@ footer{
 
 section.trunk-title h1{
   color: #B6ECF8;
-  font-size: 8rem;
+  font-size: 6rem;
   margin: 0rem auto 1rem auto;
   padding-top: 5rem;
-  text-align: center;
-}
-
-.trunk-title h2{
-  color: #fff;
-  font-size: 3rem;
-  margin: 1rem auto 2rem auto;
   text-align: center;
 }
 
@@ -339,19 +309,28 @@ section.trunk-title h1{
 
 .trunk-summary h1{
   clear: right;
+  text-align: center;
 }
 
 section.solution p{
-  padding-bottom: 6rem;
+  padding-bottom: 10rem;
 }
 
 .process h1{
-  margin: 4rem auto 3rem auto;
+  text-align: center;
+}
+
+
+.trunk-title h2{
+  color: #fff;
+  font-size: 2.7rem;
+  margin: 1rem auto 2rem auto;
+  text-align: center;
 }
 
 table{
   display: flex;
-  margin: 2rem auto 2rem auto;
+  margin: 2rem 20% 2rem 20%;
   width: 60%;
 }
 
@@ -400,8 +379,8 @@ td{
 }
 
 .branding img{
-  margin: 4rem 25% auto 25%;
-  width: 50%;
+  margin: 4rem 17.5% auto 17.5%;
+  width: 65%;
 }
 
 .bw-trunk-logo img{
@@ -409,9 +388,12 @@ td{
   width: 50%;
 }
 
-.trunk-logos{
-  margin: auto 25% 5rem 25%;
+.trunk-logos img{
+  margin: 3rem 17.5% 0rem 17.5%;
+}
 
+img.white-trunk-logos{
+  margin-top: 5rem;
 }
 
 .mockups p{
@@ -425,7 +407,7 @@ td{
 /*  About Me */
 
 .hero-about{
-  background-image: url("../images/mobile-arrow.png");
+  background-image: url("../images/arrow1.png");
   background-size: cover;
   background-position: bottom center;
   /* color: #8B8100;
@@ -433,12 +415,7 @@ td{
   padding-bottom: 28rem;
 }
 
-.hero-about h1{
-  padding-top: 7.1rem;
-  float: left;
-  width: 45%;
-  font-size: 4.5rem;
-}
+
 
 hr {
   width: 17rem;
@@ -447,10 +424,21 @@ hr {
   margin-left: 8%;
 }
 
+.hero-about{
+  padding-bottom: 15rem;
+  padding-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.hero-about h1{
+  margin-top: 3rem;
+  font-size: 5rem;
+}
+
 .hero-about img{
   float: right;
-  margin-left: 1%;
-  padding-top: 5.1rem;
+  margin-left: 10%;
+  padding-top: 7rem;
   position: absolute;
   width: 22%;
 }
@@ -463,19 +451,580 @@ hr {
   color: #B6ECF8;
   float: left;
   font-family: "MadeleinaSans";
-  font-size: 1.8rem;
-  margin-left: 12.5%;
-  margin-top: 1rem;
+  font-size: 2.2rem;
+  letter-spacing: .12rem;
+  margin: 2rem 0rem 2rem 10%;
   padding: 1rem 2rem;
 }
 
 .bio-about {
-  line-height: 3rem;
-  /* margin: 5rem 8%; */
+  /* line-height: 3rem; */
 }
 
 .bio-about h2{
   color: #766FC8;
   font-size: 3.2rem;
   margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+.bio-about p{
+  font-size: 1.6rem;
+  margin-bottom: 0rem;
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 400px){
+
+  .personal-logo {
+    margin-left: 4rem;
+  }
+  .personal-logo img {
+    width: 3.2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .connect{
+    margin-right: 3rem;
+  }
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 480px){
+
+  .personal-logo img{
+    width: 3.3rem;
+  }
+
+  .connect{
+    margin-right: 4rem;
+  }
+
+  .footer-icons {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+
+  #footer-connect h2{
+    font-size: 4rem;
+  }
+
+
+  .linkedin, .twitter, .email, .github {
+    width: 3rem;
+  }
+
+
+  .prototype-button h2{
+    font-size: 2.6rem;
+    padding: 2rem;
+  }
+
+  td.percent{
+    font-size: 3rem;
+  }
+
+  td.stats{
+    font-size: 1.7rem;
+  }
+
+  .wireframes-and-usability-tests h3{
+    font-size: 2.5rem;
+    margin: 7rem 5rem 5rem 5rem;
+  }
+
+  .wireframes-and-usability-tests img{
+    margin-left: 17.5%;
+    margin-right: 17.5%;
+    width: 65%;
+  }
+
+  .trunk h3{
+    font-size: 2.8rem;
+  }
+
+  .trunk, .trunk-image{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .hero-about button{
+    margin-left: 15%;
+  }
+
+  .hero-about h1{
+    margin-left: 15%;
+  }
+
+  .hero-about img{
+    padding-top: 7rem;
+    margin-left: 0rem;
+    width: 12rem;
+  }
+
+}
+
+
+
+
+@media screen and (min-width: 580px){
+
+
+  h1{
+    font-size: 5rem;
+    margin: 6rem 12.5% 1rem 12.5%;
+  }
+
+  h2 {
+    font-size: 3.5rem;
+    margin: 6rem 12.5% 1rem 12.5%;
+
+  }
+
+  h3 {
+    font-size: 4rem;
+    margin: auto 12.5%;
+  }
+
+  h4{
+    margin: auto 12.5%;
+  }
+
+  p {
+    font-size: 2rem;
+    margin: auto 12.5%;
+  }
+
+  .navigation p{
+    font-size: 2.3rem;
+    margin-top: 3.2rem;
+  }
+
+  .personal-logo img{
+  margin-top: 2.7rem;
+  margin-bottom: 2.7rem;
+  width: 3.8rem;
+  }
+
+  .connect{
+    margin-right: 5rem;
+  }
+
+  .linkedin, .twitter, .email, .github {
+    width: 3.5rem;
+  }
+
+  .trunk-summary h2{
+    margin-top: 7rem;
+  }
+
+  section.trunk-title h1{
+    font-size: 6rem;
+  }
+
+  .trunk-title h2{
+    font-size: 3rem;
+    margin-top: 2rem;
+  }
+
+  td.stats{
+    font-size: 2.2rem;
+  }
+
+  .trunk-pic {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  .hero h3{
+    font-size: 5rem;
+  }
+
+
+  .trunk-image, .trunk{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+  .trunk h2{
+    font-size: 6rem;
+  }
+
+  .trunk h3{
+    font-size: 2.8rem;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-about button{
+    margin-left: 15%;
+  }
+
+  .hero-about h1{
+    margin-left: 15%;
+    font-size: 6rem;
+  }
+
+  .hero-about img{
+    padding-top: 7rem;
+    margin-left: 0rem;
+    width: 12rem;
+  }
+}
+
+
+
+@media screen and (min-width: 680px){
+
+  .navigation p{
+    font-size: 2.5rem;
+    margin-top: 3.5rem;
+  }
+
+  .about, .projects{
+    margin-right: 2rem;
+  }
+  .connect{
+    margin-right: 5rem;
+  }
+
+  .personal-logo {
+    margin-left: 5rem;
+  }
+
+  .personal-logo img{
+  margin-top: 2.6rem;
+  margin-bottom: 2.6rem;
+  width: 4rem;
+  }
+
+  #footer-connect h2{
+    font-size: 5rem;
+  }
+
+  .hero {
+      padding: 0rem 10% 15% 10%;
+  }
+
+  .prototype-button h2{
+    font-size: 3rem;
+  }
+
+  .branding img{
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 40%;
+  }
+
+  img.trunk-style-guide {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+
+  .prototype-button {
+    width: 50%;
+    margin-right: 25%;
+    margin-left: 25%;
+  }
+
+  .trunk h2{
+    font-size: 7rem;
+  }
+
+  .trunk h3{
+    font-size: 2.7rem;
+  }
+
+  .trunk, .trunk-image{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
+
+
+
+
+@media screen and (min-width: 780px){
+
+  #footer-connect h2{
+    font-size: 5rem;
+    padding-top: 8rem;
+  }
+
+
+  .trunk h2{
+    font-size: 7rem;
+  }
+
+  .trunk h3{
+    font-size: 2.9rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .trunk, .trunk-image{
+    width: 55%;
+    margin-left: 22.5%;
+    margin-right: 22.5%;
+  }
+}
+
+
+
+
+@media screen and (min-width: 880px){
+
+  td.stats{
+    font-size: 2.3rem;
+  }
+}
+
+
+
+
+@media screen and (min-width: 991px){
+  h1{
+    font-size: 6rem;
+    margin: 6rem 20% 4rem 20%;
+  }
+
+  h2 {
+    font-size: 4rem;
+    margin: 6rem 20% 1rem 20%;
+
+  }
+
+  h3 {
+    font-size: 4rem;
+    margin: auto 20%;
+  }
+
+  h4{
+    margin: auto 20%;
+  }
+
+  p {
+    font-size: 2.2rem;
+    margin: auto 20%;
+  }
+
+  .navigation p{
+    font-size: 2.4rem;
+    margin-top: 3.2rem;
+  }
+
+  .personal-logo img{
+  margin-top: 2.7rem;
+  margin-bottom: 2.7rem;
+  width: 3.8rem;
+  }
+
+  .connect{
+    margin-right: 7rem;
+  }
+
+  .footer-icons {
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+
+  #footer-connect h2{
+    font-size: 6rem;
+    padding-top: 11rem;
+  }
+
+  .linkedin, .twitter, .email, .github {
+    width: 4rem;
+  }
+
+
+  section.trunk-title h1{
+    font-size: 7rem;
+  }
+
+  .trunk-pic {
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+
+  .hero {
+    padding-bottom: 12rem;
+  }
+
+  .hero h3 {
+    font-size: 6rem;
+  }
+
+  .hero p{
+    width: 80%;
+  }
+
+  .trunk-title h2{
+    font-size: 4rem;
+    margin-top: 2rem;
+  }
+
+  .wireframes-and-usability-tests img{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+  .wireframes-and-usability-tests h3{
+    margin: 7rem 30rem 2rem 15rem;
+  }
+
+  table{
+    display: flex;
+    margin: 2rem 30% 2rem 30%;
+    width: 40%;
+  }
+
+  .branding img{
+    width: 30%;
+    margin-right: 35%;
+    margin-left: 35%;
+  }
+
+  img.bw-trunk-logo{
+    width: 25%;
+    margin-left: 37.5%;
+    margin-right: 37.5%;
+  }
+
+  img.trunk-style-guide {
+    width: 45%;
+    margin-left: 27.5%;
+    margin-right: 27.5%;
+  }
+
+  .hero h1{
+    margin: 5rem 1rem;
+  }
+
+
+  .trunk{
+    width: 30%;
+    float: left;
+    margin-left: 15%;
+    margin-right: 1rem;
+  }
+
+  .trunk-image {
+    width: 30%;
+    float: right;
+    margin-right: 15%;
+    margin-top: 3rem;
+    margin-left: 1rem;
+  }
+
+  .trunk h2{
+    font-size: 7rem;
+  }
+
+  .trunk h3{
+    font-size: 3rem;
+    width: 90%;
+  }
+
+  #featured-project h1{
+    font-size: 7rem;
+  }
+
+  .designed h4{
+    font-size: 2rem;
+  }
+
+  footer {
+    clear: both;
+  }
+
+  .hero-about h1{
+    margin-bottom: 1rem;
+    margin-left: 15%;
+    font-size: 7rem;
+  }
+
+  .hero-about button{
+    margin-left: 15%;
+    font-size: 2.6rem;
+  }
+
+  .bio-about h2{
+    font-size: 4.5rem;
+  }
+
+  .bio-about p{
+    font-size: 2.2rem;
+  }
+
+  .hero-about{
+    padding-bottom: 18rem;
+    padding-top: 5rem;
+    margin-bottom: 5rem;
+  }
+
+
+}
+
+
+
+
+@media screen and (min-width: 1150px){
+
+  td.percent{
+    font-size: 4rem;
+  }
+  td.stats{
+    font-size: 2.5rem;
+  }
+
+}
+
+
+@media screen and (min-width: 1300px){
+  .hero p{
+    width: 60%;
+    padding-bottom: 4rem;
+  }
+
+  .trunk-image {
+    margin-top: 2rem;
+    width: 25%;
+    margin-right: 20%;
+  }
+
+  .trunk{
+    width: 25%;
+    margin-left: 20%;
+  }
+
+  .footer-icons {
+    margin-left: 40%;
+    margin-right: 40%;
+  }
+
+  #footer-connect{
+    padding-top: .5rem;
+  }
 }

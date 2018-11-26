@@ -491,9 +491,7 @@ footer{
     margin-top: 6rem;
     text-align: left;
   }
-  hr.trunk-underline {
-    width: 10rem;
-  }
+
   h2 {
     margin-bottom: 4rem;
     margin-left: 8rem;
@@ -654,22 +652,6 @@ footer{
     margin-left: 8rem;
     margin-right: 8rem;
     font-size: 1.3rem;
-  }
-
-  section.problem p{
-    margin-left: 8rem;
-    margin-right: 8rem;
-  }
-
-  section.solution p{
-    margin-left: 8rem;
-    margin-right: 8rem;
-    padding-bottom: 8rem;
-    margin-bottom: 0rem;
-  }
-
-  .navbar{
-    height: 104px;
   }
 
   .navigation p{
