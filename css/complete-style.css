@@ -78,7 +78,7 @@ br {
 /*  Nav Bar */
 
 .navbar{
-  background-color: rgba(42, 42, 42, .8);
+  background-color: #EDE8E5;
   background-size: cover;
   height: 8.4rem;
   margin-left: 0px;
@@ -98,15 +98,13 @@ br {
 }
 
 .navigation a{
-  color: #8B8100;
+  color: #494486;
   text-decoration: none;
   font-family: "ChampagneLimousines";
 }
 
 .navigation a:hover{
-  color: #fff;
-  font-weight: bold;
-  font-size: 2.5rem;
+  color: #E0625E;
   transition: color .3s ease;
 }
 
@@ -191,12 +189,12 @@ footer{
 .hero h3 {
   color: #8B8100;
   font-family: "ChampagneLimousines";
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-weight: bold;
   letter-spacing: .3rem;
   margin-left: 1rem;
-  margin-bottom: 1rem;
-  padding-top: 5rem;
+  margin-bottom: .5rem;
+  padding-top: 8rem;
   text-transform: uppercase;
 }
 
@@ -204,16 +202,17 @@ footer{
   color: #494486;
   font-weight: bold;
   letter-spacing: .3rem;
-  margin: 3rem 0rem 3rem 1rem;
+  margin: 2rem 0rem 2rem 1rem;
   padding-right: 0rem;
   font-size: 3.5rem;
 }
 
 .hero p {
-  color: #1a1a1a;
-  padding-bottom: 1rem;
+  color: #2a2a2a;
+  font-weight: bold;
   margin-left: 1rem;
   margin-right: 1rem;
+  padding-bottom: 1rem;
 }
 
 #featured-project h1{
@@ -303,18 +302,15 @@ footer{
 
 /* Case Study */
 
-.trunk-summary h2{
-  color: #B6ECF8;
-  margin-top: 5rem;
-}
+
 
 
 .trunk-summary {
-  background-image: url("../images/summary-background.png");
-  background-position: top;
+  background-image: url("../images/trunk-background-coffee.jpg");
+  /* background-position: -450px -100px; */
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 3rem;
+  padding-bottom: 5rem;
 }
 
 .trunk-pic {
@@ -323,46 +319,70 @@ footer{
 }
 
 section.trunk-title h1{
-  color: #B6ECF8;
+  color: #8B8100;
   font-size: 6rem;
   margin: 0rem auto 1rem auto;
   padding-top: 5rem;
   text-align: center;
 }
 
-.prototype-button{
+section.trunk-title h2{
+  color: #2A2A2A;
   text-align: center;
 }
 
+.prototype-button{
+  background: #2a2a2a;
+  border-color: #B6ECF8;
+  border-radius: 20px;
+  border-width: thin;
+  border-style: solid;
+  margin: 5rem auto 2rem auto;
+  width: 50%;
+}
 
-.prototype-button h2{
+
+.summary .prototype-button h2{
   color: #B6ECF8;
   font-size: 2rem;
   letter-spacing: .1rem;
   text-decoration: none;
-  background: #2a2a2a;
-  padding: 1rem;
-  border-radius: 20px;
-  width: 50%;
-  margin: 5rem auto 2rem auto;
+  text-align: center;
+  padding: 1rem 2rem;
+  margin: 0rem;
 }
 
 .prototype-button h2:hover{
   color: #2a2a2a;
   font-weight: bold;
   background-color: #B6ECF8;
-  transition: color 1.5s ease-in-out;
+  border-radius: 20px;
+  transition: background 1.5s ease-in-out;
+
 }
 
-.trunk-summary p {
+.summary {
+  background-color: #2a2a2a;
+}
+
+.summary p {
   color: #fff;
   font-weight: 100;
 }
 
-.trunk-summary h1{
+.summary h1{
   clear: right;
   text-align: center;
+  padding-top: 5rem;
+  margin-top: 0rem;
 }
+
+.summary h2{
+  color: #B6ECF8;
+  margin-top: 5rem;
+}
+
+
 
 section.solution p{
   padding-bottom: 5rem;
@@ -372,13 +392,6 @@ section.solution p{
   text-align: center;
 }
 
-
-.trunk-title h2{
-  color: #fff;
-  font-size: 2.7rem;
-  margin: 1rem auto 2rem auto;
-  text-align: center;
-}
 
 table{
   display: flex;
@@ -545,15 +558,16 @@ hr {
   .connect a{
     color: #fff;
     margin-right: 2rem;
-    background-color: #8B8100;
+    background-color: #494486;
     border-radius: 5px;
     padding: 5px;
     line-height: 2rem;
   }
 
   .connect a:hover{
-    background-color: #fff;
-    color: #8B8100;
+    background-color: #E0625E;
+    color: #fff;
+    transition: background .5s ease;
   }
 
 }
@@ -577,7 +591,7 @@ hr {
   }
 
   .connect{
-    margin-right: 4rem;
+    margin-right: 2rem;
   }
 
   .footer-icons {
@@ -596,7 +610,7 @@ hr {
 
 
   .hero h3 {
-    font-size: 6rem;
+    font-size: 3.5rem;
   }
 
   .hero h1{
@@ -685,8 +699,8 @@ hr {
   }
 
   .navigation p{
-    font-size: 2.3rem;
-    margin-top: 3.2rem;
+    font-size: 2.1rem;
+    margin-top: 2.3rem;
   }
 
   .personal-logo img{
@@ -696,7 +710,7 @@ hr {
   }
 
   .connect{
-    margin-right: 5rem;
+    margin-right: 2rem;
   }
 
   .linkedin, .twitter, .email, .github {
@@ -727,6 +741,11 @@ hr {
   }
 
   .hero h3{
+    font-size: 3.5rem;
+    padding-top: 7rem;
+  }
+
+  .hero h1{
     font-size: 5rem;
   }
 
@@ -798,10 +817,6 @@ hr {
       padding: 0rem 10% 15% 10%;
   }
 
-  .prototype-button h2{
-    width: 60%;
-  }
-
   .branding img{
     margin-left: 30%;
     margin-right: 30%;
@@ -815,9 +830,9 @@ hr {
   }
 
   .prototype-button {
-    width: 50%;
-    margin-right: 25%;
-    margin-left: 25%;
+    width: 30%;
+    margin-right: 35%;
+    margin-left: 35%;
   }
 
   .trunk h2{
@@ -862,6 +877,8 @@ hr {
     margin-left: 22.5%;
     margin-right: 22.5%;
   }
+
+
 }
 
 
@@ -904,7 +921,7 @@ hr {
   }
 
   .navigation p{
-    font-size: 2.4rem;
+    font-size: 2.5rem;
     margin-top: 3.2rem;
   }
 
@@ -915,7 +932,7 @@ hr {
   }
 
   .connect{
-    margin-right: 7rem;
+    margin-right: 4rem;
   }
 
   .footer-icons {
@@ -945,15 +962,22 @@ hr {
   }
 
   .hero {
-    padding-bottom: 12rem;
+    padding-bottom: 8rem;
   }
 
   .hero h3 {
-    font-size: 6rem;
+    font-size: 5rem;
+    padding-top: 12%;
+  }
+
+  .hero h1{
+    font-size: 6.5rem;
+    margin: 3rem 1rem;
   }
 
   .hero p{
-    width: 50%;
+    width: 70%;
+    padding-bottom: 10rem;
   }
 
   .trunk-title h2{
@@ -993,10 +1017,6 @@ hr {
     width: 45%;
     margin-left: 27.5%;
     margin-right: 27.5%;
-  }
-
-  .hero h1{
-    margin: 5rem 1rem;
   }
 
 
@@ -1080,10 +1100,21 @@ hr {
 
 
 @media screen and (min-width: 1300px){
+  .hero h3{
+    font-size: 6rem;
+
+  }
+
+  .hero h1{
+    font-size: 8.5rem;
+  }
+
   .hero p{
+    font-size: 3rem;
     width: 60%;
     padding-bottom: 4rem;
   }
+
 
   .trunk-image {
     margin-top: 2rem;

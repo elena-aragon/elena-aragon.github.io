@@ -10,6 +10,7 @@
 
         gtag('config', 'UA-129886200-1');
       </script>
+      <script src="https://unpkg.com/scrollreveal"></script>
 
     <meta charset="utf-8">
     <title>Elena Aragon | Portfolio Case Study</title>
@@ -44,6 +45,8 @@
           <h2>The one stop shop cloud storage app</h2>
         </section>
           <img src="images/mobile-trunk-screens.png" alt="trunk screenshot" class="trunk-pic">
+          </section>
+          <div class="summary">
           <h1>Summary</h1>
           <p>Many cloud storage apps available today do not address all of their
             users needs which forces users to utilize multiple apps. We wanted to
@@ -62,6 +65,7 @@
                 <h2>View Prototype</h2>
           </a>
           </div>
+
 
         <div class="roles">
           <h2>Roles</h2>
@@ -105,7 +109,9 @@
           will become a main competitor for
           the cloud storage apps available.</p>
           </section>
-        </section>
+        </div>
+          
+
 
 
       <section class="process">
@@ -130,23 +136,23 @@
           cloud storage, the were primarily concerned about privacy and security.
         </p>
         <table>
-          <tr>
+          <tr class="research1">
             <td class="percent">82%</td>
             <td class="stats">use a cloud storage app</td>
           </tr>
-          <tr>
+          <tr class="research2">
             <td class="percent">92.9%</td>
             <td class="stats">want to easily share content with others</td>
           </tr>
-          <tr>
+          <tr class="research3">
             <td class="percent">85.7%</td>
             <td class="stats">want to access their files from anywhere</td>
           </tr>
-          <tr>
+          <tr class="research4">
             <td class="percent">92.9%</td>
             <td class="stats">primarily use document & photo storage</td>
           </tr>
-          <tr>
+          <tr class="research5">
             <td class="percent">83%</td>
             <td class="stats">would find a collaboration feature highly useful</td>
           </tr>
@@ -254,7 +260,7 @@
           to include both possible routes to make it easier for our users. After many drafts
           and multiple tests, our <a href="https://invis.io/F6NZ726JUQE">final prototype</a> was ready.
         </p>
-          <img src="images/mobile-trunk-screens.png" alt="trunk screenshot" class="trunk-pic">
+          <img src="images/mobile-trunk-screens.png" alt="trunk screenshot" class="trunk-image">
 
         <div class="prototype-button">
           <a href="https://invis.io/F6NZ726JUQE">
@@ -301,6 +307,49 @@
       </section>
 
     </footer>
+
+    <script>
+        ScrollReveal({ reset: true });
+        </script>
+        <script>
+          ScrollReveal().reveal('.summary h1', {delay: 200});
+          ScrollReveal().reveal('.summary p' , {delay: 200});
+          ScrollReveal().reveal('.prototype-button' , {delay: 100});
+          ScrollReveal().reveal('.roles', {delay: 200});
+          ScrollReveal().reveal('.deliverables', {delay: 200});
+          ScrollReveal().reveal('.problem', {delay: 200});
+          ScrollReveal().reveal('.solution', {delay: 200});
+
+          ScrollReveal().reveal('.process', {delay: 200});
+
+          ScrollReveal().reveal('.research' , {delay: 200});
+          ScrollReveal().reveal('.research1', {delay: 200});
+          ScrollReveal().reveal('.research2', {delay: 400});
+          ScrollReveal().reveal('.research3', {delay: 600});
+          ScrollReveal().reveal('.research4', {delay: 800});
+          ScrollReveal().reveal('.research5', {delay: 1000});
+
+          ScrollReveal().reveal('.competitive-analysis', {delay: 200});
+
+          ScrollReveal().reveal('.user-personas', {delay: 300});
+
+          ScrollReveal().reveal('.user-stories-and-flows', {delay: 300});
+
+          ScrollReveal().reveal('.wireframes-and-usability-tests', {delay: 300});
+          ScrollReveal().reveal('.wireframes-and-usability-tests h3', {delay: 300});
+          ScrollReveal().reveal('.wireframes-and-usability-tests img', {delay: 300});
+
+          ScrollReveal().reveal('.branding', {delay: 300});
+          ScrollReveal().reveal('.branding img', {delay: 300});
+
+          ScrollReveal().reveal('.mockups', {delay: 300});
+
+          ScrollReveal().reveal('.conclusion', {delay: 300});
+
+          ScrollReveal().reveal('footer', {delay: 300});
+
+
+        </script>
 
   </body>
 
