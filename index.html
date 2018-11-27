@@ -86,6 +86,18 @@
         <h4>Designed & developed by Elena Aragon</h4>
       </section>
     </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+    ScrollReveal({ reset: true });
+    </script>
+    <script>
+      ScrollReveal().reveal('.hero h3');
+      ScrollReveal().reveal('.hero h1' , {delay: 700});
+      ScrollReveal().reveal('.hero p' , {delay: 1600});
+      ScrollReveal().reveal('#featured-project', {delay: 300});
+        ScrollReveal().reveal('footer', {delay: 100});
+    </script>
+
   </body>
 
 </html>

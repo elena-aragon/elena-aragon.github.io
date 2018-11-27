@@ -78,12 +78,9 @@ br {
 /*  Nav Bar */
 
 .navbar{
-  /* background-image: url("../images/Header.png"); */
-  background-color: #4a4a4a;
-  background-position: bottom center;
-  background-repeat: no-repeat;
+  background-color: rgba(42, 42, 42, .8);
   background-size: cover;
-  height: 9.4rem;
+  height: 8.4rem;
   margin-left: 0px;
   margin-right: 0px;
 }
@@ -205,11 +202,11 @@ footer{
 /* Home Page */
 
 .hero{
-  background-image: url("../images/home-background-coffee.png");
+  background-image: url("../images/home-background-coffee.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* height: 41rem; */
+  height: 80vh;
   margin-bottom: 4rem;
   padding: 0rem 10% 15% 10%;
   width: 100%;
@@ -256,6 +253,7 @@ footer{
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
+  font-weight: normal;
   letter-spacing: .2rem;
   margin: 3rem 0rem 2rem;
   text-align: center;
@@ -264,6 +262,7 @@ footer{
 
 .trunk h2{
   color: #766FC8;
+  font-family: "ChampagneLimousines";
   font-size: 6rem;
   padding-top: 8%;
   margin: 0rem;
@@ -862,7 +861,7 @@ hr {
 
   #footer-connect h2{
     font-size: 5rem;
-    padding-top: 8rem;
+    padding-top: 4rem;
   }
 
 
@@ -941,11 +940,12 @@ hr {
   .footer-icons {
     margin-left: 30%;
     margin-right: 30%;
+    margin-top: 1rem;
   }
 
   #footer-connect h2{
     font-size: 6rem;
-    padding-top: 11rem;
+    padding-top: 8rem;
   }
 
   .linkedin, .twitter, .email, .github {
@@ -1118,6 +1118,7 @@ hr {
   .footer-icons {
     margin-left: 40%;
     margin-right: 40%;
+    margin-top: 1rem;
   }
 
   #footer-connect{
