@@ -125,19 +125,13 @@ br {
   transition: color 1.2s ease;
 }
 
-.personal-logo {
+.personal-logo img{
   margin-left: 2rem;
-  width: 3rem;
+  width: 3.5rem;
   position: absolute;
   /* margin-top: 1.5rem; */
-  margin-bottom: 3.5rem;
-}
-
-
-.personal{
-  width: 3rem;
-  margin-top: 2.5rem;
-  margin-bottom: 3.5rem;
+  margin-bottom: 2.5rem;
+  margin-top: 2rem;
 }
 
 
