@@ -1,6 +1,12 @@
 * {
   box-sizing: border-box;
 }
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
 html {
   font-size: 10px;
@@ -60,7 +66,8 @@ p {
 
 a {
   color: #5a52b3;
-  font-family: "WellrockSlabBold";
+  font-family: "WellrockSlab";
+  font-weight: bold;
   text-decoration: none;
 }
 
@@ -71,21 +78,22 @@ br {
 /*  Nav Bar */
 
 .navbar{
-  background-image: url("../images/Header.png");
+  /* background-image: url("../images/Header.png"); */
+  background-color: #4a4a4a;
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 10.4rem;
+  height: 9.4rem;
   margin-left: 0px;
   margin-right: 0px;
 }
 
 .navigation{
+  display: inline-flex;
   float: right;
 }
 
 .navigation p{
-  display: inline-flex;
   font-size: 2rem;
   margin-left: 0rem;
   margin-top: 3.6rem;
@@ -98,28 +106,60 @@ br {
   font-family: "ChampagneLimousines";
 }
 
+.navigation a:hover{
+  color: #fff;
+  font-weight: bold;
+  font-size: 2.5rem;
+  transition: color .3s ease;
+}
+
 .about{
-  margin-right: 1.5rem;
+  margin-right: 1rem;
+  margin-left: 0rem;
+  padding-left: 0rem;
 }
 
 .projects{
-  margin-right: 1.5rem;
+  margin-right: 1rem;
 }
 
-.connect{
-  margin-right: 2.5rem;
+.connect a{
+  margin-right: 1rem;
+  transition: color 1.2s ease;
 }
 
 .personal-logo {
-  margin-left: 3rem;
-}
-
-.personal-logo img{
+  margin-left: 2rem;
   width: 3rem;
-  margin-top: 3.5rem;
+  position: absolute;
+  /* margin-top: 1.5rem; */
   margin-bottom: 3.5rem;
-
 }
+
+.blue-personal-logo {
+  margin-left: 0rem;
+  width: 3rem;
+  position: absolute;
+}
+
+.personal{
+  width: 3rem;
+  /* margin-top: 3.5rem; */
+  margin-bottom: 3.5rem;
+}
+
+
+.personal-logo .blue-personal-logo {
+    display: none;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.personal-logo:hover .blue-personal-logo{
+    display: inline;
+    transition: 10s linear;
+}
+
 
 footer{
   background-image: url("../images/mobile-footer-background.png");
@@ -165,8 +205,8 @@ footer{
 /* Home Page */
 
 .hero{
-  background-image: url("../images/arrow1.png");
-  background-position: bottom center;
+  background-image: url("../images/home-background-coffee.png");
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   /* height: 41rem; */
@@ -176,24 +216,28 @@ footer{
 }
 
 .hero h3 {
-  color: #766FC8;
+  color: #8B8100;
   font-family: "ChampagneLimousines";
-  font-size: 5rem;
+  font-size: 4.5rem;
+  font-weight: bold;
   margin-bottom: 3rem;
   padding-top: 5rem;
   margin-left: 1rem;
 }
 
 .hero h1{
-  color: #B6ECF8;
+  color: #494486;
+  font-weight: bold;
   letter-spacing: .3rem;
   margin-bottom: 3rem;
+  margin-right: 0rem;
   padding-right: 0rem;
   margin-left: 1rem;
+  font-size: 4rem;
 }
 
 .hero p {
-  color: #cacaca;
+  color: #1a1a1a;
   padding-bottom: 1rem;
   margin-left: 1rem;
   margin-right: 1rem;
@@ -245,6 +289,31 @@ footer{
   text-align: center;
 }
 
+/* .overlay {
+  height: inherit 100%;
+  position: absolute;
+  width: inherit;
+  opacity: 1;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.trunk:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+} */
+
 .trunk-image{
   margin-left: 1.5%;
   margin-right: 1.5%;
@@ -290,6 +359,7 @@ section.trunk-title h1{
   text-align: center;
 }
 
+
 .prototype-button h2{
   color: #B6ECF8;
   font-size: 2rem;
@@ -300,6 +370,13 @@ section.trunk-title h1{
   border-radius: 20px;
   width: 50%;
   margin: 5rem auto 2rem auto;
+}
+
+.prototype-button h2:hover{
+  color: #2a2a2a;
+  font-weight: bold;
+  background-color: #B6ECF8;
+  transition: color 1.5s ease-in-out;
 }
 
 .trunk-summary p {
@@ -313,7 +390,7 @@ section.trunk-title h1{
 }
 
 section.solution p{
-  padding-bottom: 10rem;
+  padding-bottom: 5rem;
 }
 
 .process h1{
@@ -490,9 +567,20 @@ hr {
     margin-bottom: 3rem;
   }
 
-  .connect{
-    margin-right: 3rem;
+  .connect a{
+    color: #fff;
+    margin-right: 0rem;
+    background-color: #8B8100;
+    border-radius: 5px;
+    padding: 5px;
+    line-height: 2rem;
   }
+
+  .connect a:hover{
+    background-color: #fff;
+    color: #8B8100;
+  }
+
 }
 
 
@@ -526,6 +614,14 @@ hr {
     width: 3rem;
   }
 
+
+  .hero h3 {
+    font-size: 6rem;
+  }
+
+  .hero h1{
+    font-size: 5rem;
+  }
 
   .prototype-button h2{
     font-size: 2.6rem;
@@ -704,7 +800,7 @@ hr {
     margin-right: 5rem;
   }
 
-  .personal-logo {
+  .personal-logo, .blue-personal-logo {
     margin-left: 5rem;
   }
 
@@ -723,7 +819,7 @@ hr {
   }
 
   .prototype-button h2{
-    font-size: 3rem;
+    width: 60%;
   }
 
   .branding img{
@@ -876,7 +972,7 @@ hr {
   }
 
   .hero p{
-    width: 80%;
+    width: 50%;
   }
 
   .trunk-title h2{
