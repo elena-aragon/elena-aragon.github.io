@@ -93,7 +93,7 @@ br {
 .navigation p{
   font-size: 2rem;
   margin-left: 0rem;
-  margin-top: 3.6rem;
+  margin-top: 2.6rem;
   text-align: right;
 }
 
@@ -133,29 +133,13 @@ br {
   margin-bottom: 3.5rem;
 }
 
-.blue-personal-logo {
-  margin-left: 0rem;
-  width: 3rem;
-  position: absolute;
-}
 
 .personal{
   width: 3rem;
-  /* margin-top: 3.5rem; */
+  margin-top: 2.5rem;
   margin-bottom: 3.5rem;
 }
 
-
-.personal-logo .blue-personal-logo {
-    display: none;
-    top: 0;
-    left: 0;
-    z-index: 99;
-}
-.personal-logo:hover .blue-personal-logo{
-    display: inline;
-    transition: 10s linear;
-}
 
 
 footer{
@@ -168,8 +152,7 @@ footer{
 .footer-icons {
   display: flex;
   justify-content: space-between;
-  margin: 4rem 15%;
-  margin-right: 15%;
+  margin: 2rem 15%;
 }
 
 #footer-connect h2{
@@ -177,8 +160,7 @@ footer{
   font-family: "ChampagneLimousines";
   font-size: 3.7rem;
   letter-spacing: .2rem;
-  padding-top: 20%;
-  padding-bottom: 2rem;
+  padding-top: 15%;
   text-align: center;
 }
 
@@ -208,29 +190,29 @@ footer{
   background-size: cover;
   height: 80vh;
   margin-bottom: 4rem;
-  padding: 0rem 10% 15% 10%;
+  padding: 0rem 10% 15% 5%;
   width: 100%;
 }
 
 .hero h3 {
   color: #8B8100;
   font-family: "ChampagneLimousines";
-  font-size: 4.5rem;
+  font-size: 3.5rem;
   font-weight: bold;
-  margin-bottom: 3rem;
-  padding-top: 5rem;
+  letter-spacing: .3rem;
   margin-left: 1rem;
+  margin-bottom: 1rem;
+  padding-top: 5rem;
+  text-transform: uppercase;
 }
 
 .hero h1{
   color: #494486;
   font-weight: bold;
   letter-spacing: .3rem;
-  margin-bottom: 3rem;
-  margin-right: 0rem;
+  margin: 3rem 0rem 3rem 1rem;
   padding-right: 0rem;
-  margin-left: 1rem;
-  font-size: 4rem;
+  font-size: 3.5rem;
 }
 
 .hero p {
@@ -557,18 +539,18 @@ hr {
 
 @media screen and (min-width: 400px){
 
-  .personal-logo {
+  /* .personal-logo {
     margin-left: 4rem;
   }
   .personal-logo img {
     width: 3.2rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
-  }
+  } */
 
   .connect a{
     color: #fff;
-    margin-right: 0rem;
+    margin-right: 2rem;
     background-color: #8B8100;
     border-radius: 5px;
     padding: 5px;
@@ -593,6 +575,11 @@ hr {
 
   .personal-logo img{
     width: 3.3rem;
+    margin-top: 2rem;
+  }
+
+  .navigation p{
+    margin-top: 2.5rem;
   }
 
   .connect{
@@ -709,7 +696,7 @@ hr {
   }
 
   .personal-logo img{
-  margin-top: 2.7rem;
+  margin-top: 2rem;
   margin-bottom: 2.7rem;
   width: 3.8rem;
   }
