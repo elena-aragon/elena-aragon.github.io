@@ -306,11 +306,15 @@ footer{
 
 
 .trunk-summary {
-  background-image: url("../images/trunk-background-coffee.jpg");
-  /* background-position: -450px -100px; */
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-bottom: 5rem;
+    background-image: url("../images/home-background-coffee.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 80vh; */
+    margin-bottom: 4rem;
+    padding: 0rem 10% 5% 5%;
+    width: 100%;
+  }
 }
 
 .trunk-pic {
@@ -343,6 +347,16 @@ section.trunk-title h2{
 
 
 .summary .prototype-button h2{
+  color: #B6ECF8;
+  font-size: 2rem;
+  letter-spacing: .1rem;
+  text-decoration: none;
+  text-align: center;
+  padding: 1rem 2rem;
+  margin: 0rem;
+}
+
+.mockups .prototype-button h2{
   color: #B6ECF8;
   font-size: 2rem;
   letter-spacing: .1rem;
@@ -472,12 +486,15 @@ img.white-trunk-logos{
 /*  About Me */
 
 .hero-about{
-  background-image: url("../images/arrow1.png");
-  background-size: cover;
-  background-position: bottom center;
-  /* color: #8B8100;
-  font-family: "Champagne & Limousines"; */
-  padding-bottom: 28rem;
+    background-image: url("../images/trunk-background-coffee.jpg");
+    background-position: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    margin-bottom: 4rem;
+    padding: 0rem 10% 15% 5%;
+    width: 100%;
+  }
 }
 
 
