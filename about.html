@@ -10,6 +10,8 @@
 
         gtag('config', 'UA-129886200-1');
       </script>
+
+      <!-- Scroll Reveal Script -->
       <script src="https://unpkg.com/scrollreveal"></script>
 
     <meta charset="utf-8">
@@ -40,12 +42,13 @@
 
       <section class="hero-about">
         <h1>About Me</h1>
+
         <!-- <img src="images/headshot.png" alt="personal photo" class="headshot"> -->
-        <button type="button">Let's Connect!</button>
+        <button type="button"><a href="#footer-connect">Let's Connect!</a></button>
       </section>
 
       <section class="bio-about">
-        <h2>First, a bit of background</h2>
+        <h2>A bit of background</h2>
           <p>Jumping into my UX/UI Design career has been a long time coming for me.
           Since I graduated college, I went into years of sales and, while I've always enjoyed
           working with people, the more exciting aspect of my leasing agent position
@@ -85,9 +88,8 @@
 
           <h2>Let's work together</h2>
           <p> Contact me anytime via
-          <a href="mailto:elena.aragon16@gmail.com">email,</a>
-          <a href= "twitter.com/elenaaragon16">twitter</a>, or
-          <a href="linkedin.com/elena-aragon">LinkedIn</a> and we can discuss
+          <a href="mailto:elena.aragon16@gmail.com">email</a> or
+          <a href="linkedin.com/elena-aragon">LinkedIn</a> and we can
           chat over coffee-- My treat!</p>
           <br><br>
       </section>
@@ -117,6 +119,11 @@
     </section>
 
   </footer>
-
+  <script>
+    ScrollReveal().reveal('.hero-about h1', {delay: 300});
+    ScrollReveal().reveal('.hero-about button' , {delay: 800});
+    ScrollReveal().reveal('.bio-about' , {delay: 300});
+    ScrollReveal().reveal('footer', {delay: 300});
+  </script>
   </body>
 </html>

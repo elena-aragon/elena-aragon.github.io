@@ -85,13 +85,22 @@ br {
   margin-right: 0px;
 }
 
+
+
+
+
+
+
+
+
+
 .navigation{
   display: inline-flex;
   float: right;
 }
 
 .navigation p{
-  font-size: 2rem;
+  font-size: 1.7rem;
   margin-left: 0rem;
   margin-top: 2.6rem;
   text-align: right;
@@ -115,6 +124,10 @@ br {
 }
 
 .projects{
+  margin-right: 1rem;
+}
+
+.resume{
   margin-right: 1rem;
 }
 
@@ -307,20 +320,19 @@ footer{
 
 .trunk-summary {
     background-image: url("../images/home-background-coffee.jpg");
-    background-position: center center;
+    background-position: -250px;
     background-repeat: no-repeat;
     background-size: cover;
-    /* height: 80vh; */
-    margin-bottom: 4rem;
     padding: 0rem 10% 5% 5%;
     width: 100%;
   }
-}
+
 
 .trunk-pic {
-  margin: 2.5rem 15% 0rem 15%;
-  width: 70%;
-}
+    width: 90%;
+    margin: 2rem 5%;
+  }
+
 
 section.trunk-title h1{
   color: #8B8100;
@@ -333,6 +345,8 @@ section.trunk-title h1{
 section.trunk-title h2{
   color: #2A2A2A;
   text-align: center;
+  font-size: 3rem;
+  margin-top: 2rem;
 }
 
 .prototype-button{
@@ -414,20 +428,20 @@ table{
 }
 
 td{
-  padding: 2rem;
+  padding: 1rem;
   vertical-align: middle;
 }
 
 .percent {
   color: #8B8100;
   font-family: "ChampagneLimousines";
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 .stats{
   color: #6C6C6C;
   font-family: "ChampagneLimousines";
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   font-weight: bold;
 }
 
@@ -486,8 +500,8 @@ img.white-trunk-logos{
 /*  About Me */
 
 .hero-about{
-    background-image: url("../images/trunk-background-coffee.jpg");
-    background-position: 200px;
+    background-image: url("../images/about-background.jpg");
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 80vh;
@@ -508,35 +522,40 @@ hr {
 
 .hero-about{
   padding-bottom: 15rem;
-  padding-top: 5rem;
+  padding-top: 11rem;
   margin-bottom: 5rem;
 }
 
 .hero-about h1{
-  margin-top: 3rem;
+  color: #494486;
+  margin-top: 0rem;
   font-size: 5rem;
 }
 
-.hero-about img{
-  float: right;
-  margin-left: 10%;
-  padding-top: 7rem;
-  position: absolute;
-  width: 22%;
-}
-
 .hero-about button {
-  background-color: #3a3a3a;
+  background-color: #8B8100;
   border-radius: 20px;
   border: none;
-  clear: left;
-  color: #B6ECF8;
-  float: left;
+  padding: 1rem 2rem;
+  margin-top: 2rem;
+  margin-left: 3rem
+
+}
+
+.hero-about a{
+  color: #fff;
   font-family: "MadeleinaSans";
   font-size: 2.2rem;
   letter-spacing: .12rem;
-  margin: 2rem 0rem 2rem 10%;
-  padding: 1rem 2rem;
+
+}
+
+.hero-about button:hover{
+  color: #FFF;
+  /* font-weight: bold; */
+  background-color: #E0625E;
+
+  transition: background 1.5s ease-in-out;
 }
 
 .bio-about {
@@ -544,7 +563,7 @@ hr {
 }
 
 .bio-about h2{
-  color: #766FC8;
+  color: #494486;
   font-size: 3.2rem;
   margin-bottom: 3rem;
   margin-top: 3rem;
@@ -586,6 +605,12 @@ hr {
     color: #fff;
     transition: background .5s ease;
   }
+
+  .trunk-pic {
+      width: 60%;
+      margin-left: 20%;
+      margin-right: 20%;
+    }
 
 }
 
@@ -673,13 +698,11 @@ hr {
   }
 
   .hero-about h1{
-    margin-left: 15%;
+    margin-left: 2.5rem;
   }
 
-  .hero-about img{
-    padding-top: 7rem;
-    margin-left: 0rem;
-    width: 12rem;
+  .hero-about button {
+    margin-left: 2rem
   }
 
 }
@@ -785,18 +808,12 @@ hr {
   }
 
   .hero-about button{
-    margin-left: 15%;
+    margin-left: 2.5rem;
   }
 
   .hero-about h1{
-    margin-left: 15%;
+    margin-left: 2.5rem;
     font-size: 6rem;
-  }
-
-  .hero-about img{
-    padding-top: 7rem;
-    margin-left: 0rem;
-    width: 12rem;
   }
 }
 
@@ -865,6 +882,20 @@ hr {
     margin-left: 20%;
     margin-right: 20%;
   }
+
+  .hero-about{
+    padding-top: 15rem;
+  }
+
+  .hero-about h1{
+    font-size: 6rem;
+    margin-left: 3rem;
+  }
+
+  .hero-about a{
+    font-size: 2.5rem;
+
+  }
 }
 
 
@@ -893,6 +924,23 @@ hr {
     width: 55%;
     margin-left: 22.5%;
     margin-right: 22.5%;
+  }
+
+  .hero-about{
+    padding-bottom: 15rem;
+    padding-top: 15rem;
+    margin-bottom: 5rem;
+  }
+
+  .hero-about h1{
+    color: #494486;
+    margin-top: 0rem;
+    font-size: 7rem;
+  }
+
+
+  .hero-about a{
+    font-size: 3rem;
   }
 
 
@@ -1073,15 +1121,32 @@ hr {
     clear: both;
   }
 
+  .hero-about{
+    padding-top: 20rem;
+
+  }
+
   .hero-about h1{
-    margin-bottom: 1rem;
-    margin-left: 15%;
+    color: #494486;
+    margin-top: 15rem;
     font-size: 7rem;
   }
 
-  .hero-about button{
-    margin-left: 15%;
-    font-size: 2.6rem;
+  .hero-about button {
+    background-color: #8B8100;
+    border-radius: 20px;
+    border: none;
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+    margin-left: 3rem
+
+  }
+
+  .hero-about a{
+    color: #fff;
+    font-family: "MadeleinaSans";
+    font-size: 3.2rem;
+
   }
 
   .bio-about h2{
