@@ -11,6 +11,9 @@
       gtag('config', 'UA-129886200-1');
     </script>
 
+
+    <script src="hamburger-menu.js"></script>
+
     <!-- Scroll Reveal Script -->
     <script src="https://unpkg.com/scrollreveal"></script>
 
@@ -22,7 +25,7 @@
 
   </head>
   <body>
-    <nav class="navbar">
+    <!-- <nav class="navbar">
       <div class="navigation">
         <p class="about">
           <a href="./about.html">About</a>
@@ -37,28 +40,36 @@
           <a href="#footer-connect">Connect</a>
         </p></div>
       <div class="personal-logo">
-        <a href="./index.html">
+        <a href="./index.html"> -->
 
 
-<!-- <nav role="navigation">
-  <div id="menuToggle">
 
-<input type="checkbox" />
+<!-- Hamburger Menu -->
+        <div  class="open">
+	<span class="cls"></span>
+	<span>
+		<ul class="sub-menu ">
+			<li>
+				<a href="#about" title="about">About</a>
+			</li>
+			<li>
+				<a href="#skills" title="skills">Projects</a>
+			</li>
+			<li>
+				<a href="#jobs" title="jobs">Resume</a>
+			</li>
+			<li>
+				<a href="#contact" title="contact">Contact</a>
+			</li>
+		</ul>
+	</span>
+	<span class="cls"></span>
+</div>
+<!-- End Hamburger Menu -->
 
-    <span></span>
-    <span></span>
-    <span></span>
 
-    <ul id="menu">
-      <a href="#"><li>About</li></a>
-      <a href="#"><li>Projects</li></a>
-      <a href="#"><li>Resume</li></a>
-      <a href="#"><li>Contact</li></a>
-    </ul>
-  </div>
-</nav> -->
 
-          <img src="images/grey-ea-logo.png" alt="personal logo">
+          <img src="images/grey-ea-logo.png" alt="personal logo" class="personal-logo">
           <!-- <img src="images/blue-ea-logo.png" alt="personal logo" class="blue-personal-logo"> -->
         </a>
       </div>
@@ -119,12 +130,6 @@
       ScrollReveal().reveal('.hero p' , {delay: 1500});
       ScrollReveal().reveal('#featured-project', {delay: 400});
     </script>
-    <script>
-        ScrollReveal({ reset: true });
-        </script>
-        <script>
-          ScrollReveal().reveal('footer', {delay: 300});
-        </script>
 
 
 
