@@ -378,7 +378,6 @@ footer{
   background-repeat: no-repeat;
   background-size: cover;
   height: 80vh;
-  margin-bottom: 4rem;
   padding: 0rem 10% 15% 5%;
   width: 100%;
 }
@@ -419,7 +418,8 @@ footer{
   -moz-animation: bounce 2s infinite;
   -webkit-animation: bounce 2s infinite;
   animation: bounce 3s infinite;
-  margin-left: 50%;
+  margin-left: 47%;
+  margin-top: 0rem;
 }
 
 @-moz-keyframes bounce {
