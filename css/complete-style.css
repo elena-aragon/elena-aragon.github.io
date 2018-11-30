@@ -703,17 +703,17 @@ margin-bottom: 0rem;
 
 .trunk-summary {
     background-image: url("../images/home-background-coffee.jpg");
-    background-position: -250px;
+    background-position: center right;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 0rem 10% 5% 5%;
+    padding: 0rem 10% 0% 5%;
     width: 100%;
   }
 
 
 .trunk-pic {
     width: 90%;
-    margin: 2rem 5%;
+    margin: 1rem 5%;
   }
 
 
@@ -784,7 +784,7 @@ section.trunk-title h2{
 .summary h1{
   clear: right;
   text-align: center;
-  padding-top: 5rem;
+  padding-top: 3rem;
   margin-top: 0rem;
 }
 
@@ -876,6 +876,10 @@ img.white-trunk-logos{
   margin-bottom: 5rem;
 }
 
+.conclusion {
+  margin-bottom: 10rem;
+}
+
 /* End Case Study */
 
 
@@ -935,10 +939,8 @@ hr {
 
 .hero-about button:hover{
   color: #FFF;
-  /* font-weight: bold; */
   background-color: #E0625E;
-
-  transition: background 1.5s ease-in-out;
+  transition: background 1.5s ease;
 }
 
 .bio-about {
@@ -1454,7 +1456,7 @@ hr {
   }
 
   p {
-    font-size: 2.2rem;
+    font-size: 2rem;
     margin: auto 20%;
   }
 
@@ -1626,6 +1628,10 @@ hr {
     font-family: "MadeleinaSans";
     font-size: 3.2rem;
 
+  }
+
+  .bio-about {
+    margin-bottom: 10rem;
   }
 
   .bio-about h2{
