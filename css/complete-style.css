@@ -194,7 +194,7 @@ footer{
   background-repeat: no-repeat;
   background-size: cover;
   height: 70vh;
-  padding: 0rem 10% 15% 5%;
+  padding: 0rem 10% 15% 10%;
   /* margin-bottom: 1rem; */
   width: 100%;
 }
@@ -235,9 +235,11 @@ footer{
   -moz-animation: bounce 2s infinite;
   -webkit-animation: bounce 2s infinite;
   animation: bounce 3s infinite;
-  margin-left: 50%;
+  /* margin-left: 50%; */
   margin-top: -4rem;
   color: #2A2A2A;
+  display: flex;
+  justify-content: center;
 }
 
 @-moz-keyframes bounce {
@@ -341,6 +343,11 @@ h2.h2-mobile{
   width: 50%;
 }
 
+.mobile-case-study-button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
 .mobile-case-study-button h2{
   color: #E0625E;
   font-size: 1.5rem;
@@ -426,6 +433,11 @@ section.trunk-title h2{
   border-style: solid;
   margin: 5rem auto 2rem auto;
   width: 50%;
+}
+
+.prototype-button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 
@@ -616,7 +628,11 @@ hr {
   padding: 1rem 2rem;
   margin-top: 2rem;
   margin-left: 3rem;
+}
 
+.hero-about button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 .hero-about a{
@@ -1076,15 +1092,16 @@ hr {
   .case-study-button button:hover{
     transition: background 1.5s ease-in-out;
     width: 100%;
-    padding-left: 1rem;
+    /* padding-left: 1rem;
     padding-right: 1rem;
-      margin: 1rem auto 2rem auto;
-  }
-
-  .case-study-button h2:hover{
+    margin: 1rem auto 2rem auto; */
     color: #fff;
     background-color: #E0625E;
     border-radius: 20px;
+  }
+
+  .case-study-button h2:hover{
+
   }
 
 }
@@ -1108,7 +1125,7 @@ hr {
 
   .hero{
     height: 70vh;
-    padding: 0rem 10% 15% 5%;
+    padding: 0rem 10% 15% 10%;
   }
 
   .hero h3 {
@@ -1139,7 +1156,7 @@ hr {
     -moz-animation: bounce 2s infinite;
     -webkit-animation: bounce 2s infinite;
     animation: bounce 3s infinite;
-    margin-left: 50%;
+    /* margin-left: 50%; */
     margin-top: -6rem;
     color: #2A2A2A;
   }
@@ -1266,7 +1283,7 @@ hr {
 
   .bounce{
     margin-top: 1rem;
-    margin-left: 48%;
+    /* margin-left: 48%; */
   }
 
   .hoverbox img{
@@ -1386,8 +1403,8 @@ hr {
   }
 
   .bounce {
-    margin-top: -2rem;
-    margin-left: 49%;
+    margin-top: 4rem;
+    /* margin-left: 49%; */
   }
 
   /* Home page trunk overlay */
@@ -1597,13 +1614,16 @@ hr {
   }
 
   .hero-about{
-    padding-top: 20rem;
-
+    padding-top: 10rem;
+    background-position: 200px -300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
   }
 
   .hero-about h1{
     color: #494486;
-    margin-top: 15rem;
+    margin-top: 7rem;
     font-size: 7rem;
   }
 
@@ -1672,6 +1692,10 @@ hr {
     margin-right: auto;
   }
 
+  .bounce{
+    margin-top: -1rem;
+  }
+
 }
 
 
@@ -1689,6 +1713,10 @@ hr {
     font-size: 3rem;
     width: 60%;
     padding-bottom: 8rem;
+  }
+
+  .bounce{
+    margin-top: -3rem;
   }
 
 
@@ -1715,5 +1743,15 @@ hr {
 }
 
 @media screen and (min-width: 1500px){
+  .bounce{
+    margin-top: 6rem;
+  }
 
+  .hero-about{
+    padding-top: 10rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+  }
 }
