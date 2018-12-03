@@ -1089,22 +1089,20 @@ hr {
     font-size: 1.7rem;
   }
 
-  .case-study-button button:hover{
+  .case-study-button:hover{
     transition: background 1.5s ease-in-out;
     width: 100%;
-    /* padding-left: 1rem;
+    padding-left: 1rem;
     padding-right: 1rem;
-    margin: 1rem auto 2rem auto; */
-    color: #fff;
+    margin: 1rem auto 2rem auto;
     background-color: #E0625E;
     border-radius: 20px;
   }
 
   .case-study-button h2:hover{
+    color: #fff;
 
   }
-
-}
 
 
 
@@ -1615,7 +1613,7 @@ hr {
 
   .hero-about{
     padding-top: 10rem;
-    background-position: 200px -300px;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 70vh;
