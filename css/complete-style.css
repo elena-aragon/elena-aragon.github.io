@@ -644,10 +644,10 @@ hr {
 
 }
 
-.hero-about button:hover{
+button.hero-about-button:hover{
   color: #FFF;
   background-color: #E0625E;
-  transition: background 1.5s ease;
+  transition: background 4s ease;
 }
 
 .bio-about {
@@ -1455,20 +1455,6 @@ hr {
     text-align: center;
     padding: 1rem;
     margin: 0rem;
-  }
-
-  .case-study-button button:hover{
-    transition: background 1.5s ease-in-out;
-    width: 100%;
-    margin: 1rem auto 2rem auto;
-  }
-
-  .case-study-button h2:hover{
-    color: #fff;
-    background-color: #E0625E;
-    border-radius: 20px;
-    padding: 1rem;
-
   }
 
   .hoverbox,
