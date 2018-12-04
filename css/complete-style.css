@@ -483,6 +483,14 @@ section.trunk-title h2{
   color:#766FC8;
 }
 
+.summary, .research, .competitive-analysis,
+.user-personas, .user-stories-and-flows,
+.wireframes-and-usability-tests, .branding,
+.mockups a:hover{
+  color: #8B8100;
+  transition: color .5s ease;
+}
+
 .summary h1{
   clear: right;
   text-align: center;
@@ -621,13 +629,19 @@ hr {
   font-size: 5rem;
 }
 
-.hero-about button {
+.hero-about button{
   background-color: #8B8100;
   border-radius: 20px;
   border: none;
   padding: 1rem 2rem;
   margin-top: 2rem;
   margin-left: 3rem;
+}
+
+button.hero-about-button:hover{
+  background-color: #E0625E;
+  color: #fff;
+  transition: background .5s ease;
 }
 
 .hero-about button:active {
@@ -642,12 +656,6 @@ hr {
   letter-spacing: .12rem;
   font-weight: normal;
 
-}
-
-button.hero-about-button:hover{
-  color: #FFF;
-  background-color: #E0625E;
-  transition: background 4s ease;
 }
 
 .bio-about {
