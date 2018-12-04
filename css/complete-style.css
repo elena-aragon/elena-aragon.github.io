@@ -21,8 +21,13 @@ body {
 }
 
 @font-face {
+  font-family: "ChampagneLimousinesBold";
+  src: url("ChampagneLimousinesBold.ttf");
+}
+
+@font-face {
   font-family:"MadeleinaSans", Trebuchet, Garamond, sans-serif;
-  src: url("MadeleinaSans.ttf");
+  src: url("MadeleinaSans.otf");
 }
 
 @font-face {
@@ -64,7 +69,6 @@ p {
   color: #2a2a2a;
   font-family: "Timeless", Georgia, serif;
   font-size: 1.7rem;
-  font-weight: lighter;
   line-height: 170%;
   margin: auto 10%;
 }
@@ -432,6 +436,7 @@ section.trunk-title h2{
   border-width: thin;
   border-style: solid;
   margin: 5rem auto 2rem auto;
+  opacity: 1;
   width: 50%;
 }
 
@@ -465,8 +470,8 @@ section.trunk-title h2{
   color: #2a2a2a;
   font-weight: bold;
   background-color: #B6ECF8;
-  border-radius: 20px;
-  transition: background 1.5s ease-in-out;
+  border-radius: 18px;
+  transition: background .5s ease-in-out;
 
 }
 
@@ -544,6 +549,22 @@ td{
 
 .competitive2 p{
   float: left;
+}
+
+.competitive-analysis li{
+  color: #6C6C6C;
+  font-family: "ChampagneLimousines";
+  font-size: 2rem;
+  font-weight: bold;
+  margin-left: 13%;
+  padding: .2rem;
+}
+
+.strengths-weaknesses h3{
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+  font-size: 4rem;
+
 }
 
 .user-personas h2{
@@ -638,7 +659,7 @@ hr {
   margin-left: 3rem;
 }
 
-button.hero-about-button:hover{
+.hero-about-button:hover{
   background-color: #E0625E;
   color: #fff;
   transition: background .5s ease;
@@ -962,6 +983,11 @@ button.hero-about-button:hover{
     margin-right: auto;
   }
 
+  .competitive-analysis li{
+    margin-left: 15%;
+    padding: .5rem;
+  }
+
   .hero-about button{
     margin-left: 2.5rem;
   }
@@ -1095,10 +1121,11 @@ button.hero-about-button:hover{
 
   .case-study-button h2{
     font-size: 1.7rem;
+    font-weight: bold;
   }
 
   .case-study-button:hover{
-    transition: background 1.5s ease-in-out;
+    transition: background .5s ease-in-out;
     width: 100%;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -1109,8 +1136,37 @@ button.hero-about-button:hover{
 
   .case-study-button h2:hover{
     color: #fff;
-
+    font-weight: bold;
   }
+
+  .strengths{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* width: 30%; */
+  }
+
+  .weaknesses{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    /* width: 30%; */
+  }
+
+  /* .strengths {
+    float: left;
+    width: 30%;
+  }
+  .weaknesses{
+    float: right;
+    width: 30%;
+    /* position: fixed; */
+  } */
+
+  .user-personas {
+    clear: both;
+  }
+}
 
 
 
@@ -1444,6 +1500,10 @@ button.hero-about-button:hover{
     width: 100%;
   }
 
+  .h2-desktop {
+    font-family: "ChampagneLimousines";
+  }
+
   .case-study-button{
     background: #fff;
     display: block;
@@ -1452,12 +1512,14 @@ button.hero-about-button:hover{
     border-radius: 20px;
     margin: 1rem auto 2rem auto;
     width: 100%;
+    cursor: pointer;
   }
 
   .case-study-button h2{
-
-    color: #E0625E;
+    color: #b65c59;
+    font-family:"ChampagneLimousinesBold";
     font-size: 1.5rem;
+    font-weight: bold;
     letter-spacing: .1rem;
     text-decoration: none;
     text-align: center;
@@ -1535,13 +1597,14 @@ button.hero-about-button:hover{
   }
 
   .wireframes-and-usability-tests img{
-    width: 70%;
-    margin-left: 15%;
-    margin-right: 15%;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
   }
 
   .wireframes-and-usability-tests h3{
-    margin: 7rem 30rem 2rem 15rem;
+    margin-left: 20%;
+
   }
 
   table{
@@ -1560,6 +1623,22 @@ button.hero-about-button:hover{
     width: 25%;
     margin-left: 37.5%;
     margin-right: 37.5%;
+  }
+
+  .trunk-logos {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-content: space-between;
+    /* width: 90%; */
+    margin: auto 0rem;
+  }
+
+  .trunk-logos img{
+    width: 30rem;
+    height: 20rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 
   img.trunk-style-guide {
@@ -1703,7 +1782,7 @@ button.hero-about-button:hover{
 
   .hero p{
     font-size: 3rem;
-    width: 60%;
+    width: 50%;
     padding-bottom: 8rem;
   }
 
@@ -1745,5 +1824,131 @@ button.hero-about-button:hover{
     background-repeat: no-repeat;
     background-size: cover;
     height: 70vh;
+  }
+}
+
+@media screen and (min-width: 1900px){
+  p{
+    font-size: 2.5rem;
+    margin: auto 25%;
+  }
+
+  h2{
+    font-size: 4.5rem;
+    margin: 7rem 25% 1rem 25%;
+  }
+
+  .prototype-button {
+    width: 10%;
+    margin-left: 45%;
+    margin-right: 45%;
+  }
+
+  table {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+
+@media screen and (min-width: 2500px){
+  .navbar {
+    height: 11rem;
+  }
+
+  .personal-logo img{
+    width: 5rem;
+  }
+
+  .navigation a{
+    font-size: 3.5rem;
+  }
+
+  .navigation p{
+    margin-top: 3rem;
+  }
+
+  .hero {
+    height: 50vh;
+  }
+  .hoverbox-text h2{
+    font-size: 12rem;
+    letter-spacing: .5rem;
+    padding-bottom: 3rem;
+    margin: 0rem;
+    text-align: center;
+    width: 100%;
+  }
+
+  .hoverbox-text p{
+    font-size: 6rem;
+    padding-bottom: 5rem;
+  }
+
+  .case-study-button h2{
+    font-size: 4rem;
+    font-weight: bold;
+    padding: 1.5rem;
+  }
+
+  .trunk-pic {
+    width: 30%;
+    margin-right: 35%;
+    margin-left: 35%;
+  }
+
+  p {
+    margin: auto 30%;
+    font-size: 2.7rem;
+
+  }
+
+  h2 {
+    margin: 5rem 30% 1rem 30%;
+  }
+
+  .prototype-button {
+    display: flex;
+    justify-content: center;
+    margin: 8rem auto;
+    opacity: 1;
+    width: 30rem;
+  }
+
+  table {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .wireframes-and-usability-tests h3{
+    margin: 8rem 30%;
+    font-size: 3.5rem;
+  }
+
+  .wireframes-and-usability-tests img{
+    width: 30%;
+    margin: auto 35%;
+  }
+
+  .branding {
+    margin-top: 10rem;
+  }
+
+  img.sketches, img.bw-trunk-logo{
+    width: 20%;
+    margin: 2rem 40%;
+
+  }
+
+  img.trunk-style-guide{
+    width: 30%;
+    margin: 2rem 35%;
+  }
+
+  .footer-icons {
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-top: 1rem;
   }
 }
