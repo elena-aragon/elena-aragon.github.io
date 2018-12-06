@@ -676,11 +676,11 @@ h2.results{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 80vh;
+  height: 60vh;
 }
 
 .hero-about{
-    padding: 0rem 10% 15% 5%;
+    padding: 0rem 10% 15% 1%;
     width: 100%;
   }
 
@@ -693,13 +693,14 @@ hr {
 
 .hero-about{
   padding-bottom: 15rem;
-  padding-top: 11rem;
+  padding-top: 5rem;
 }
 
 .hero-about h1{
   color: #494486;
-  font-size: 5rem;
-  margin-top: 0rem;
+  font-size: 4rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
 }
 
 .hero-about button{
@@ -781,6 +782,37 @@ hr {
       width: 60%;
     }
 
+    .about-wrapper{
+      background-image: url("../images/about-background.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 60vh;
+    }
+
+    .hero-about{
+        padding: 0rem 10% 15% 1%;
+        width: 100%;
+      }
+
+    hr {
+      float: left;
+      margin-left: 8%;
+      margin-top: auto;
+      width: 17rem;
+    }
+
+    .hero-about{
+      padding-bottom: 15rem;
+      padding-top: 5rem;
+    }
+
+    .hero-about h1{
+      color: #494486;
+      font-size: 5rem;
+      margin-left: 3rem;
+      margin-top: 1rem;
+    }
 }
 
 
@@ -1118,6 +1150,10 @@ hr {
   .desktop-original-file, .desktop-original-folder{
     margin: 4rem 12.5%;
     width: 75%;
+  }
+
+  .about-wrapper{
+    height: 50vh;
   }
 
   .hero-about button{
@@ -1889,7 +1925,7 @@ hr {
 
 
   .about-wrapper{
-    height: 80vh;
+    height: 70vh;
   }
 
   .hero-about h1{
@@ -2019,7 +2055,7 @@ hr {
   .hero-about h1{
     font-size: 8rem;
     margin-left: 15rem;
-    margin-top: 10rem;
+    margin-top: 13rem;
   }
 }
 
