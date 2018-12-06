@@ -87,7 +87,7 @@ br {
 /*  Nav Bar */
 
 .navbar{
-  background-color: rgba(237, 232, 229, .8);
+  background-color: rgba(237, 232, 229, .5);
   background-size: cover;
   height: 8.4rem;
   margin-left: 0px;
@@ -192,12 +192,15 @@ footer{
 
 
 /* Home Page */
-
-.hero{
+.hero-wrapper{
   background-image: url("../images/home-background-coffee.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+
+.hero{
   height: 70vh;
   padding: 0rem 10% 15% 10%;
   width: 100%;
@@ -395,11 +398,14 @@ h2.h2-mobile{
 
 /* Case Study */
 
+.case-study-wrapper{
+  background-image: url("../images/mobile-trunk-background.png");
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .trunk-summary {
-    background-image: url("../images/mobile-trunk-background.png");
-    background-position: top right;
-    background-repeat: no-repeat;
-    background-size: cover;
     padding: 2rem 10% 2% 10%;
     width: 100%;
   }
@@ -665,11 +671,14 @@ h2.results{
 
 /*  About Me */
 
+.about-wrapper{
+  background-image: url("../images/about-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .hero-about{
-    background-image: url("../images/about-background.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     height: 80vh;
     padding: 0rem 10% 15% 5%;
     width: 100%;
@@ -1716,12 +1725,14 @@ hr {
 
   /* End home page trunk overlay */
 
+  .case-study-wrapper{
+    background-image: url("../images/trunk-background.png");
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
   .trunk-summary {
-      background-image: url("../images/trunk-background.png");
-      background-position: top right;
-      background-repeat: no-repeat;
-      background-size: cover;
       padding: 2rem 10% 2% 10%;
       width: 100%;
     }
