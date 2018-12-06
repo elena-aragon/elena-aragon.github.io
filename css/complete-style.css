@@ -1599,8 +1599,11 @@ hr {
     width: 40%;
   }
 
+  .hero-wrapper{
+    height: 85vh;
+  }
+
   .hero {
-    height: 80vh;
     padding-bottom: 8rem;
   }
 
@@ -1617,7 +1620,7 @@ hr {
   .hero p{
     font-size: 2.2rem;
     padding-bottom: 2rem;
-    width: 50%;
+    width: 75%;
   }
 
   .bounce {
@@ -2020,7 +2023,7 @@ hr {
   .hero p{
     font-size: 3rem;
     padding-bottom: 8rem;
-    width: 50%;
+    width: 70%;
   }
 
   .bounce{
