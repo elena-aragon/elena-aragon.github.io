@@ -69,7 +69,7 @@ p {
   color: #2a2a2a;
   font-family: "Timeless", Georgia, serif;
   font-size: 1.7rem;
-  line-height: 170%;
+  line-height: 160%;
   margin: auto 10%;
 }
 
@@ -87,16 +87,19 @@ br {
 /*  Nav Bar */
 
 .navbar{
-  background-color: #EDE8E5;
+  background-color: rgba(237, 232, 229, .8);
+  width: 100%;
   background-size: cover;
   height: 8.4rem;
   margin-left: 0px;
   margin-right: 0px;
+  padding-left: 0rem;
 }
 
 .navigation{
   display: inline-flex;
   float: right;
+
 }
 
 .navigation p{
@@ -110,6 +113,7 @@ br {
   color: #494486;
   text-decoration: none;
   font-family: "ChampagneLimousines";
+  opacity: 1;
 }
 
 .navigation a:hover{
@@ -147,10 +151,10 @@ br {
 
 
 footer{
-  /* background-image: url("../images/mobile-footer-background.png");
+  /* background-image: url("../images/mobile-footer-background.png"); */
   background-position: top center;
   background-repeat: no-repeat;
-  background-size: cover; */
+  background-size: cover;
   background-color: #D5CECA;
 }
 
@@ -225,11 +229,12 @@ footer{
 }
 
 .hero p {
-  color: #2a2a2a;
+  color: #4C4C4C;
+  font-size: 1.6rem;
+  font-weight: bold;
   margin-left: 1rem;
   margin-right: 1rem;
   padding-bottom: 8rem;
-  font-size: 1.6rem;
 }
 
 
@@ -304,6 +309,10 @@ background-color: #2a2a2a;
 margin-bottom: 0rem;
 }
 
+.my-work{
+  display: none;
+}
+
 
 
 /* Home page trunk overlay */
@@ -315,7 +324,7 @@ margin-bottom: 0rem;
 h2.h2-mobile{
   color: #B6ECF8;
   font-family: "ChampagneLimousines";
-  font-size: 6rem;
+  font-size: 5rem;
   letter-spacing: .2rem;
   padding-top: 10%;
   padding-bottom: 5%;
@@ -339,9 +348,8 @@ h2.h2-mobile{
 }
 
 .mobile-case-study-button{
-  background: #fff;
-  border: #E0625E solid 3px;
-  border-radius: 20px;
+  background: #2a2a2a;
+  border: #E0625E solid 1.5px;
   border-radius: 20px;
   margin: 2rem 25%;
   width: 50%;
@@ -353,7 +361,7 @@ h2.h2-mobile{
 }
 
 .mobile-case-study-button h2{
-  color: #E0625E;
+  color: #fff;
   font-size: 1.5rem;
   letter-spacing: .1rem;
   text-decoration: none;
@@ -399,8 +407,8 @@ h2.h2-mobile{
 
 
 .trunk-summary {
-    background-image: url("../images/home-background-coffee.jpg");
-    background-position: center right;
+    background-image: url("../images/mobile-trunk-background.png");
+    background-position: top right;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 2rem 10% 2% 10%;
@@ -416,16 +424,18 @@ h2.h2-mobile{
 
 section.trunk-title h1{
   color: #8B8100;
-  font-size: 6rem;
+  font-size: 7rem;
+  /* font-weight: bold; */
   margin: 0rem auto 1rem auto;
-  padding-top: 5rem;
+  padding-top: 2rem;
   text-align: center;
 }
 
 section.trunk-title h2{
   color: #2A2A2A;
   text-align: center;
-  font-size: 3rem;
+  font-size: 2.8rem;
+  font-weight: bold;
   margin-top: 2rem;
 }
 
@@ -488,11 +498,11 @@ section.trunk-title h2{
   color:#766FC8;
 }
 
-.summary, .research, .competitive-analysis,
-.user-personas, .user-stories-and-flows,
-.wireframes-and-usability-tests, .branding,
+.summary a:hover, .research a:hover, .competitive-analysis a:hover,
+.user-personas a:hover, .user-stories-and-flows a:hover,
+.wireframes-and-usability-tests a:hover, .branding a:hover,
 .mockups a:hover{
-  color: #8B8100;
+  color: #E0625E;
   transition: color .5s ease;
 }
 
@@ -519,10 +529,11 @@ section.solution p{
 }
 
 
-table{
+table.stats-table, table.usability-table{
   display: flex;
-  margin: 2rem 20% 2rem 20%;
-  width: 60%;
+  /* justify-content: center; */
+  margin: 1rem 11%;
+  /* width: 60%; */
 }
 
 td{
@@ -533,13 +544,13 @@ td{
 .percent {
   color: #8B8100;
   font-family: "ChampagneLimousines";
-  font-size: 4rem;
+  font-size: 3.5rem;
 }
 
 .stats{
   color: #6C6C6C;
   font-family: "ChampagneLimousines";
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: bold;
 }
 
@@ -560,11 +571,36 @@ td{
   padding: .2rem;
 }
 
-.strengths-weaknesses h3{
+.strengths-weaknesses, .tablet-strengths-weaknesses {
+  display: none;
+}
+
+.mobile-strengths-weaknesses{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+h3.mobile-strengths-weaknesses{
+  color: #8B8100;
+  display: flex;
+  justify-content: center;
   margin-bottom: 1rem;
   margin-top: 3rem;
   font-size: 4rem;
+}
 
+.mobile-strengths-weaknesses p{
+  color: #6C6C6C;
+  line-height: 2.2rem;
+  font-family: "ChampagneLimousines";
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.mobile-strengths-weaknesses td{
+  padding: .5rem;
 }
 
 .user-personas h2{
@@ -576,14 +612,14 @@ td{
   font-family:"ChampagneLimousines";
   font-size: 2rem;
   font-weight: bold;
-  margin: 4rem 2.2rem 2rem 2.2rem;
+  margin: 4rem 12.5% 2rem 12.5%;
 }
 
-.wireframes-and-usability-tests img{
+/* .wireframes-and-usability-tests img{
   margin-left: 12.5%;
   margin-right: 12.5%;
   width: 75%;
-}
+} */
 
 .branding img{
   margin: 4rem 17.5% auto 17.5%;
@@ -603,8 +639,39 @@ img.white-trunk-logos{
   margin-top: 5rem;
 }
 
-.mockups p{
+/* .mockups p{
   margin-bottom: 5rem;
+} */
+
+h2.results{
+  font-size: 3rem;
+  color: #2a2a2a;
+  margin-left: 10%;
+  margin-top: 4rem;
+  padding-bottom: 1rem;
+}
+
+/* .mockups img{
+  margin: 3rem 5%;
+  width: 90%;
+} */
+
+.desktop-original-file{
+  display: none;
+}
+
+.mobile-original-file, .sign-up-process{
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin: 3rem auto;
+}
+
+.mobile-original-folder2{
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin: 3rem auto 5rem auto;
 }
 
 .conclusion {
@@ -703,15 +770,6 @@ hr {
 
 @media screen and (min-width: 400px){
 
-  /* .personal-logo {
-    margin-left: 4rem;
-  }
-  .personal-logo img {
-    width: 3.2rem;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-  } */
-
   .hero h3{
     padding-top: 12rem;
   }
@@ -721,7 +779,7 @@ hr {
     margin-right: 2rem;
     background-color: #494486;
     border-radius: 5px;
-    padding: 5px;
+    padding: .5rem 1rem;
     line-height: 2rem;
   }
 
@@ -959,10 +1017,71 @@ hr {
     width: 40%;
   }
 
+  table.strengths-weaknesses, .mobile-strengths-weaknesses{
+    display: none;
+  }
+
+  .tablet-strengths-weaknesses{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  h3.strengths-weaknesses{
+    color: #8B8100;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+    margin: 3rem auto 1rem auto;
+    font-size: 4rem;
+  }
+
+  .tablet-strengths-weaknesses p{
+    color: #6C6C6C;
+    line-height: 2.2rem;
+    font-family: "ChampagneLimousines";
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .tablet-strengths-weaknesses td{
+    padding: .5rem;
+  }
+
   .hoverbox img {
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
+  }
+
+  h2.results{
+    margin-left: 12.5%;
+  }
+
+  table.usability-table{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .wireframes-and-usability-tests img{
+    width: 75%;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+  }
+
+  .mobile-original-folder2, .mobile-original-file{
+    display: none;
+  }
+
+  .desktop-original-file, .desktop-original-folder{
+    display: flex;
+    justify-content: center;
+    width: 80%;
   }
 
 
@@ -987,6 +1106,46 @@ hr {
     margin-left: 15%;
     padding: .5rem;
   }
+
+  table.mobile-strengths-weaknesses, h3.mobile-strengths-weaknesses{
+    display: none;
+  }
+
+  .strengths-weaknesses{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .strengths-weaknesses h3{
+    color: #8B8100;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+    font-size: 4rem;
+  }
+
+  .strengths-weaknesses p{
+    color: #6C6C6C;
+    line-height: 2.1rem;
+    font-family: "ChampagneLimousines";
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .strengths-weaknesses td{
+    padding: .5rem;
+  }
+
+  .wireframes-and-usability-tests h3{
+    margin-left: 12.5%;
+  }
+
+  .desktop-original-file, .desktop-original-folder{
+    width: 75%;
+    margin: 4rem 12.5%;
+  }
+
 
   .hero-about button{
     margin-left: 2.5rem;
@@ -1139,29 +1298,20 @@ hr {
     font-weight: bold;
   }
 
-  .strengths{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    /* width: 30%; */
+  .strengths-weaknesses h3{
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+    font-size: 4rem;
   }
 
-  .weaknesses{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    /* width: 30%; */
+  .strengths-weaknesses p{
+    line-height: 2.1rem;
+    font-size: 2rem;
   }
 
-  /* .strengths {
-    float: left;
-    width: 30%;
+  .strengths-weaknesses td{
+    padding: 1rem;
   }
-  .weaknesses{
-    float: right;
-    width: 30%;
-    /* position: fixed; */
-  } */
 
   .user-personas {
     clear: both;
@@ -1204,7 +1354,7 @@ hr {
   }
 
   .hero p {
-    color: #2a2a2a;
+    color: #4C4C4C;
     margin-left: 1rem;
     margin-right: 1rem;
     padding-bottom: 8rem;
@@ -1354,6 +1504,16 @@ hr {
     margin-right: 20%;
   }
 
+  .wireframes-and-usability-tests img{
+    width: 60%;
+    margin: 4rem 20%;
+  }
+
+  .desktop-original-file, .desktop-original-folder{
+    width: 60%;
+    margin: 4rem 20%;
+  }
+
   .footer-icons {
     margin-left: 35%;
     margin-right: 35%;
@@ -1475,6 +1635,16 @@ hr {
     display: none;
   }
 
+  .hoverbox:hover .hoverbox-layer-bottom{
+    transform: translatex(21vw);
+    transition: all 1s ease;
+  }
+
+  .hoverbox:hover .hoverbox-layer-top{
+    transform: translateX(-21vw);
+    transition: all 1s ease;
+  }
+
   .hoverbox-text h2{
     color: #766FC8;
     display: block;
@@ -1504,10 +1674,24 @@ hr {
     font-family: "ChampagneLimousines";
   }
 
+  .my-work{
+    color: #fff;
+    display: inline-block;
+    font-family: "ChampagneLimousines";
+    font-size: 7rem;
+    letter-spacing: .2rem;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    margin: 0rem;
+    text-align: center;
+    font-weight: normal;
+    width: 100%;
+  }
+
   .case-study-button{
-    background: #fff;
+    background: #2a2a2a;
     display: block;
-    border: #E0625E solid 3px;
+    border: #E0625E solid 1px;
     border-radius: 20px;
     border-radius: 20px;
     margin: 1rem auto 2rem auto;
@@ -1516,7 +1700,7 @@ hr {
   }
 
   .case-study-button h2{
-    color: #b65c59;
+    color: #fff;
     font-family:"ChampagneLimousinesBold";
     font-size: 1.5rem;
     font-weight: bold;
@@ -1551,6 +1735,7 @@ hr {
 
   .hoverbox .hoverbox-layer-bottom {
   	display: block;
+    transition: all 1s ease;
   }
 
   .hoverbox .hoverbox-layer-top {
@@ -1562,7 +1747,7 @@ hr {
   	bottom: 0;
   	width: 100vw;
   	height: 100%;
-  	background: #2A2A2A;
+  	/* background: #2A2A2A; */
   	color: #fff;
   	padding: 15px;
   	-moz-transition: all 0.4s ease-in-out 0s;
@@ -1591,9 +1776,71 @@ hr {
 
 
 
+  .trunk-summary {
+      background-image: url("../images/trunk-background.png");
+      background-position: top right;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 2rem 10% 2% 10%;
+      width: 100%;
+    }
+
   .trunk-title h2{
     font-size: 4rem;
     margin-top: 2rem;
+  }
+
+  .desktop-original-file, .desktop-original-folder {
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+
+  .tablet-strengths-weaknesses, .mobile-strengths-weaknesses{
+    display: none;
+  }
+
+  table.strengths-weaknesses{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h2.results{
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  .strengths-weaknesses h3{
+    margin: 3rem 1rem 1rem 1rem;
+    font-size: 5rem;
+  }
+
+  table.strengths-weaknesses p{
+    line-height: 2.5rem;
+    font-size: 2.5rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+
+  table.strengths-weaknesses td{
+    /* padding: 1rem 2rem 0rem 0rem; */
+    margin: 10rem;
+  }
+
+  td.strengths-left{
+    padding: 1rem 0rem 0rem 5rem;
+  }
+  td.strengths-right{
+    padding-left: 0rem;
+    padding-right: 5rem
+  }
+
+  table.usability-table{
+    margin-right: 20%;
+    width: auto;
   }
 
   .wireframes-and-usability-tests img{
@@ -1607,10 +1854,11 @@ hr {
 
   }
 
-  table{
+  table.stats-table{
     display: flex;
-    margin: 2rem 30% 2rem 30%;
-    width: 40%;
+    justify-content: center;
+    margin: 2rem 35% 2rem 20%;
+    /* width: 40%; */
   }
 
   .branding img{
@@ -1752,9 +2000,14 @@ hr {
 
   td.percent{
     font-size: 4rem;
+    padding-left: 0rem;
   }
   td.stats{
     font-size: 2.5rem;
+  }
+
+  .results{
+   margin-left: 0rem;
   }
 
   .hoverbox img{
@@ -1844,10 +2097,10 @@ hr {
     margin-right: 45%;
   }
 
-  table {
+  /* table.stats-table {
     display: flex;
     justify-content: center;
-  }
+  } */
 }
 
 
@@ -1915,10 +2168,13 @@ hr {
     width: 30rem;
   }
 
-  table {
+  table.stats-table {
     display: flex;
-    align-content: center;
     justify-content: center;
+  }
+
+  h2.results{
+    margin-left: 30%;
   }
 
   .wireframes-and-usability-tests h3{
@@ -1929,6 +2185,12 @@ hr {
   .wireframes-and-usability-tests img{
     width: 30%;
     margin: auto 35%;
+  }
+  
+  .desktop-original-file, .desktop-original-folder{
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
   }
 
   .branding {

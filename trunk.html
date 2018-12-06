@@ -42,7 +42,7 @@
           </a>
         </div>
     </nav>
-
+<section class="trunk-case-study">
       <section class="trunk-summary">
         <section class="trunk-title">
           <h1>Trunk</h1>
@@ -83,7 +83,7 @@
           guide</p>
         </div>
       <section class="problem">
-    <h2>Problem</h2>
+        <h2>Problem</h2>
         <p>Our task was to create a cloud
           storage app that would be a major
           competitor to apps like Google
@@ -121,8 +121,8 @@
         <h1>Process</h1>
           <p> Trunk was developed out of desire to create
           a cloud storage app that would combine the popular features of other apps into
-          a simple but highly useful one to serve all of our users' cloud storage
-          needs. We started with that idea and built Trunk with
+          a simple but highly useful one to <span style="font-weight:bold">serve all of our users' cloud storage
+          needs</span>. We started with that idea and built Trunk with
           the following steps.
         </p>
       </section>
@@ -131,25 +131,23 @@
         <p>Before starting our design, we wanted to ensure that we were designing what
         the users want.  In order to find which features are most useful, we created a
         <a href="https://docs.google.com/document/d/1ES3-Zd_myX4wv9js-yfzjEVoxPW9UtVEF7vv0DktIRU/edit?usp=sharing">
-        cloud storage survey</a> that asked whether respondents used cloud storage, why
-        or why not, which features they preferred, and more. <br><br>
-
-        Our findings were that the highest priority features were accessing files from
-        anywhere, sharing content, and backing up data.  For those who do not use
-        cloud storage, the were primarily concerned about privacy and security.
+        cloud storage survey</a> that asked <span style="font-weight:bold">whether respondents used cloud storage, why
+        or why not, which features they preferred, and more.</span>
         </p>
-        <table>
+        <h2 class="results">Results:</h2>
+        <table class="stats-table">
+          <th><span></span></th>
           <tr class="research1">
             <td class="percent">82%</td>
             <td class="stats">use a cloud storage app</td>
           </tr>
           <tr class="research2">
             <td class="percent">92.9%</td>
-            <td class="stats">want to easily share content with others</td>
+            <td class="stats">want to share content with others</td>
           </tr>
           <tr class="research3">
             <td class="percent">85.7%</td>
-            <td class="stats">want to access their files from anywhere</td>
+            <td class="stats">want to access files from anywhere</td>
           </tr>
           <tr class="research4">
             <td class="percent">92.9%</td>
@@ -157,7 +155,7 @@
           </tr>
           <tr class="research5">
             <td class="percent">82%</td>
-            <td class="stats">would find a collaboration feature highly useful</td>
+            <td class="stats">would find a collaboration feature useful</td>
           </tr>
         </table>
         </div>
@@ -168,45 +166,108 @@
         a <a href="https://docs.google.com/document/d/1TN1hiMt_ZiAhOkT6tuNnsMsSy6lKLEhSg-o9ADi5DOU/edit?usp=sharing">competitive analysis</a>
         of other current cloud storage apps for
         their strengths and flaws. We conducted a SWOT analysis of
-        two different cloud storage apps-- Google Drive and Dropbox. We took these results into account when deciding on
-        our app structure.
-      <div class="strengths-weaknesses">
-        <div class="strengths">
-          <h3>Strengths</h3>
-          <ul style="list-style-type:none">
-            <li>Name Recognition</li>
-            <li>Nothing to Download</li>
-            <li>Easy Sharing</li>
-            <li>Automatic Saving</li>
-            <li>Free with Optional Upgrade</li>
-          </ul></div>
-        <div class="weaknesses">
-          <h3>Weaknesses</h3>
-          <ul style="list-style-type:none">
-            <li>Unable to Save Web Content</li>
-            <li>Security</li>
-          </ul>
-        </div>
+        two different cloud storage apps-- Google Drive and Dropbox. <br><br>Their primary strengths where<span style="font-weight: bold">
+        brand name recognition, automatic saving, having nothing to download, and no cost</span>
+        whereas their primary weaknesses were <span style="font-weight: bold">the inability to save web content and limited security options.</span> We took these results into account when deciding on
+        our app structure.</p>
+
+        <!-- <table class="strengths-weaknesses">
+          <tr>
+            <th colspan="2"><h3 class="strengths-weaknesses">Strengths</h3></th>
+            <th></th>
+            <th><h3 class="strengths-weaknesses">Weaknesses</h3></th>
+          </tr>
+          <tr>
+            <td class="strengths-left"><p>Brand Name Recognition</p></td>
+            <td class="strengths-right"><p>Automatically Save</p></td>
+            <td></td>
+            <td><p>Unable to Save Web Content</p></td>
+          </tr>
+          <tr>
+            <td class="strengths-left"><p>Nothing to Download</p></td>
+            <td class="strengths-right"><p>Free with Optional Upgrade</p></td>
+            <td></td>
+            <td><p>Limited Security Options</p></td>
+          </tr>
+          <tr>
+            <td class="strengths-left"><p>Easily Share Content</p></td>
+        </table>
+
+        <table class="tablet-strengths-weaknesses">
+          <tr>
+            <th><h3 class="strengths-weaknesses">Strengths</h3></th>
+            <th><h3 class="strengths-weaknesses">Weaknesses</h3></th>
+          </tr>
+          <tr>
+            <td><p>Brand Name Recognition</p></td>
+            <td><p>Unable to Save Web Content</p></td>
+          </tr>
+          <tr>
+            <td><p>Nothing to Download</p></td>
+            <td><p>Limited Security Options</p></td>
+          </tr>
+          <tr>
+            <td><p>Easily Share Content</p></td>
+          </tr>
+          <tr>
+            <td><p>Automatically Save</p></td>
+          </tr>
+          <tr>
+            <td><p>Free with Optional Upgrade</p></td>
+
+          </tr>
+        </table>
+
+
+        <h3 class="mobile-strengths-weaknesses">Strengths</h3>
+        <table class="mobile-strengths-weaknesses">
+          <tr>
+            <td><p>Brand Name Recognition</p></td>
+          </tr>
+          <tr>
+            <td><p>Nothing to Download</p></td>
+          </tr>
+          <tr>
+            <td><p>Easily Share Content</p></td>
+          </tr>
+          <tr>
+            <td><p>Automatically Save</p></td>
+          </tr>
+          <tr>
+            <td><p>Free with Optional Upgrade</p></td>
+          </tr>
+          <tr>
+        </table>
+
+        <h3 class="mobile-strengths-weaknesses">Weaknesses</h3>
+        <table class="mobile-strengths-weaknesses">
+          <tr>
+            <td><p>Unable to Save Web Content</p></td>
+          </tr>
+          <tr>
+            <td><p>Limited Security Options</p></td>
+          </tr>
+        </p>
+        </table> -->
 
       </section>
       <section class="user-personas">
         <h2>User Personas</h2>
         <p>We wanted to understand our users to make sure we were designing
-          Trunk with them in mind, so we created <a href="https://drive.google.com/file/d/13HizIb0E-ieXPNEtloUujx59UQsrvFuP/view?usp=sharing">user personas.</a> Our two user personas
-          were Laura, the busy woman who likes to keep her content organized,
-          and Aaron, the student who needs to have the ability to back up, share, and
-          collaborate on his files.
+          Trunk with them in mind, so we created <a href="https://drive.google.com/file/d/13HizIb0E-ieXPNEtloUujx59UQsrvFuP/view?usp=sharing">user personas.</a>
+          Our two user personas were Laura, the busy woman who likes to <span style="font-weight:bold">keep her content organized and
+          gets frustrated having to use multiple programs to do so.</span>
+          Our second persona is Aaron, the student who <span style="font-weight:bold">needs to have the ability to back up, share, and
+          collaborate on his files.</span>
         </p>
       </section>
 
       <section class="user-stories-and-flows">
         <h2>User Stories & Flows</h2>
       <p>We then created <a href="https://docs.google.com/spreadsheets/d/1hUT-_uCNvhTzuhUhzZLP28iCrt60ugMepHrKtxRfEPs/edit?usp=sharing">user stories</a>
-      to determine which actions our users want to use
-      every time they log in, only occasionally, and rarely to be sure to
-      prioritize important actions. The most important features the ability to create an
+      to determine which actions are high, medium, and low priority. The most important features the ability to <span style="font-weight:bold">create an
       account, login, upload files, access files from anywhere, collaborate, answer
-      security questions to verify identity, and auto backups. <br><br>
+      security questions to verify identity, and auto backups.</span> <br><br>
 
       These user stories were then converted into <a href="https://drive.google.com/drive/folders/1-gCh6H-ABQqQHfucbMEoJIjen3StJAXi?usp=sharing">user flows</a>
       to map each process from point A to point B.
@@ -216,24 +277,47 @@
       <section class="wireframes-and-usability-tests">
         <h2>Wireframes & Usability Tests</h2>
       <p>After we had completed our research, we were ready to begin designing. We used
-        our flow diagrams to create wireframes for each of our high priority user stories
+        our flow diagrams to <span style="font-weight:bold">create wireframes for each of our high priority user stories</span>
         creating a <a href="https://invis.io/QHNNTWKEVY9">clickable prototype</a> in which our users act out
         all of the high priority actions.
-        <br><br>
-        We wanted to test this prototype to make sure that our proceses were user
-        friendly, so we conducted <a href="https://docs.google.com/document/d/1ujYUyWcAnEDiBf6AnRC1Pn0Aj6WOoe9O0CvXpOB-wFU/edit?usp=sharing">usability tests</a>
-        asking our participants to create an
-        account, upload a document, and organize a piece of content.
-        <br><br>
-        What we learned from this was that our sign up process was a bit too long. We
-        took this finding and incorporated it into our design as well as the other
-        feedback we received.  You can see our original sign up process as well as our
-        updated sign up process below.
         </p>
-        <h3>Original Sign Up Process:</h3>
-        <img src="images/original-sign-up.jpg" alt="original sign up process screenshot">
-        <h3>Updated Sign Up Process:</h3>
-        <img src="images/updated-sign-up.jpg" alt="updated sign up process screenshot">
+      <section class="mobile-usability-tests-one">
+        <h2>Usability Tests Round 1</h2>
+        <p>We wanted to test this prototype to <span style="font-weight:bold">make sure that our proceses were user
+          friendly,</span> so we conducted <a href="https://docs.google.com/document/d/1ujYUyWcAnEDiBf6AnRC1Pn0Aj6WOoe9O0CvXpOB-wFU/edit?usp=sharing">usability tests</a>
+          asking our participants to <span style="font-weight:bold">create an
+          account, upload a document, and organize a piece of content.</span>
+        </p>
+        <h2 class="results">Findings:</h2>
+        <table class="usability-table">
+          <tr>
+            <td class="percent">33%</td>
+            <td class="stats">wanted the ability to sort the dashboard</td>
+          </tr>
+          <tr>
+            <td class="percent">33%</td>
+            <td class="stats">thought we should rename "Add New" to "Upload New"</td>
+          </tr>
+          <tr>
+            <td class="percent">66%</td>
+            <td class="stats">wanted to organize content by selecting the file first</td>
+          </tr>
+          <tr>
+            <td class="percent">66%</td>
+            <td class="stats">felt that the sign up process was too long</td>
+          </tr>
+        </table>
+        <h2 class="results">Improvements:</h2>
+        <p>The primary change we made based on this feedback was to change the
+        process of organizing content to to <span style="font-weight:bold">start by clicking the file and selecting the folder</span>
+        instead of clicking the folder and selecting which files to add.</p>
+
+        <img src="images/mobile-original-file.png" alt="organization process" class="mobile-original-file">
+        <img src="images/desktop-original-file.png" alt="organization process" class="desktop-original-file">
+        <p>Another key change that we made was to <span style="font-weight:bold">shorten the sign up process.</span> Originally, we asked
+        participants to enter their language, birth date, and gender </p>
+        <img src="images/sign-up-process.png" alt="original sign up process screenshot" class="sign-up-process">
+        </section>
       </section>
 
       <section class="branding">
@@ -243,15 +327,15 @@
           and a logo. The name "Trunk" works in two ways: Elephants have a reputation
           for having a long memory, and a trunk is used for storage. Storage and
           memory together are exactly what we’re creating. We then focused on our logo,
-          which had many different iterations but eventually became the silhouette of an
-          elephant with the trunk creating the letter U in Trunk. My original sketches and
+          which had many different iterations but eventually became <span style="font-weight:bold">the silhouette of an
+          elephant with the trunk creating the letter U in Trunk.</span> My original sketches and
           finished logo are below.
         </p>
         <img src="images/mobile-trunk-sketches.png" alt="original trunk sketches" class="sketches">
         <img src="images/trunk-logo-bw.png" alt="black & white trunk logo" class="bw-trunk-logo">
-      <p>With our logo in place, we moved on to create a color scheme, typography,
-        buttons, and much more. We created a <a href="https://www.figma.com/file/0kjONsbqKhfT068tWNtNCYeC/Trunk-Style-Guide?node-id=0%3A1">comprehensive style guide </a>
-        to organize all of these thoughts. Using this branding, we moved forward to design our
+      <p>With our logo in place, we moved on to create <span style="font-weight:bold">a color scheme, typography,
+        buttons, and much more.</span> We created a <a href="https://www.figma.com/file/0kjONsbqKhfT068tWNtNCYeC/Trunk-Style-Guide?node-id=0%3A1">comprehensive style guide </a>
+        to organize all of these design decisions. Using this branding, we moved forward to create our
         mockups.
         </p>
         <div class="trunk-logos">
@@ -266,32 +350,70 @@
       <section class="mockups">
         <h2>Mockups</h2>
         <p>Keeping in mind our style guide and branding decisions, we went forward to
-          design 121 individual mockup screens that would become our prototype. These
+          design <span style="font-weight:bold">121 individual mockup screens</span> that would become our prototype. These
           were more colorful and attractive than our wireframes. After many drafts and
-          changes, we moved forward to creating our second clickable prototype. <br><br>
+          changes, we created our second clickable prototype.</p>
 
-          When we were finished, we conducted another <a href="https://docs.google.com/document/d/1uM7YAzgGMSITabNSVgLuI5BGBBD2EI2nCQF2fm_Fj6Y/edit">usability test</a>
-          to see how potential users would interact with our design
-          and we found this time that half of the users wanted to add content to a folder
+          <section class="usability-tests-two">
+          <p>When we were finished, we conducted another <a href="https://docs.google.com/document/d/1uM7YAzgGMSITabNSVgLuI5BGBBD2EI2nCQF2fm_Fj6Y/edit">usability test</a>
+          to see how potential users would interact with our finished design.</p>
+
+          <!-- and we found this time that half of the users wanted to add content to a folder
           by clicking the file and choosing which folder to add it to, whereas the other
           half of participants wanted to select the folder and then the file(s) to add to it.
-          We changed the process to include both possible routes to make it easier for our users.
-          After many drafts and multiple tests, our <a href="https://invis.io/F6NZ726JUQE">final prototype</a> was ready.
+          We changed the process to include both possible routes to make it easier for our users. -->
         </p>
-          <img src="images/mobile-trunk-screens.png" alt="trunk screenshot" class="trunk-pic">
 
-          <div class="prototype-button">
-            <a href="https://invis.io/F6NZ726JUQE">
-                <h2>View Prototype</h2>
-          </a>
+        <h2 class="results">Findings:</h2>
+        <table class="usability-table">
+          <tr>
+            <td class="percent">33%</td>
+            <td class="stats">wanted the option to sort dashboard in different ways</td>
+          </tr>
+          <tr>
+            <td class="percent">66%</td>
+            <td class="stats">preferred a darker background</td>
+          </tr>
+          <tr>
+            <td class="percent">33%</td>
+            <td class="stats">organized content by selecting the folder first</td>
+          </tr>
+          <tr>
+            <td class="percent">66%</td>
+            <td class="stats">organized content by selecting the file first</td>
+          </tr>
+        </table>
+        <h2 class="results">Improvements:</h2>
+        <p>We took this feedback into account and incorporated them in our design. The most
+        critical change was to <span style="font-weight:bold">utilize both options for organizing content
+          and add an option to sort dashboard content.</span></p></p>
+
+        <img src="images/mobile-original-file.png" alt="organization process" class="mobile-original-file">
+        <img src="images/mobile-original-folder.png" alt="organization process" class="mobile-original-folder2">
+
+        <img src="images/desktop-original-file.png" alt="organization process" class="desktop-original-file">
+        <img src="images/desktop-original-folder.png" alt="organization process" class="desktop-original-folder">
+
+        <p>After many drafts and multiple tests, our <a href="https://invis.io/F6NZ726JUQE">final prototype</a> was ready.</p>
+        <img src="images/mobile-trunk-screens.png" alt="trunk screenshot" class="trunk-pic">
+
+        <div class="prototype-button">
+          <a href="https://invis.io/F6NZ726JUQE">
+              <h2>View Prototype</h2>
+            </a>
           </div>
+            </section>
+
+
+
+
 
       <section class="conclusion">
         <h2>Conclusion</h2>
-        <p>Throughout this project, I learned that the first steps in creating the skeleton
-          of a project are the most critical ones, as without a solid foundation, the project
+        <p>Throughout this project, I learned that <span style="font-weight:bold">creating the skeleton
+          of a project is the arguably the most important part,</span> as without a solid foundation, the project
           collapses. Everything needs to be thought out in detail and the designs need to
-          be very consistent throughout to make a user friendly experience. <br><br>
+          beconsistent throughout to make a user friendly experience. <br><br>
 
           At the outset, we were doubtful that there was need for such a product or that
           we’d be able to create a worthy competitor for the current cloud apps available.
@@ -300,6 +422,7 @@
           potential.
         </p>
       </section>
+    </section>
 
       <footer>
       <section id="footer-connect">
@@ -325,47 +448,6 @@
       </section>
 
     </footer>
-<!--
-    <script>
-        ScrollReveal({ reset: true });
-        </script> -->
-        <script>
-          ScrollReveal().reveal('.summary h1', {delay: 200});
-          ScrollReveal().reveal('.summary p' , {delay: 200});
-          ScrollReveal().reveal('.prototype-button' , {delay: 100});
-          // ScrollReveal().reveal('.roles', {delay: 100});
-          // ScrollReveal().reveal('.deliverables', {delay: 100});
-          // ScrollReveal().reveal('.problem', {delay: 100});
-          // ScrollReveal().reveal('.solution', {delay: 100});
-          //
-          // ScrollReveal().reveal('.process', {delay: 200});
-          //
-          // ScrollReveal().reveal('.research' , {delay: 100});
-          // ScrollReveal().reveal('.research1', {delay: 200});
-          // ScrollReveal().reveal('.research2', {delay: 300});
-          // ScrollReveal().reveal('.research3', {delay: 400});
-          // ScrollReveal().reveal('.research4', {delay: 500});
-          // ScrollReveal().reveal('.research5', {delay: 600});
-          //
-          // ScrollReveal().reveal('.competitive-analysis', {delay: 100});
-          //
-          // ScrollReveal().reveal('.user-personas', {delay: 100});
-          //
-          // ScrollReveal().reveal('.user-stories-and-flows', {delay: 100});
-          //
-          // ScrollReveal().reveal('.wireframes-and-usability-tests', {delay: 100});
-          // ScrollReveal().reveal('.wireframes-and-usability-tests h3', {delay: 100});
-          // ScrollReveal().reveal('.wireframes-and-usability-tests img', {delay: 100});
-          //
-          // ScrollReveal().reveal('.branding', {delay: 100});
-          // ScrollReveal().reveal('.branding img', {delay: 100});
-          //
-          // ScrollReveal().reveal('.mockups', {delay: 100});
-          //
-          // ScrollReveal().reveal('.conclusion', {delay: 100});
-
-
-        </script>
 
   </body>
 
