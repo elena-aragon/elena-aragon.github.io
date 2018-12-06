@@ -199,7 +199,6 @@ footer{
   background-size: cover;
 }
 
-
 .hero{
   height: 45rem;
   padding: 0rem 10% 15% 10%;
@@ -235,7 +234,6 @@ footer{
   margin-right: 1rem;
   padding-bottom: 8rem;
 }
-
 
 /* Bouncing Arrow */
 
@@ -782,37 +780,37 @@ hr {
       width: 60%;
     }
 
-    .about-wrapper{
-      background-image: url("../images/about-background.jpg");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      height: 60vh;
+  .about-wrapper{
+    background-image: url("../images/about-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+  }
+
+  .hero-about{
+      padding: 0rem 10% 15% 1%;
+      width: 100%;
     }
 
-    .hero-about{
-        padding: 0rem 10% 15% 1%;
-        width: 100%;
-      }
+  hr {
+    float: left;
+    margin-left: 8%;
+    margin-top: auto;
+    width: 17rem;
+  }
 
-    hr {
-      float: left;
-      margin-left: 8%;
-      margin-top: auto;
-      width: 17rem;
-    }
+  .hero-about{
+    padding-bottom: 15rem;
+    padding-top: 5rem;
+  }
 
-    .hero-about{
-      padding-bottom: 15rem;
-      padding-top: 5rem;
-    }
-
-    .hero-about h1{
-      color: #494486;
-      font-size: 5rem;
-      margin-left: 3rem;
-      margin-top: 1rem;
-    }
+  .hero-about h1{
+    color: #494486;
+    font-size: 5rem;
+    margin-left: 3rem;
+    margin-top: 1rem;
+  }
 }
 
 
@@ -927,6 +925,10 @@ hr {
 
   .hero-about button {
     margin-left: 2rem
+  }
+
+  .about-wrapper{
+    height: 30rem;
   }
 
 }
@@ -1153,7 +1155,7 @@ hr {
   }
 
   .about-wrapper{
-    height: 50vh;
+    height: 30rem;
   }
 
   .hero-about button{
@@ -1255,9 +1257,15 @@ hr {
     padding-top: 15rem;
   }
 
+
+  .about-wrapper{
+    height: 40rem;
+  }
+
   .hero-about h1{
     font-size: 6rem;
     margin-left: 3rem;
+    margin-top: -3rem;
   }
 
   .hero-about a{
@@ -1332,7 +1340,7 @@ hr {
 
 @media screen and (min-width: 768px){
   .hero-wrapper, .about-wrapper {
-    height: 50vh;
+    height: 50rem;
   }
 }
 
@@ -1475,6 +1483,7 @@ hr {
   .about-wrapper{
     height: 80vh;
   }
+
   .hero-about{
     padding-bottom: 15rem;
     padding-top: 15rem;
@@ -1928,7 +1937,7 @@ hr {
 
 
   .about-wrapper{
-    height: 70vh;
+    height: 50rem;
   }
 
   .hero-about h1{
@@ -2061,7 +2070,7 @@ hr {
   }
 
   .about-wrapper{
-    height: 70vh;
+    height: 60rem;
   }
 
   .hero-about h1{
@@ -2079,7 +2088,7 @@ hr {
   }
 
   .about-wrapper{
-    height: 75vh;
+    height: 7rem;
   }
 
   .hero-about h1{
@@ -2113,7 +2122,7 @@ hr {
   }
 
   .about-wrapper{
-    height: 70vh;
+    height: 70rem;
   }
 
   .hero-wrapper{
@@ -2235,6 +2244,7 @@ hr {
   .about-wrapper{
     height: 60vh;
   }
+
   .hero-about h1{
     font-size: 10rem;
     margin-left: 30rem;
