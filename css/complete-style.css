@@ -201,7 +201,7 @@ footer{
 
 
 .hero{
-  height: 70vh;
+  height: 45rem;
   padding: 0rem 10% 15% 10%;
   width: 100%;
 }
@@ -1204,7 +1204,7 @@ hr {
 
   .hero {
     padding: 0rem 10% 15% 10%;
-    height: 80vh;
+    height: 50rem;
   }
 
   .hero h3{
@@ -1343,7 +1343,7 @@ hr {
 @media screen and (orientation: landscape){
 
   .hero-wrapper{
-    height: 70vh;
+    height: 50rem;
   }
 
   .hero{
@@ -1376,7 +1376,7 @@ hr {
   .bounce {
     animation: bounce 3s infinite;
     color: #2A2A2A;
-    margin-top: -6rem;
+    margin-top: -4rem;
     -moz-animation: bounce 2s infinite;
     -webkit-animation: bounce 2s infinite;
   }
@@ -1600,7 +1600,7 @@ hr {
   }
 
   .hero-wrapper{
-    height: 85vh;
+    height: 65rem;
   }
 
   .hero {
@@ -1999,9 +1999,14 @@ hr {
     margin-top: -1rem;
   }
 
+  .hero-wrapper{
+    height: 65rem;
+  }
+
   .about-wrapper{
     height: 72vh;
   }
+
   .hero-about h1{
     font-size: 7rem;
     margin-left: 12rem;
@@ -2012,6 +2017,10 @@ hr {
 
 
 @media screen and (min-width: 1300px){
+  .hero-wrapper{
+    height: 70rem;
+  }
+
   .hero h3{
     font-size: 5rem;
   }
@@ -2105,6 +2114,10 @@ hr {
 
   .about-wrapper{
     height: 70vh;
+  }
+
+  .hero-wrapper{
+    height: 80rem;
   }
 
   .hero-about h1{
