@@ -88,18 +88,17 @@ br {
 
 .navbar{
   background-color: rgba(237, 232, 229, .8);
-  width: 100%;
   background-size: cover;
   height: 8.4rem;
   margin-left: 0px;
   margin-right: 0px;
   padding-left: 0rem;
+  width: 100%;
 }
 
 .navigation{
   display: inline-flex;
   float: right;
-
 }
 
 .navigation p{
@@ -111,9 +110,10 @@ br {
 
 .navigation a{
   color: #494486;
-  text-decoration: none;
   font-family: "ChampagneLimousines";
   opacity: 1;
+  text-decoration: none;
+  transition: color .5s ease;
 }
 
 .navigation a:hover{
@@ -122,8 +122,8 @@ br {
 }
 
 .about{
-  margin-right: 1rem;
   margin-left: 0rem;
+  margin-right: 1rem;
   padding-left: 0rem;
 }
 
@@ -141,21 +141,18 @@ br {
 }
 
 .personal-logo{
-  margin-left: 1rem;
-  width: 3rem;
-  position: absolute;
   margin-bottom: 2.5rem;
+  margin-left: 1rem;
   margin-top: 1rem;
+  position: absolute;
+  width: 3rem;
 }
 
-
-
 footer{
-  /* background-image: url("../images/mobile-footer-background.png"); */
+  background-color: #D5CECA;
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #D5CECA;
 }
 
 .footer-icons {
@@ -169,9 +166,9 @@ footer{
   font-family: "ChampagneLimousines";
   font-size: 3.7rem;
   letter-spacing: .2rem;
+  margin-top: 0rem;
   padding-top: 10%;
   text-align: center;
-  margin-top: 0rem;
 }
 
 
@@ -203,7 +200,6 @@ footer{
   background-size: cover;
   height: 70vh;
   padding: 0rem 10% 15% 10%;
-  /* margin-bottom: 1rem; */
   width: 100%;
 }
 
@@ -213,19 +209,19 @@ footer{
   font-size: 3rem;
   font-weight: bold;
   letter-spacing: .3rem;
-  margin-left: 1rem;
   margin-bottom: .5rem;
+  margin-left: 1rem;
   padding-top: 10vh;
   text-transform: uppercase;
 }
 
 .hero h1{
   color: #494486;
+  font-size: 3.5rem;
   font-weight: bold;
   letter-spacing: .3rem;
   margin: 3rem 0rem 3rem 1rem;
   padding-right: 0rem;
-  font-size: 3.5rem;
 }
 
 .hero p {
@@ -241,14 +237,13 @@ footer{
 /* Bouncing Arrow */
 
 .bounce {
-  -moz-animation: bounce 2s infinite;
-  -webkit-animation: bounce 2s infinite;
   animation: bounce 3s infinite;
-  /* margin-left: 50%; */
-  margin-top: -4rem;
   color: #2A2A2A;
   display: flex;
   justify-content: center;
+  margin-top: -4rem;
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
 }
 
 @-moz-keyframes bounce {
@@ -302,11 +297,9 @@ footer{
 /* End Bouncing Arrow */
 
 
-
-
 #featured-project {
-background-color: #2a2a2a;
-margin-bottom: 0rem;
+  background-color: #2a2a2a;
+  margin-bottom: 0rem;
 }
 
 .my-work{
@@ -325,12 +318,12 @@ h2.h2-mobile{
   color: #B6ECF8;
   font-family: "ChampagneLimousines";
   font-size: 5rem;
+  font-weight: normal;
   letter-spacing: .2rem;
-  padding-top: 10%;
   padding-bottom: 5%;
+  padding-top: 10%;
   margin: 0rem;
   text-align: center;
-  font-weight: normal;
   width: 100%;
 }
 
@@ -340,10 +333,11 @@ h2.h2-mobile{
   font-family: "MadeleinaSans";
   font-size: 2.7rem;
   letter-spacing: .2rem;
-  text-align: center;
-  margin: 1.5rem 0rem;
   line-height: 3rem;
+  margin: 1.5rem 0rem;
   padding-bottom: 1rem;
+  text-align: center;
+
   width: 100%;
 }
 
@@ -364,47 +358,42 @@ h2.h2-mobile{
   color: #fff;
   font-size: 1.5rem;
   letter-spacing: .1rem;
+  margin: 0rem;
+  padding: 1rem;
   text-decoration: none;
   text-align: center;
-  padding: 1rem;
-  margin: 0rem;
 }
 
 .hoverbox {
-	position: relative;
 	display: inline-block;
+  height: auto;
 	overflow: hidden;
+  position: relative;
 	width: 100%;
-	height: auto;
 }
 
 .hoverbox img {
-	width: 90%;
-  text-align: center;
   margin-left: 5%;
   margin-right: 5%;
   margin-top: 3rem;
   padding-bottom: 3rem;
+  text-align: center;
+  width: 90%;
 }
 
 
 /* End home page trunk overlay */
-
-
-
-
-
-
 
 /* End Home Page */
 
 
 
 
+
+
+
+
 /* Case Study */
-
-
-
 
 .trunk-summary {
     background-image: url("../images/mobile-trunk-background.png");
@@ -417,15 +406,14 @@ h2.h2-mobile{
 
 
 .trunk-pic {
-    width: 90%;
     margin: 3rem 5%;
+    width: 90%;
   }
 
 
 section.trunk-title h1{
   color: #8B8100;
   font-size: 7rem;
-  /* font-weight: bold; */
   margin: 0rem auto 1rem auto;
   padding-top: 2rem;
   text-align: center;
@@ -443,10 +431,11 @@ section.trunk-title h2{
   background: #2a2a2a;
   border-color: #B6ECF8;
   border-radius: 20px;
-  border-width: thin;
   border-style: solid;
+  border-width: thin;
   margin: 5rem auto 2rem auto;
   opacity: 1;
+  transition: background .4s ease;
   width: 50%;
 }
 
@@ -470,19 +459,25 @@ section.trunk-title h2{
   color: #B6ECF8;
   font-size: 2rem;
   letter-spacing: .1rem;
+  margin: 0rem;
+  padding: 1rem 2rem;
   text-decoration: none;
   text-align: center;
-  padding: 1rem 2rem;
-  margin: 0rem;
+  transition: background .4s ease;
+
+}
+
+.prototype-button:hover{
+  background-color: #B6ECF8;
+  border-radius: 18px;
+  color: #2a2a2a;
+  font-weight: bold;
+  transition: background .6s ease;
 }
 
 .prototype-button h2:hover{
   color: #2a2a2a;
-  font-weight: bold;
-  background-color: #B6ECF8;
-  border-radius: 18px;
-  transition: background .5s ease-in-out;
-
+  transition: background .6s ease;
 }
 
 .summary {
@@ -508,17 +503,15 @@ section.trunk-title h2{
 
 .summary h1{
   clear: right;
-  text-align: center;
-  padding-top: 3rem;
   margin-top: 0rem;
+  padding-top: 3rem;
+  text-align: center;
 }
 
 .summary h2{
   color: #B6ECF8;
   margin-top: 5rem;
 }
-
-
 
 section.solution p{
   padding-bottom: 5rem;
@@ -531,9 +524,7 @@ section.solution p{
 
 table.stats-table, table.usability-table{
   display: flex;
-  /* justify-content: center; */
   margin: 1rem 11%;
-  /* width: 60%; */
 }
 
 td{
@@ -584,18 +575,18 @@ td{
 h3.mobile-strengths-weaknesses{
   color: #8B8100;
   display: flex;
+  font-size: 4rem;
   justify-content: center;
   margin-bottom: 1rem;
   margin-top: 3rem;
-  font-size: 4rem;
 }
 
 .mobile-strengths-weaknesses p{
   color: #6C6C6C;
-  line-height: 2.2rem;
   font-family: "ChampagneLimousines";
   font-size: 2rem;
   font-weight: bold;
+  line-height: 2.2rem;
   text-align: center;
 }
 
@@ -615,12 +606,6 @@ h3.mobile-strengths-weaknesses{
   margin: 4rem 12.5% 2rem 12.5%;
 }
 
-/* .wireframes-and-usability-tests img{
-  margin-left: 12.5%;
-  margin-right: 12.5%;
-  width: 75%;
-} */
-
 .branding img{
   margin: 4rem 17.5% auto 17.5%;
   width: 65%;
@@ -639,39 +624,34 @@ img.white-trunk-logos{
   margin-top: 5rem;
 }
 
-/* .mockups p{
-  margin-bottom: 5rem;
-} */
-
 h2.results{
-  font-size: 3rem;
   color: #2a2a2a;
+  font-size: 3rem;
   margin-left: 10%;
   margin-top: 4rem;
   padding-bottom: 1rem;
 }
 
-/* .mockups img{
-  margin: 3rem 5%;
-  width: 90%;
-} */
-
 .desktop-original-file{
+  display: none;
+}
+
+.desktop-original-folder{
   display: none;
 }
 
 .mobile-original-file, .sign-up-process{
   display: flex;
   justify-content: center;
-  width: 90%;
   margin: 3rem auto;
+  width: 90%;
 }
 
 .mobile-original-folder2{
   display: flex;
   justify-content: center;
-  width: 90%;
   margin: 3rem auto 5rem auto;
+  width: 90%;
 }
 
 .conclusion {
@@ -679,6 +659,7 @@ h2.results{
 }
 
 /* End Case Study */
+
 
 
 
@@ -690,40 +671,35 @@ h2.results{
     background-repeat: no-repeat;
     background-size: cover;
     height: 80vh;
-    /* margin-bottom: 4rem; */
     padding: 0rem 10% 15% 5%;
     width: 100%;
   }
-}
-
-
 
 hr {
-  width: 17rem;
   float: left;
-  margin-top: auto;
   margin-left: 8%;
+  margin-top: auto;
+  width: 17rem;
 }
 
 .hero-about{
   padding-bottom: 15rem;
   padding-top: 11rem;
-  /* margin-bottom: 5rem; */
 }
 
 .hero-about h1{
   color: #494486;
-  margin-top: 0rem;
   font-size: 5rem;
+  margin-top: 0rem;
 }
 
 .hero-about button{
   background-color: #8B8100;
-  border-radius: 20px;
   border: none;
+  border-radius: 20px;
   padding: 1rem 2rem;
-  margin-top: 2rem;
   margin-left: 3rem;
+  margin-top: 2rem;
 }
 
 .hero-about-button:hover{
@@ -738,7 +714,6 @@ hr {
 }
 
 .bio-about {
-  /* line-height: 3rem; */
   background-color: #2a2a2a;
 }
 
@@ -754,13 +729,15 @@ hr {
   color: #fff;
   font-size: 1.6rem;
   margin-bottom: 0rem;
-  padding-bottom: 4rem;
 }
 
 .bio-emphasis{
   color: #766FC8;
 }
 
+
+
+/* End About Me */
 
 
 
@@ -774,40 +751,36 @@ hr {
   }
 
   .connect a{
-    color: #fff;
-    margin-right: 2rem;
     background-color: #494486;
-    border-radius: 5px;
-    padding: .5rem 1rem;
+    border-radius: 20px;
+    color: #fff;
     line-height: 2rem;
+    margin-right: 2rem;
+    padding: .5rem 1rem;
+    transition: background .3s ease-out;
   }
 
   .connect a:hover{
     background-color: #E0625E;
     color: #fff;
-    transition: background .5s ease;
+    transition: background .3s ease-out;
   }
 
   .trunk-pic {
-      width: 60%;
       margin-left: 20%;
       margin-right: 20%;
+      width: 60%;
     }
 
 }
 
 
 
-
-
-
-
-
 @media screen and (min-width: 480px){
 
   .personal-logo img{
+    margin-top: 1.3rem;
     width: 3.3rem;
-    margin-top: 2rem;
   }
 
   .navigation p{
@@ -827,11 +800,9 @@ hr {
     font-size: 4rem;
   }
 
-
   .linkedin, .twitter, .email, .github {
     width: 3rem;
   }
-
 
   .hero h3 {
     font-size: 3rem;
@@ -848,7 +819,6 @@ hr {
   h2.h2-mobile{
     font-size: 6.5rem;
   }
-
 
   .hoverbox-text p{
     font-size: 2.7rem;
@@ -867,9 +837,9 @@ hr {
   }
 
   .hoverbox img {
-  	width: 90%;
     margin-left: 5%;
     margin-right: 5%;
+    width: 90%;
   }
 
   .prototype-button h2{
@@ -901,9 +871,9 @@ hr {
   }
 
   .trunk, .trunk-image{
-    width: 90%;
     margin-left: 5%;
     margin-right: 5%;
+    width: 90%;
   }
 
   .hero-about button{
@@ -924,7 +894,6 @@ hr {
 
 
 @media screen and (min-width: 580px){
-
 
   h1{
     font-size: 5rem;
@@ -957,9 +926,9 @@ hr {
   }
 
   .personal-logo img{
-  margin-top: 2rem;
-  margin-bottom: 2.7rem;
-  width: 3.8rem;
+    margin-top: .8rem;
+    margin-bottom: 2.7rem;
+    width: 3.8rem;
   }
 
   .connect{
@@ -988,9 +957,9 @@ hr {
   }
 
   .trunk-pic {
-    width: 60%;
     margin-left: 20%;
     margin-right: 20%;
+    width: 60%;
   }
 
   .hero h3{
@@ -1003,8 +972,8 @@ hr {
   }
 
   .hero p{
-    width: 80%;
     font-size: 1.7rem;
+    width: 80%;
   }
 
   h2.h2-mobile{
@@ -1029,19 +998,17 @@ hr {
   h3.strengths-weaknesses{
     color: #8B8100;
     display: flex;
-    justify-content: center;
-    margin-bottom: 1rem;
-    margin-top: 3rem;
-    margin: 3rem auto 1rem auto;
     font-size: 4rem;
+    justify-content: center;
+    margin: 3rem auto 1rem auto;
   }
 
   .tablet-strengths-weaknesses p{
     color: #6C6C6C;
-    line-height: 2.2rem;
     font-family: "ChampagneLimousines";
     font-size: 2rem;
     font-weight: bold;
+    line-height: 2.2rem;
     text-align: center;
   }
 
@@ -1050,9 +1017,9 @@ hr {
   }
 
   .hoverbox img {
-    width: 80%;
     margin-left: 10%;
     margin-right: 10%;
+    width: 80%;
   }
 
   h2.results{
@@ -1060,17 +1027,17 @@ hr {
   }
 
   table.usability-table{
-    width: 80%;
     display: flex;
     justify-content: center;
     margin-left: 10%;
     margin-right: 10%;
+    width: 80%;
   }
 
   .wireframes-and-usability-tests img{
-    width: 75%;
     margin-left: 12.5%;
     margin-right: 12.5%;
+    width: 75%;
   }
 
   .mobile-original-folder2, .mobile-original-file{
@@ -1082,7 +1049,6 @@ hr {
     justify-content: center;
     width: 80%;
   }
-
 
   .trunk-image, .trunk{
     width: 70%;
@@ -1118,17 +1084,17 @@ hr {
 
   .strengths-weaknesses h3{
     color: #8B8100;
+    font-size: 4rem;
     margin-bottom: 1rem;
     margin-top: 3rem;
-    font-size: 4rem;
   }
 
   .strengths-weaknesses p{
     color: #6C6C6C;
-    line-height: 2.1rem;
     font-family: "ChampagneLimousines";
     font-size: 2rem;
     font-weight: bold;
+    line-height: 2.1rem;
     text-align: center;
   }
 
@@ -1141,10 +1107,9 @@ hr {
   }
 
   .desktop-original-file, .desktop-original-folder{
-    width: 75%;
     margin: 4rem 12.5%;
+    width: 75%;
   }
-
 
   .hero-about button{
     margin-left: 2.5rem;
@@ -1155,9 +1120,6 @@ hr {
     font-size: 6rem;
   }
 }
-
-
-
 
 
 
@@ -1182,12 +1144,13 @@ hr {
 
   .personal-logo {
     margin-left: 2rem;
+    margin-top: .5rem;
   }
 
   .personal-logo img{
-  margin-top: 1.5rem;
-  margin-bottom: 2.6rem;
-  width: 4rem;
+    margin-bottom: 2.6rem;
+    margin-top: 1.5rem;
+    width: 4rem;
   }
 
   #footer-connect h2{
@@ -1195,8 +1158,8 @@ hr {
   }
 
   .hero {
-      padding: 0rem 10% 15% 10%;
-      height: 80vh;
+    padding: 0rem 10% 15% 10%;
+    height: 80vh;
   }
 
   .hero h3{
@@ -1218,15 +1181,15 @@ hr {
   }
 
   img.trunk-style-guide {
-    width: 50%;
     margin-left: 25%;
     margin-right: 25%;
+    width: 50%;
   }
 
   .prototype-button {
-    width: 30%;
-    margin-right: 35%;
     margin-left: 35%;
+    margin-right: 35%;
+    width: 30%;
   }
 
   .trunk h2{
@@ -1238,9 +1201,9 @@ hr {
   }
 
   .trunk, .trunk-image{
-    width: 60%;
     margin-left: 20%;
     margin-right: 20%;
+    width: 60%;
   }
 
   .hero-about{
@@ -1254,13 +1217,12 @@ hr {
 
   .hero-about a{
     font-size: 2.5rem;
-
   }
 
   .hoverbox img{
-    width: 70%;
     margin-left: 15%;
     margin-right: 15%;
+    width: 70%;
   }
 
   .hoverbox-text p{
@@ -1272,8 +1234,8 @@ hr {
     background: #fff;
     border: #E0625E solid 3px;
     border-radius: 20px;
-    border-radius: 20px;
     margin: 1rem 15% 2rem 15%;
+    transition: background .5s ease-in-out;
     width: 70%;
   }
 
@@ -1283,13 +1245,15 @@ hr {
   }
 
   .case-study-button:hover{
-    transition: background .5s ease-in-out;
-    width: 100%;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    margin: 1rem auto 2rem auto;
     background-color: #E0625E;
     border-radius: 20px;
+    margin: 1rem auto 2rem auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    transition: background .5s ease-in-out;
+    width: 100%;
+
+
   }
 
   .case-study-button h2:hover{
@@ -1298,9 +1262,9 @@ hr {
   }
 
   .strengths-weaknesses h3{
+    font-size: 4rem;
     margin-bottom: 1rem;
     margin-top: 3rem;
-    font-size: 4rem;
   }
 
   .strengths-weaknesses p{
@@ -1332,7 +1296,6 @@ hr {
 
 
 @media screen and (orientation: landscape){
-  /* Home Page */
 
   .hero{
     height: 70vh;
@@ -1341,95 +1304,83 @@ hr {
 
   .hero h3 {
     font-size: 2.5rem;
-    margin-left: 1rem;
     margin-bottom: .5rem;
+    margin-left: 1rem;
     padding-top: 3rem;
   }
 
   .hero h1{
+    font-size: 3.5rem;
     margin: 1.5rem 0rem 1.5rem 1rem;
     padding-right: 0rem;
-    font-size: 3.5rem;
   }
 
   .hero p {
     color: #4C4C4C;
+    font-size: 1.6rem;
     margin-left: 1rem;
     margin-right: 1rem;
     padding-bottom: 8rem;
-    font-size: 1.6rem;
   }
 
 
   /* Bouncing Arrow */
-
   .bounce {
+    animation: bounce 3s infinite;
+    color: #2A2A2A;
+    margin-top: -6rem;
     -moz-animation: bounce 2s infinite;
     -webkit-animation: bounce 2s infinite;
-    animation: bounce 3s infinite;
-    /* margin-left: 50%; */
-    margin-top: -6rem;
-    color: #2A2A2A;
   }
-
-
 
   #featured-project {
   background-color: #2a2a2a;
   margin-bottom: 0rem;
   }
 
-
-
   /* Home page trunk overlay */
 
   .mobile-case-study-button{
-    margin: 2rem 35%;
-    width: 30%;
+    margin: 2rem 30%;
+    width: 40%;
   }
 
   .hoverbox {
-  	position: relative;
   	display: inline-block;
+    height: auto;
   	overflow: hidden;
-  	width: 100%;
-  	height: auto;
+    position: relative;
+    width: 100%;
   }
 
+
   .hoverbox img {
-  	width: 70%;
-    text-align: center;
     margin-left: 15%;
     margin-right: 15%;
     margin-top: 3rem;
     padding-bottom: 3rem;
+    text-align: center;
+    width: 70%;
   }
-
 
   /* End home page trunk overlay */
 
   /* End Home Page */
 
 
-.hero-about {
-  height: 50vh;
-  padding-bottom: 20rem;
-}
+  .hero-about {
+    height: 50vh;
+    padding-bottom: 20rem;
+  }
 
-.hero-about h1{
-  padding-top: 1rem;
-}
+  .hero-about h1{
+    padding-top: 1rem;
+  }
 
-.hero-about button{
-  margin-bottom: 4rem;
+  .hero-about button{
+    margin-bottom: 4rem;
 
-}
-
-
-
-
-
-
+  }
 
 }
 
@@ -1456,22 +1407,21 @@ hr {
     font-size: 2rem;
   }
 
-
   .trunk h2{
     font-size: 7rem;
   }
 
   .trunk h3{
     font-size: 2.9rem;
-    width: 80%;
     margin-left: auto;
     margin-right: auto;
+    width: 80%;
   }
 
   .trunk, .trunk-image{
-    width: 55%;
     margin-left: 22.5%;
     margin-right: 22.5%;
+    width: 55%;
   }
 
   .hero-about{
@@ -1481,8 +1431,8 @@ hr {
 
   .hero-about h1{
     color: #494486;
-    margin-top: 0rem;
     font-size: 7rem;
+    margin-top: 0rem;
   }
 
 
@@ -1492,23 +1442,22 @@ hr {
 
   .bounce{
     margin-top: 1rem;
-    /* margin-left: 48%; */
   }
 
   .hoverbox img{
-    width: 60%;
     margin-left: 20%;
     margin-right: 20%;
+    width: 60%;
   }
 
   .wireframes-and-usability-tests img{
-    width: 60%;
     margin: 4rem 20%;
+    width: 60%;
   }
 
   .desktop-original-file, .desktop-original-folder{
-    width: 60%;
     margin: 4rem 20%;
+    width: 60%;
   }
 
   .footer-icons {
@@ -1516,7 +1465,6 @@ hr {
     margin-right: 35%;
     margin-top: 2rem;
   }
-
 
 }
 
@@ -1565,9 +1513,9 @@ hr {
   }
 
   .personal-logo img{
-  margin-top: 1.2rem;
-  margin-bottom: 2.7rem;
-  width: 3.8rem;
+    margin-bottom: 2.7rem;
+    margin-top: 1.2rem;
+    width: 3.8rem;
   }
 
   .connect{
@@ -1595,14 +1543,14 @@ hr {
   }
 
   .trunk-pic {
-    width: 40%;
     margin-left: 30%;
     margin-right: 30%;
+    width: 40%;
   }
 
   .hero {
-    padding-bottom: 8rem;
     height: 80vh;
+    padding-bottom: 8rem;
   }
 
   .hero h3 {
@@ -1616,14 +1564,13 @@ hr {
   }
 
   .hero p{
-    width: 50%;
-    padding-bottom: 2rem;
     font-size: 2.2rem;
+    padding-bottom: 2rem;
+    width: 50%;
   }
 
   .bounce {
     margin-top: 4rem;
-    /* margin-left: 49%; */
   }
 
   /* Home page trunk overlay */
@@ -1660,10 +1607,10 @@ hr {
     font-family: "MadeleinaSans";
     font-size: 2.7rem;
     letter-spacing: .2rem;
-    text-align: center;
-    margin: 1.5rem 0rem;
     line-height: 3rem;
+    margin: 1.5rem 0rem;
     padding-bottom: 1rem;
+    text-align: center;
     width: 100%;
   }
 
@@ -1676,24 +1623,23 @@ hr {
     display: inline-block;
     font-family: "ChampagneLimousines";
     font-size: 7rem;
+    font-weight: normal;
     letter-spacing: .2rem;
     padding-top: 5rem;
     padding-bottom: 2rem;
     margin: 0rem;
     text-align: center;
-    font-weight: normal;
     width: 100%;
   }
 
   .case-study-button{
     background: #2a2a2a;
-    display: block;
     border: #E0625E solid 1px;
     border-radius: 20px;
-    border-radius: 20px;
+    cursor: pointer;
+    display: block;
     margin: 1rem auto 2rem auto;
     width: 100%;
-    cursor: pointer;
   }
 
   .case-study-button h2{
@@ -1702,10 +1648,10 @@ hr {
     font-size: 1.5rem;
     font-weight: bold;
     letter-spacing: .1rem;
-    text-decoration: none;
-    text-align: center;
-    padding: 1rem;
     margin: 0rem;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
   }
 
   .hoverbox,
@@ -1714,20 +1660,20 @@ hr {
   }
 
   .hoverbox {
-  	position: relative;
   	display: inline-block;
+    height: auto;
   	overflow: hidden;
+    position: relative;
   	width: 100%;
-  	height: auto;
   }
 
   .hoverbox img {
-  	width: 80%;
-    text-align: center;
     margin-left: auto;
     margin-right: auto;
     margin-top: 3rem;
     padding-bottom: 3rem;
+    text-align: center;
+    width: 80%;
   }
 
   .hoverbox .hoverbox-layer-bottom {
@@ -1736,21 +1682,20 @@ hr {
   }
 
   .hoverbox .hoverbox-layer-top {
-  	opacity: 0;
+    color: #fff;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    -ms-transition: all 0.4s ease-in-out 0s;
+    opacity: 0;
+    padding: 15px;
   	position: absolute;
+    right: 0;
   	top: 0;
-  	left: 0;
-  	right: 0;
-  	bottom: 0;
+    transition: all 0.4s ease-in-out 0s;
+    -webkit-transition: all 0.4s ease-in-out 0s;
   	width: 100vw;
-  	height: 100%;
-  	/* background: #2A2A2A; */
-  	color: #fff;
-  	padding: 15px;
-  	-moz-transition: all 0.4s ease-in-out 0s;
-  	-webkit-transition: all 0.4s ease-in-out 0s;
-  	-ms-transition: all 0.4s ease-in-out 0s;
-  	transition: all 0.4s ease-in-out 0s;
   }
 
   .hoverbox:hover .hoverbox-layer-top,
@@ -1772,7 +1717,6 @@ hr {
   /* End home page trunk overlay */
 
 
-
   .trunk-summary {
       background-image: url("../images/trunk-background.png");
       background-position: top right;
@@ -1788,9 +1732,9 @@ hr {
   }
 
   .desktop-original-file, .desktop-original-folder {
-    width: 40%;
     margin-left: 30%;
     margin-right: 30%;
+    width: 40%;
   }
 
   .tablet-strengths-weaknesses, .mobile-strengths-weaknesses{
@@ -1800,9 +1744,9 @@ hr {
   table.strengths-weaknesses{
     display: flex;
     justify-content: center;
-    width: 70%;
     margin-left: auto;
     margin-right: auto;
+    width: 70%;
   }
 
   h2.results{
@@ -1811,25 +1755,25 @@ hr {
   }
 
   .strengths-weaknesses h3{
-    margin: 3rem 1rem 1rem 1rem;
     font-size: 5rem;
+    margin: 3rem 1rem 1rem 1rem;
   }
 
   table.strengths-weaknesses p{
-    line-height: 2.5rem;
     font-size: 2.5rem;
+    line-height: 2.5rem;
     margin-left: 0rem;
     margin-right: 0rem;
   }
 
   table.strengths-weaknesses td{
-    /* padding: 1rem 2rem 0rem 0rem; */
     margin: 10rem;
   }
 
   td.strengths-left{
     padding: 1rem 0rem 0rem 5rem;
   }
+
   td.strengths-right{
     padding-left: 0rem;
     padding-right: 5rem
@@ -1841,71 +1785,68 @@ hr {
   }
 
   .wireframes-and-usability-tests img{
-    width: 40%;
     margin-left: 30%;
     margin-right: 30%;
+    width: 40%;
   }
 
   .wireframes-and-usability-tests h3{
     margin-left: 20%;
-
   }
 
   table.stats-table{
     display: flex;
     justify-content: center;
     margin: 2rem 35% 2rem 20%;
-    /* width: 40%; */
   }
 
   .branding img{
-    width: 30%;
-    margin-right: 35%;
     margin-left: 35%;
+    margin-right: 35%;
+    width: 30%;
   }
 
   img.bw-trunk-logo{
-    width: 25%;
     margin-left: 37.5%;
     margin-right: 37.5%;
+    width: 25%;
   }
 
   .trunk-logos {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
     align-content: space-between;
-    /* width: 90%; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     margin: auto 0rem;
   }
 
   .trunk-logos img{
-    width: 30rem;
     height: 20rem;
     margin-left: 1rem;
     margin-right: 1rem;
+    width: 30rem;
   }
 
   img.trunk-style-guide {
-    width: 45%;
     margin-left: 27.5%;
     margin-right: 27.5%;
+    width: 45%;
   }
 
 
   .trunk{
-    width: 30%;
     float: left;
     margin-left: 15%;
     margin-right: 1rem;
+    width: 30%;
   }
 
   .trunk-image {
-    width: 30%;
     float: right;
+    margin-left: 1rem;
     margin-right: 15%;
     margin-top: 3rem;
-    margin-left: 1rem;
+    width: 30%;
   }
 
   .trunk h2{
@@ -1930,39 +1871,24 @@ hr {
   }
 
   .hero-about{
+    height: 70vh;
     padding-top: 10rem;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 70vh;
   }
 
   .hero-about h1{
     color: #494486;
-    margin-top: 7rem;
     font-size: 7rem;
-  }
-
-  .hero-about button {
-    background-color: #8B8100;
-    border-radius: 20px;
-    border: none;
-    padding: 1rem 2rem;
-    margin-top: 2rem;
-    margin-left: 3rem
-
+    margin-top: 7rem;
   }
 
   .hero-about a{
     color: #fff;
     font-family: "MadeleinaSans";
     font-size: 3.2rem;
-
   }
-
-  /* .bio-about {
-    margin-bottom: 10rem;
-  } */
 
   .bio-about h2{
     font-size: 4.5rem;
@@ -1975,23 +1901,25 @@ hr {
   .hero-about{
     padding-bottom: 23rem;
     padding-top: 5rem;
-    /* margin-bottom: 5rem; */
   }
 
   .hoverbox img{
-    width: 40%;
     margin-left: auto;
     margin-right: auto;
+    width: 40%;
   }
+
 }
 
 
 
 
 @media screen and (min-width: 1150px){
+  .personal-logo{
+    margin-top: .7rem;
+  }
 
   .hero p{
-    /* width: 70%; */
     padding-bottom: 8rem;
   }
 
@@ -1999,6 +1927,7 @@ hr {
     font-size: 4rem;
     padding-left: 0rem;
   }
+
   td.stats{
     font-size: 2.5rem;
   }
@@ -2008,9 +1937,9 @@ hr {
   }
 
   .hoverbox img{
-    width: 40%;
     margin-left: auto;
     margin-right: auto;
+    width: 40%;
   }
 
   .bounce{
@@ -2023,7 +1952,6 @@ hr {
 @media screen and (min-width: 1300px){
   .hero h3{
     font-size: 5rem;
-
   }
 
   .hero h1{
@@ -2032,24 +1960,23 @@ hr {
 
   .hero p{
     font-size: 3rem;
-    width: 50%;
     padding-bottom: 8rem;
+    width: 50%;
   }
 
   .bounce{
     margin-top: -3rem;
   }
 
-
   .trunk-image {
+    margin-right: 20%;
     margin-top: 2rem;
     width: 25%;
-    margin-right: 20%;
   }
 
   .trunk{
-    width: 25%;
     margin-left: 20%;
+    width: 25%;
   }
 
   .footer-icons {
@@ -2063,19 +1990,23 @@ hr {
   }
 }
 
+
+
 @media screen and (min-width: 1500px){
   .bounce{
     margin-top: 6rem;
   }
 
   .hero-about{
-    padding-top: 10rem;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 70vh;
+    padding-top: 10rem;
   }
 }
+
+
 
 @media screen and (min-width: 1900px){
   p{
@@ -2089,15 +2020,11 @@ hr {
   }
 
   .prototype-button {
-    width: 10%;
     margin-left: 45%;
     margin-right: 45%;
+    width: 10%;
   }
 
-  /* table.stats-table {
-    display: flex;
-    justify-content: center;
-  } */
 }
 
 
@@ -2121,6 +2048,7 @@ hr {
   .hero {
     height: 50vh;
   }
+
   .hoverbox-text h2{
     font-size: 12rem;
     letter-spacing: .5rem;
@@ -2142,15 +2070,14 @@ hr {
   }
 
   .trunk-pic {
-    width: 30%;
-    margin-right: 35%;
     margin-left: 35%;
+    margin-right: 35%;
+    width: 30%;
   }
 
   p {
-    margin: auto 30%;
     font-size: 2.7rem;
-
+    margin: auto 30%;
   }
 
   h2 {
@@ -2175,19 +2102,19 @@ hr {
   }
 
   .wireframes-and-usability-tests h3{
-    margin: 8rem 30%;
     font-size: 3.5rem;
+    margin: 8rem 30%;
   }
 
   .wireframes-and-usability-tests img{
-    width: 30%;
     margin: auto 35%;
+    width: 30%;
   }
 
   .desktop-original-file, .desktop-original-folder{
-    width: 30%;
     margin-left: 35%;
     margin-right: 35%;
+    width: 30%;
   }
 
   .branding {
@@ -2195,14 +2122,13 @@ hr {
   }
 
   img.sketches, img.bw-trunk-logo{
-    width: 20%;
     margin: 2rem 40%;
-
+    width: 20%;
   }
 
   img.trunk-style-guide{
-    width: 30%;
     margin: 2rem 35%;
+    width: 30%;
   }
 
   .footer-icons {
