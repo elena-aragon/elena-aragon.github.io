@@ -156,11 +156,25 @@ br {
   /* text-decoration: underline; */
 }
 
-
 ul{
+  color: #6C6C6C;
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  margin-left: 8rem;
+  width: 70%;
+  list-style-type: circle;
+}
+
+ul p{
+  color: #6C6C6C;
+  font-family: "ChampagneLimousines";
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 2rem;
+  margin-left: 1%;
+  margin-bottom: 1rem;
 }
 
 footer{
@@ -479,6 +493,14 @@ section.trunk-title h2{
   text-align: center;
   padding: 1rem 2rem;
   margin: 0rem;
+}
+
+.user-flows-image{
+  display: flex;
+  justify-content: center;
+  margin: 5rem auto;
+  max-width: 45rem;
+  width: 100%;
 }
 
 .trunk-mockups{
@@ -1061,6 +1083,18 @@ h1.hero-about-h1{
     font-size: 2.2rem;
   }
 
+  ul{
+    margin-left: 14rem;
+    width: 70%;
+  }
+
+  ul p{
+    font-size: 2.2rem;
+    line-height: 2.3rem;
+    margin-left: 1%;
+    margin-bottom: 1rem;
+  }
+
   .hero-wrapper{
     background-image:url("../images/home-background-coffee.png");
   }
@@ -1474,6 +1508,18 @@ h1.hero-about-h1{
     margin: auto 12.5%;
   }
 
+  ul{
+    margin-left: 16rem;
+    width: 70%;
+  }
+
+  ul p{
+    font-size: 2.2rem;
+    line-height: 2.3rem;
+    margin-left: 1%;
+    margin-bottom: 1rem;
+  }
+
   #footer-connect h2{
     font-size: 5rem;
   }
@@ -1498,6 +1544,14 @@ h1.hero-about-h1{
 
  h2.h2-mobile{
    padding-top: 5%;
+ }
+
+ .user-flows-image{
+   display: flex;
+   justify-content: center;
+   margin: 5rem auto;
+   max-width: 50rem;
+   width: 80%;
  }
 
  .trunk-mockups{
@@ -1778,6 +1832,15 @@ h1.hero-about-h1{
   p {
     font-size: 2rem;
     margin: auto 20%;
+  }
+
+  ul{
+    margin-left: 25%;
+    width: 70%;
+  }
+
+  ul p{
+    font-size: 2.3rem;
   }
 
   .navigation p{
@@ -2212,6 +2275,11 @@ h1.hero-about-h1{
 
   .hero p{
     padding-bottom: 8rem;
+  }
+
+  .user-flows-image{
+    max-width: 60rem;
+    width: 80%;
   }
 
   td.percent{
