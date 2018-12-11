@@ -157,8 +157,10 @@ br {
 }
 
 
-li{
-list-style-type: disc;
+ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 footer{
@@ -479,6 +481,11 @@ section.trunk-title h2{
   margin: 0rem;
 }
 
+.trunk-mockups{
+  margin-top: 5rem;
+  width: 100%;
+}
+
 .mockups .prototype-button h2{
   color: #B6ECF8;
   font-size: 2rem;
@@ -690,6 +697,18 @@ h2.results{
   margin: 3rem auto 5rem auto;
   width: 90%;
 }
+
+.trunk-mockups{
+  display: none;
+}
+
+img.mobile-trunk-mockups{
+  display: flex;
+  margin: auto;
+  margin-top: 5rem;
+  width: 100%;
+}
+
 
 .conclusion {
   margin-bottom: 10rem;
@@ -1210,6 +1229,17 @@ h1.hero-about-h1{
     margin-left: 12.5%;
   }
 
+  .trunk-mockups{
+    display: none;
+  }
+
+  img.mobile-trunk-mockups{
+    display: flex;
+    margin: auto;
+    margin-top: 5rem;
+    width: 40%;
+  }
+
   .desktop-original-file, .desktop-original-folder{
     margin: 4rem 12.5%;
     width: 75%;
@@ -1468,6 +1498,17 @@ h1.hero-about-h1{
 
  h2.h2-mobile{
    padding-top: 5%;
+ }
+
+ .trunk-mockups{
+   display: flex;
+   justify-content: center;
+   margin: 3rem auto 5rem auto;
+   width: 90%;
+ }
+
+ img.mobile-trunk-mockups{
+   display: none;
  }
 
   .hero-wrapper {
