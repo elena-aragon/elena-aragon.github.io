@@ -156,6 +156,11 @@ br {
   /* text-decoration: underline; */
 }
 
+
+li{
+list-style-type: disc;
+}
+
 footer{
   background-color: #D5CECA;
   background-position: top center;
@@ -461,7 +466,9 @@ section.trunk-title h2{
   transform: translateY(4px);
 }
 
-
+.summary{
+  padding-top: 8%;
+}
 .summary .prototype-button h2{
   color: #B6ECF8;
   font-size: 1.8rem;
@@ -566,8 +573,21 @@ td{
   margin-bottom: 4rem;
 }
 
-.competitive2 p{
-  float: left;
+.competitor-icons{
+  display: inline-flex;
+  justify-content: center;
+  justify-content: space-around;
+  padding-left: 15%;
+  padding-right: 15%;
+  margin: 3rem auto 1rem auto;
+  width: 100%;
+
+}
+
+.google-drive, .dropbox{
+  height: 20%;
+  max-width: 12rem;
+  width: 30%;
 }
 
 .competitive-analysis li{
@@ -684,17 +704,10 @@ h2.results{
 
 .about-wrapper{
   background-color: #EBE4E0;
-  /* background-image: url("../images/about-background.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; */
-  /* height: 28rem; */
 }
 
 .hero-about-wrapper{
-  /* background-color: #EBE4E0; */
-    /* padding: 10rem 10% 15% 1%; */
-    width: 100%;
+  width: 100%;
     /* height: 20rem; */
 }
 
@@ -716,6 +729,7 @@ h2.results{
   display: flex;
   justify-content: left;
   font-size: 4rem;
+  font-family: sans-serif;
   font-weight: bold;
   letter-spacing: .3rem;
   margin-left: 10%;
@@ -740,11 +754,10 @@ h1.hero-about-h1{
 
 @-webkit-keyframes colorchange {
   0% {
-    color: #8B8100;
+    color: #29349B;
   }
-
-  10%{
-    color: #8B8100;
+  5% {
+    color: #29349B;
   }
 
   30% {
@@ -754,11 +767,11 @@ h1.hero-about-h1{
 
   60% {
 
-    color: #62AAFF;
+    color: #572676;
   }
 
   100%{
-    color: #DC9100;
+    color: #A72C67;
   }
 }
 
@@ -991,6 +1004,7 @@ h1.hero-about-h1{
   .navigation p{
     font-size: 1.7rem;
     margin-top: 2.8rem;
+    margin-right: 1.3rem;
   }
 
   .personal-logo img{
@@ -1004,7 +1018,7 @@ h1.hero-about-h1{
   }
 
   .linkedin, .twitter, .email, .github {
-    width: 3.5rem;
+    width: 5rem;
   }
 
   .footer-icons{
@@ -1047,7 +1061,8 @@ h1.hero-about-h1{
 
   .hero p{
     font-size: 1.8rem;
-    width: 80%;
+    max-width: 55rem;
+    width: 70%;
   }
 
   .bounce{
@@ -1059,8 +1074,12 @@ h1.hero-about-h1{
   }
 
   .mobile-case-study-button{
-    margin: 1rem 30% 4rem 30%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 5rem;
     width: 40%;
+    max-width: 25rem;
   }
 
   .mobile-case-study-button h2{
@@ -1197,17 +1216,34 @@ h1.hero-about-h1{
   }
 
   .about-wrapper{
-    height: 30rem;
+    height: 80rem;
+  }
+
+  .mobile-about-me-photo{
+    width: 70%;
+    max-width: 50rem;
   }
 
   .hero-about button{
     margin-left: 2.5rem;
   }
 
-  .hero-about h1{
-    margin-left: 2.5rem;
-    font-size: 6rem;
+  .hero-about-wrapper{
+    margin-top: 3rem;
   }
+
+  .competitor-icons{
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+
+  .google-drive, .dropbox{
+    height: 30%;
+    max-width: 12rem;
+    width: 30%;
+  }
+
+
 }
 
 
@@ -1380,11 +1416,113 @@ h1.hero-about-h1{
 
 
 
-/* @media screen and (min-width: 768px){
-  .hero-wrapper, .about-wrapper {
-    height: 50rem;
+@media screen and (min-width: 768px){
+
+  h1{
+    font-size: 5rem;
+    margin: 6rem 12.5% 2rem 12.5%;
   }
-} */
+
+  h2 {
+    font-size: 3.5rem;
+    margin: 6rem 12.5% 2rem 12.5%;
+
+  }
+
+  h3 {
+    font-size: 4rem;
+    margin: auto 12.5%;
+  }
+
+  h4{
+    margin: auto 12.5%;
+  }
+
+  p {
+    font-size: 1.8rem;
+    line-height: 170%;
+    margin: auto 12.5%;
+  }
+
+  #footer-connect h2{
+    font-size: 5rem;
+  }
+
+  .linkedin, .twitter, .email, .github {
+    width: 4rem;
+}
+
+
+  img.trunk-pic{
+    display: flex;
+    justify-content: center;
+    max-width: 60rem;
+    margin: 8rem auto;
+    width: 80%;
+
+  }
+
+  .summary{
+    padding-top: 5rem;
+  }
+
+ h2.h2-mobile{
+   padding-top: 5%;
+ }
+
+  .hero-wrapper {
+    height: 55rem;
+  }
+
+  .about-wrapper{
+    height: 87rem;
+  }
+
+  .mobile-about-me-photo{
+    display: none;
+  }
+
+  .hero-about-wrapper{
+    margin-top: 5rem;
+  }
+
+  .hero-about-wrapper h1{
+    font-size: 6rem;
+    font-weight: normal;
+    margin-left: 12.5%;
+  }
+
+  .about-name{
+    font-size: 6rem;
+  }
+
+  .about-me-photo{
+    display: flex;
+    justify-content: center;
+    margin: 6rem auto;
+    max-width: 60rem;
+    width: 70%;
+  }
+
+  .bio-about h2{
+    font-size: 4rem;
+  }
+
+  .bio-about p{
+    font-size: 1.8rem;
+  }
+
+  .competitor-icons{
+    padding-left: 30%;
+    padding-right: 30%;
+  }
+
+  .google-drive, .dropbox{
+    height: 30%;
+    max-width: 12rem;
+    width: 30%;
+  }
+}
 
 
 
@@ -1896,6 +2034,17 @@ h1.hero-about-h1{
 
   .wireframes-and-usability-tests h3{
     margin-left: 20%;
+  }
+
+  .competitor-icons{
+    padding-left: 35%;
+    padding-right: 35%;
+  }
+
+  .google-drive, .dropbox{
+    height: 30%;
+    max-width: 12rem;
+    width: 30%;
   }
 
   table.stats-table{
