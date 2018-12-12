@@ -344,7 +344,7 @@ footer{
 
 .h2-desktop, .p-desktop, .case-study-button{
   display: none;
-}
+}.
 
 h2.h2-mobile{
   color: #766FC8;
@@ -362,7 +362,7 @@ h2.h2-mobile{
 
 .hoverbox-text p{
   color: #fff;
-  font-family: "MadeleinaSans";
+  font-family: sans-serif;
   font-size: 2.7rem;
   letter-spacing: .2rem;
   line-height: 3rem;
@@ -495,6 +495,86 @@ section.trunk-title h2{
   margin: 0rem;
 }
 
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 3fr 3fr 3fr 1fr 1fr 3fr 3fr 3fr 1fr 1fr;
+  grid-template-rows: 5fr 1fr 5fr 1fr 5fr;
+  margin-top: 5rem;
+}
+
+.research1, .research2, .research3, .research4, .research5, .research6{
+  background-color: #2a2a2a;
+  padding: 1rem;
+}
+
+div.research1{
+  grid-column: 3/6;
+}
+
+div.research2{
+  grid-column: 8/11;
+}
+
+div.research3{
+  grid-row: 3/4;
+  grid-column: 3/6;
+}
+
+div.research4{
+  grid-row: 3/4;
+  grid-column: 8/11;
+}
+
+div.research5{
+  grid-row: 5/6;
+  grid-column: 3/6;
+}
+
+div.research6{
+  grid-row: 5/6;
+  grid-column: 8/11;
+}
+
+  /* .grid{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 5fr 1fr 5fr;
+  }
+
+  div.research1{
+    display: grid;
+    background-color: #2a2a2a;
+    grid-column: 3/5;
+  }
+
+  div.research2{
+    background-color: #2a2a2a;
+    display: grid;
+    grid-column: 5/7;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  div.research3{
+    background-color: #2a2a2a;
+
+    grid-column: 7/9;
+  }
+
+  div.research4{
+    background-color: #2a2a2a;
+
+    grid-row-start: 3;
+    grid-column: 4/6
+  }
+
+  div.research5{
+    background-color: #2a2a2a;
+
+    grid-row-start: 3;
+    grid-column: 6/8
+  } */
+
 .user-flows-image{
   display: flex;
   justify-content: center;
@@ -586,16 +666,19 @@ td{
 }
 
 .percent {
-  color: #8B8100;
+  color: #B6ECF8;
   font-family: "ChampagneLimousines";
-  font-size: 3.5rem;
+  font-size: 4rem;
+  text-align: center;
 }
 
 .stats{
-  color: #6C6C6C;
+  color: #fff;
   font-family: "ChampagneLimousines";
-  font-size: 2rem;
-  font-weight: bold;
+  font-size: 1.8rem;
+  line-height: 140%;
+  text-align: center;
+  /* font-weight: bold; */
 }
 
 .competitive p{
@@ -673,22 +756,22 @@ h3.mobile-strengths-weaknesses{
 }
 
 .branding img{
-  margin: 4rem 17.5% auto 17.5%;
-  width: 65%;
+  margin: 2rem 17.5% 2rem 17.5%;
+  /* width: 65%; */
 }
 
-.bw-trunk-logo img{
-  margin: auto 25% auto 25%;
+.bw-trunk-logo img, .bw-trunk-logos2 img{
+  margin: 0rem 25% auto 25%;
   width: 50%;
 }
 
 .trunk-logos img{
-  margin: 3rem 17.5% 0rem 17.5%;
+  margin: 2rem 17.5% 0rem 17.5%;
 }
 
-img.white-trunk-logos{
+/* img.white-trunk-logos{
   margin-top: 5rem;
-}
+} */
 
 h2.results{
   color: #2a2a2a;
@@ -1095,6 +1178,7 @@ h1.hero-about-h1{
     margin-bottom: 1rem;
   }
 
+
   .hero-wrapper{
     background-image:url("../images/home-background-coffee.png");
   }
@@ -1123,7 +1207,13 @@ h1.hero-about-h1{
   }
 
   h2.h2-mobile{
+    display: flex;
     font-size: 8rem;
+    justify-content: center;
+    letter-spacing: .2rem;
+    margin: 5rem auto;
+    color: #766FC8;
+    }
   }
 
   .mobile-case-study-button{
@@ -1229,7 +1319,63 @@ h1.hero-about-h1{
     padding: .5rem;
   }
 
-  table.mobile-strengths-weaknesses, h3.mobile-strengths-weaknesses{
+  .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr 3fr 1fr 3fr 3fr 1fr 3fr 3fr 1fr 1fr;
+    grid-template-rows: 5fr 1fr 5fr;
+    margin: auto;
+    margin-top: 8rem;
+    max-width: 60rem;
+  }
+
+  .research1, .research2, .research3, .research4, .research5, .research6{
+    background-color: #2a2a2a;
+    padding: 1rem;
+  }
+
+  .percent{
+    font-size: 4.5rem;
+  }
+
+  .stats{
+    font-size: 1.8rem;
+  }
+
+  h2.results{
+    font-size: 3.5rem;
+    font-weight: bold;
+  }
+
+  div.research1{
+    grid-column: 3/5;
+  }
+
+  div.research2{
+    grid-column: 6/8;
+  }
+
+  div.research3{
+    grid-row: 1/2;
+    grid-column: 9/11;
+  }
+
+  div.research4{
+    grid-row-start: 3;
+    grid-column: 3/5;
+  }
+
+  div.research5{
+    grid-row-start: 3;
+    grid-column: 6/8;
+  }
+
+  div.research6{
+    grid-row-start: 3;
+    grid-column: 9/11
+  }
+
+
+  /* table.mobile-strengths-weaknesses, h3.mobile-strengths-weaknesses{
     display: none;
   }
 
@@ -1257,22 +1403,87 @@ h1.hero-about-h1{
 
   .strengths-weaknesses td{
     padding: .5rem;
-  }
+  } */
 
   .wireframes-and-usability-tests h3{
     margin-left: 12.5%;
   }
 
-  .trunk-mockups{
+  /* .trunk-mockups{
     display: none;
-  }
+  } */
 
-  img.mobile-trunk-mockups{
+  img.trunk-mockups{
     display: flex;
+    justify-content: center;
     margin: auto;
     margin-top: 5rem;
-    width: 40%;
+    max-width: 60rem;
+    width: 90%;
   }
+
+  /* img.sketches, img.bw-trunk-logo, img.bw-trunk-logo2,   .trunk-logos img, .styleguide img{
+    margin: 4rem 25% auto 25%;
+   width: 50%; */
+
+  /* img.sketches{
+    display: flex;
+    justify-content: center;
+    margin: 3rem auto;
+    max-width: 30rem;
+    width: 50%;
+  } */
+
+
+  .trunk-logos{
+    display: grid;
+    grid-template-columns: 6fr 3fr;
+    grid-template-rows: .95fr .95fr 1fr 1fr;
+    margin: 5rem auto 5rem auto;
+    max-width: 60rem;
+    width: 100%;
+  }
+
+  .trunk-logos img{
+    margin: 0rem;
+    width: 100%;
+  }
+
+  img.sketches{
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 1/8;
+  }
+
+  .bw-trunk-logo{
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+
+  .bw-trunk-logo2{
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+
+  img.white-trunk-logos{
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 3/4;
+  }
+
+  img.black-trunk-logos{
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 4/5;
+    margin-top: 3%;
+    /* margin: 0rem; */
+  }
+
+  /* .trunk-logos img{
+    margin-bottom: 3rem;
+  } */
 
   .desktop-original-file, .desktop-original-folder{
     margin: 4rem 12.5%;
@@ -1546,6 +1757,20 @@ h1.hero-about-h1{
    padding-top: 5%;
  }
 
+ .grid{
+   max-width: 85rem;
+   margin: auto;
+   margin-top: 8rem;
+ }
+
+ .percent{
+   font-size: 4.5rem;
+ }
+
+ .stats{
+   font-size: 2rem;
+ }
+
  .user-flows-image{
    display: flex;
    justify-content: center;
@@ -1563,6 +1788,14 @@ h1.hero-about-h1{
 
  img.mobile-trunk-mockups{
    display: none;
+ }
+
+ img.sketches{
+   display: flex;
+   justify-content: center;
+   margin: 3rem auto;
+   max-width: 30rem;
+   width: 50%;
  }
 
   .hero-wrapper {
@@ -1942,15 +2175,16 @@ h1.hero-about-h1{
 
   .hoverbox-text p{
     color: #fff;
-    display: block;
-    font-family: "MadeleinaSans";
-    font-size: 2.7rem;
+    display: flex;
+    font-family: sans-serif;
+    font-size: 2rem;
+    justify-content: center;
     letter-spacing: .2rem;
     line-height: 3rem;
-    margin: 1.5rem 0rem;
+    margin: 1.5rem auto;
     padding-bottom: 1rem;
     text-align: center;
-    width: 100%;
+    width: 80%;
   }
 
   .h2-desktop {
@@ -2100,6 +2334,8 @@ h1.hero-about-h1{
     margin-right: 20%;
   }
 
+
+
   .strengths-weaknesses h3{
     font-size: 5rem;
     margin: 3rem 1rem 1rem 1rem;
@@ -2157,7 +2393,7 @@ h1.hero-about-h1{
     margin: 2rem 35% 2rem 20%;
   }
 
-  .branding img{
+  /* .branding img{
     margin-left: 35%;
     margin-right: 35%;
     width: 30%;
@@ -2167,27 +2403,29 @@ h1.hero-about-h1{
     margin-left: 37.5%;
     margin-right: 37.5%;
     width: 25%;
-  }
+  } */
 
-  .trunk-logos {
-    align-content: space-between;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: auto 0rem;
-  }
-
-  .trunk-logos img{
+  /* .trunk-logos img{
     height: 20rem;
     margin-left: 1rem;
     margin-right: 1rem;
     width: 30rem;
-  }
+  } */
 
-  img.trunk-style-guide {
+  img.trunk-colors {
     margin-left: 27.5%;
     margin-right: 27.5%;
-    width: 45%;
+    width: 90%;
+  }
+
+
+  img.trunk-mockups{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 5rem;
+    max-width: 80rem;
+    width: 90%;
   }
 
 
@@ -2533,7 +2771,7 @@ h1.hero-about-h1{
     width: 20%;
   }
 
-  img.trunk-style-guide{
+  img.trunk-colors{
     margin: 2rem 35%;
     width: 30%;
   }
