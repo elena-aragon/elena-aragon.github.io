@@ -16,43 +16,40 @@ body {
 }
 
 @font-face {
-  font-family: "ChampagneLimousines";
-  src: url("ChampagneLimousines.ttf");
+  font-family: "Tajawal";
+  src: url("Tajawal.ttf");
 }
 
 @font-face {
-  font-family: "ChampagneLimousinesBold";
-  src: url("ChampagneLimousinesBold.ttf");
+  font-family: "TajawalBold";
+  src: url("TajawalBold.ttf");
 }
 
 @font-face {
-  font-family:"MadeleinaSans", Trebuchet, Garamond, sans-serif;
-  src: url("MadeleinaSans.otf");
+  font-family: "Neoteric", Helvetica, Trebuchet;
+  src: url("Neoteric.ttf");
 }
 
 @font-face {
-  font-family: "WellrockSlab", Georgia, serif;
-  src: url("WellrockSlab.ttf");
-}
-
-@font-face{
-  font-family: "RobotoRegular", Arial, sans-serif;
-  src: url("RobotoRegular.ttf")
+  font-family: "LucidaSans", Arial, sans-serif;
+  src: url("LucidaSans.ttf");
 }
 
 h1{
   color: #766FC8;
-  font-family: "ChampagneLimousines", Helvetica, Arial, sans-serif;
+  font-family: "Tajawal", Helvetica, Arial, sans-serif;
   font-size: 5rem;
   margin: 4rem 10% 1rem 10%;
   text-align: left;
+  /* text-transform: uppercase; */
 }
 
 h2 {
   color: #1F1F1F;
-  font-family:"ChampagneLimousines", Helvetica, Arial, sans-serif;
+  font-family:"Tajawal", Helvetica, Arial, sans-serif;
   font-size: 4rem;
   margin: 5rem 10% 1.5rem 10%;
+  /* text-transform: uppercase; */
 }
 
 h3 {
@@ -67,16 +64,15 @@ h4{
 
 p {
   color: #2a2a2a;
-  font-family: sans-serif;
+  font-family: Helvetica, Arial;
   font-size: 1.7rem;
-  font-weight: normal;
   line-height: 160%;
   margin: auto 10%;
 }
 
 a {
   color: #5a52b3;
-  font-family: sans-serif;
+  font-family: Helvetica, Arial;
   font-weight: bold;
   text-decoration: none;
 }
@@ -111,7 +107,7 @@ br {
 
 .navigation a{
   color: #494486;
-  font-family: sans-serif;
+  font-family: Helvetica, sans-serif;
   font-weight: normal;
   opacity: 1;
   text-decoration: none;
@@ -169,7 +165,7 @@ ul{
 
 ul p{
   color: #6C6C6C;
-  font-family: "ChampagneLimousines";
+  font-family: "Tajawal";
   font-size: 2rem;
   font-weight: bold;
   line-height: 2rem;
@@ -192,7 +188,7 @@ footer{
 
 #footer-connect h2{
   color: #494486;
-  font-family: "ChampagneLimousines";
+  font-family: "Tajawal";
   font-size: 3.7rem;
   letter-spacing: .2rem;
   margin-top: 0rem;
@@ -207,7 +203,7 @@ footer{
 
 .designed h4{
   color: #2a2a2a;
-  font-family: "ChampagneLimousines";
+  font-family: "Tajawal";
   font-size: 1.4rem;
   letter-spacing: .1rem;
   padding-bottom: 4%;
@@ -236,7 +232,7 @@ footer{
 
 .hero h3 {
   color: #8B8100;
-  font-family: "ChampagneLimousines";
+  font-family: "Tajawal";
   font-size: 2rem;
   font-weight: bold;
   letter-spacing: .3rem;
@@ -348,7 +344,7 @@ footer{
 
 h2.h2-mobile{
   color: #766FC8;
-  font-family: "ChampagneLimousines";
+  font-family: "Tajawal";
   font-size: 7rem;
   font-weight: normal;
   letter-spacing: .2rem;
@@ -472,6 +468,7 @@ section.trunk-title h2{
   border-style: solid;
   border-width: thin;
   margin: 5rem auto 2rem auto;
+  max-width: 30rem;
   opacity: 1;
   transition: background .4s ease;
   width: 50%;
@@ -504,6 +501,7 @@ section.trunk-title h2{
 
 .research1, .research2, .research3, .research4, .research5, .research6{
   background-color: #2a2a2a;
+  font-family: "Tajawal";
   padding: 1rem;
 }
 
@@ -667,14 +665,14 @@ td{
 
 .percent {
   color: #B6ECF8;
-  font-family: "ChampagneLimousines";
+  font-family: "Tajawal";
   font-size: 4rem;
   text-align: center;
 }
 
 .stats{
   color: #fff;
-  font-family: "ChampagneLimousines";
+  font-family: "Tajawal";
   font-size: 1.8rem;
   line-height: 140%;
   text-align: center;
@@ -704,7 +702,7 @@ td{
 
 .competitive-analysis li{
   color: #6C6C6C;
-  font-family: "ChampagneLimousines";
+  font-family: "Tajawal";
   font-size: 2rem;
   font-weight: bold;
   margin-left: 13%;
@@ -732,7 +730,7 @@ h3.mobile-strengths-weaknesses{
 
 .mobile-strengths-weaknesses p{
   color: #6C6C6C;
-  font-family: "ChampagneLimousines";
+  font-family: "Tajawal";
   font-size: 2rem;
   font-weight: bold;
   line-height: 2.2rem;
@@ -749,14 +747,14 @@ h3.mobile-strengths-weaknesses{
 
 .wireframes-and-usability-tests h3{
   color: #8B8100;
-  font-family:"ChampagneLimousines";
+  font-family:"Tajawal";
   font-size: 2rem;
   font-weight: bold;
   margin: 4rem 12.5% 2rem 12.5%;
 }
 
 .branding img{
-  margin: 2rem 17.5% 2rem 17.5%;
+  /* margin: 2rem 17.5% 2rem 17.5%; */
   /* width: 65%; */
 }
 
@@ -772,6 +770,14 @@ h3.mobile-strengths-weaknesses{
 /* img.white-trunk-logos{
   margin-top: 5rem;
 } */
+
+.trunk-typography, .trunk-colors{
+  display: flex;
+  justify-content: center;
+  margin: 4rem auto;
+  max-width: 50rem;
+  width: 100%;
+}
 
 h2.results{
   color: #2a2a2a;
@@ -1249,7 +1255,7 @@ h1.hero-about-h1{
 
   .tablet-strengths-weaknesses p{
     color: #6C6C6C;
-    font-family: "ChampagneLimousines";
+    font-family: "Tajawal";
     font-size: 2rem;
     font-weight: bold;
     line-height: 2.2rem;
@@ -1394,7 +1400,7 @@ h1.hero-about-h1{
 
   .strengths-weaknesses p{
     color: #6C6C6C;
-    font-family: "ChampagneLimousines";
+    font-family: "Tajawal";
     font-size: 2rem;
     font-weight: bold;
     line-height: 2.1rem;
@@ -2077,8 +2083,12 @@ h1.hero-about-h1{
   }
 
   .navigation p{
-    font-size: 2.5rem;
-    margin-top: 2rem;
+    font-size: 1.8rem;
+    margin-top: 3rem;
+  }
+
+  .navigation a{
+    padding: .5rem;
   }
 
   .personal-logo img{
@@ -2147,7 +2157,7 @@ h1.hero-about-h1{
 
   /* Home page trunk overlay */
 
-  .h2-mobile, .mobile-case-study-button{
+  h2.h2-mobile, .mobile-case-study-button{
     display: none;
   }
 
@@ -2164,7 +2174,7 @@ h1.hero-about-h1{
   .hoverbox-text h2{
     color: #766FC8;
     display: block;
-    font-family: "ChampagneLimousines";
+    font-family: "Tajawal";
     font-size: 6rem;
     letter-spacing: .2rem;
     padding-top: 8%;
@@ -2188,13 +2198,13 @@ h1.hero-about-h1{
   }
 
   .h2-desktop {
-    font-family: "ChampagneLimousines";
+    font-family: "Tajawal";
   }
 
   .my-work{
     color: #fff;
     display: inline-block;
-    font-family: "ChampagneLimousines";
+    font-family: "Tajawal";
     font-size: 7rem;
     font-weight: normal;
     letter-spacing: .2rem;
@@ -2212,12 +2222,13 @@ h1.hero-about-h1{
     cursor: pointer;
     display: block;
     margin: 1rem auto 2rem auto;
+    max-width: 20rem;
     width: 100%;
   }
 
   .case-study-button h2{
     color: #B6ECF8;
-    font-family:"ChampagneLimousinesBold";
+    font-family:"TajawalBold";
     font-size: 1.5rem;
     font-weight: bold;
     letter-spacing: .1rem;
@@ -2229,6 +2240,12 @@ h1.hero-about-h1{
 
   .case-study-button h2:hover{
     color: #2a2a2a;
+    font-weight: bold;
+  }
+
+  .case-study-button:hover{
+    background-color: #B6ECF8;
+    transition: background 1s ease;
   }
 
 
@@ -2412,11 +2429,11 @@ h1.hero-about-h1{
     width: 30rem;
   } */
 
-  img.trunk-colors {
+  /* img.trunk-colors {
     margin-left: 27.5%;
     margin-right: 27.5%;
     width: 90%;
-  }
+  } */
 
 
   img.trunk-mockups{
