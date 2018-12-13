@@ -53,7 +53,7 @@ h2 {
 }
 
 h3 {
-  font-family: "MadeleinaSans", Trebuchet, Garamond, sans-serif;
+  font-family: "Tajawal", Trebuchet, Garamond, sans-serif;
   font-size: 3rem;
   margin: auto 10%;
 }
@@ -99,7 +99,7 @@ br {
 }
 
 .navigation p{
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   margin-left: 0rem;
   margin-top: 3rem;
   text-align: right;
@@ -117,6 +117,20 @@ br {
 .navigation a:hover{
   color: #E0625E;
   transition: color .3s ease;
+}
+
+.back-top{
+  margin-top: 3rem;
+  text-align: right;
+  vertical-align: top;
+}
+
+.back-top a{
+  color: #6C6C6C;
+  font-size: 1.3rem;
+  margin-top: 3rem;
+  text-align: right;
+  vertical-align: top;
 }
 
 .about{
@@ -155,21 +169,21 @@ br {
 ul{
   color: #6C6C6C;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   flex-direction: column;
   margin: auto;
-  margin-left: 8rem;
-  width: 70%;
-  list-style-type: circle;
+  /* margin-left: 8rem; */
+  width: 93%;
+  list-style-type: none;
 }
 
 ul p{
-  color: #6C6C6C;
-  font-family: "Tajawal";
-  font-size: 2rem;
-  font-weight: bold;
+  color: #2a2a2a;
+  font-family: Helvetica, Arial;
+  font-size: 1.7rem;
+  /* font-weight: bold; */
   line-height: 2rem;
-  margin-left: 1%;
+  /* margin-left: 1%; */
   margin-bottom: 1rem;
 }
 
@@ -190,7 +204,6 @@ footer{
   color: #494486;
   font-family: "Tajawal";
   font-size: 3.7rem;
-  letter-spacing: .2rem;
   margin-top: 0rem;
   padding-top: 3rem;
   text-align: center;
@@ -204,7 +217,7 @@ footer{
 .designed h4{
   color: #2a2a2a;
   font-family: "Tajawal";
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   letter-spacing: .1rem;
   padding-bottom: 4%;
   text-align: center;
@@ -234,7 +247,7 @@ footer{
   color: #8B8100;
   font-family: "Tajawal";
   font-size: 2rem;
-  font-weight: bold;
+  /* font-weight: bold; */
   letter-spacing: .3rem;
   margin-bottom: .5rem;
   margin-left: 1rem;
@@ -244,16 +257,15 @@ footer{
 
 .hero h1{
   color: #494486;
-  font-size: 3.5rem;
+  font-size: 3.7rem;
   font-weight: bold;
-  letter-spacing: .3rem;
   margin: 3rem 0rem 3rem 1rem;
   padding-right: 0rem;
 }
 
 .hero p {
   color: #4C4C4C;
-  font-family: sans-serif;
+  font-family: Helvetica;
   font-size: 1.5rem;
   /* font-weight: bold; */
   margin-left: 1rem;
@@ -340,25 +352,25 @@ footer{
 
 .h2-desktop, .p-desktop, .case-study-button{
   display: none;
-}.
+}
 
 h2.h2-mobile{
   color: #766FC8;
   font-family: "Tajawal";
-  font-size: 7rem;
+  font-size: 6rem;
   font-weight: normal;
-  letter-spacing: .2rem;
   padding-bottom: 5%;
-  padding-top: 10%;
+  padding-top: 20%;
   margin: 0rem;
   text-align: center;
+  text-transform: uppercase;
   width: 100%;
 }
 
 
 .hoverbox-text p{
   color: #fff;
-  font-family: sans-serif;
+  font-family: Helvetica;
   font-size: 2.7rem;
   letter-spacing: .2rem;
   line-height: 3rem;
@@ -373,7 +385,10 @@ h2.h2-mobile{
   background-color: #2a2a2a;
   border: #B6ECF8 solid 1.5px;
   border-radius: 20px;
+  display: flex;
+  justify-content: center;
   margin: 2rem 25%;
+  min-width: 17rem;
   width: 50%;
 }
 
@@ -383,13 +398,17 @@ h2.h2-mobile{
 }
 
 .mobile-case-study-button h2{
+  align-items: center;
   color: #B6ECF8;
+  /* display: flex; */
+  justify-content: center;
   font-size: 1.7rem;
   letter-spacing: .1rem;
   margin: 0rem;
-  padding: 1rem;
+  padding: 1.5rem 1rem 1rem 1rem;
   text-decoration: none;
   text-align: center;
+  vertical-align: middle;
 }
 
 .hoverbox {
@@ -431,15 +450,17 @@ h2.h2-mobile{
   background-color: #EBE4E0;
 }
 
-.trunk-summary {
+#trunk-summary {
     padding: 2rem 10% 2% 10%;
     width: 100%;
   }
 
 
 .trunk-pic {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    margin: 3rem auto 3rem auto;
+    max-width: 60rem;
     width: 100%;
   }
 
@@ -462,16 +483,16 @@ section.trunk-title h2{
 }
 
 .prototype-button{
-  background: #2a2a2a;
-  border-color: #B6ECF8;
+  background: #E0625E;
+  border-color: #E0625E;
   border-radius: 20px;
   border-style: solid;
-  border-width: thin;
+  border-width: 1.5px;
   margin: 5rem auto 2rem auto;
-  max-width: 30rem;
+  max-width: 25rem;
   opacity: 1;
   transition: background .4s ease;
-  width: 50%;
+  width: 60%;
 }
 
 .prototype-button:active {
@@ -482,13 +503,16 @@ section.trunk-title h2{
 .summary{
   padding-top: 8%;
 }
-.summary .prototype-button h2{
-  color: #B6ECF8;
-  font-size: 1.8rem;
+
+.mockups .prototype-button h2, .summary .prototype-button h2{
+  color: #2a2a2a;
+  font-family: Helvetica;
+  font-size: 1.7rem;
+  font-weight: normal;
   letter-spacing: .1rem;
   text-decoration: none;
   text-align: center;
-  padding: 1rem 2rem;
+  padding: 1rem 2rem 1rem 2rem;
   margin: 0rem;
 }
 
@@ -586,8 +610,8 @@ div.research6{
   width: 100%;
 }
 
-.mockups .prototype-button h2{
-  color: #B6ECF8;
+/* .mockups .prototype-button h2{
+  color: #2a2a2a;
   font-size: 2rem;
   letter-spacing: .1rem;
   margin: 0rem;
@@ -596,7 +620,7 @@ div.research6{
   text-align: center;
   transition: background .4s ease;
 
-}
+} */
 
 .prototype-button:hover{
   background-color: #B6ECF8;
@@ -621,7 +645,15 @@ div.research6{
 }
 
 .summary a{
-  color:#766FC8;
+  color: #766FC8;
+}
+
+.summary .back-top a{
+  color: #6C6C6C;
+  font-size: 1.3rem;
+  margin-top: 3rem;
+  text-align: right;
+  vertical-align: top;
 }
 
 .summary a:hover, .research a:hover, .competitive-analysis a:hover,
@@ -645,7 +677,7 @@ div.research6{
 }
 
 section.solution p{
-  padding-bottom: 5rem;
+  padding-bottom: 2rem;
 }
 
 .process h1{
@@ -666,17 +698,35 @@ td{
 .percent {
   color: #B6ECF8;
   font-family: "Tajawal";
-  font-size: 4rem;
+  font-size: 3.3rem;
+  margin: 0rem;
   text-align: center;
 }
 
 .stats{
   color: #fff;
   font-family: "Tajawal";
-  font-size: 1.8rem;
+  font-size: 1.6rem;
+  font-weight: lighter;
   line-height: 140%;
+  margin: 0rem;
+
   text-align: center;
-  /* font-weight: bold; */
+}
+
+.usability-percent{
+  color: #8B8100;
+  font-family: "Tajawal";
+  font-size: 4rem;
+  text-align: center;
+}
+
+.usability-stats{
+  color: #2a2a2a;
+  font-family: "Tajawal";
+  font-size: 1.6rem;
+  font-weight: bold;
+  line-height: 140%;
 }
 
 .competitive p{
@@ -745,6 +795,64 @@ h3.mobile-strengths-weaknesses{
   display:inline-flex;
 }
 
+.user-personas-lily-robert{
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr 3fr 1fr;
+  grid-auto-rows: 1fr 1fr;
+}
+
+.user-personas-lily-robert img{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  grid-column: 2/5;
+  max-width: 15rem;
+  min-width: 10rem;
+  width: 40%;
+}
+
+.user-persona-robert{
+  grid-column:2/5;
+  grid-row: 1/2;
+}
+
+.user-persona-lily{
+  grid-column: 2/5;
+  grid-row: 2/3;
+}
+
+h2.h2-user-personas{
+  display: block;
+  font-size: 3.5rem;
+  margin: 4rem auto 0rem auto;
+  text-align: center;
+}
+
+h3.h3-user-personas{
+  display: block;
+  font-size: 2.5rem;
+  margin: 3rem auto 1rem auto;
+  text-align: left;
+}
+
+h3.h3-user-personas-title{
+  display: block;
+  font-size: 2.5rem;
+  margin: 1rem auto 0rem auto;
+  text-align: center;
+}
+
+.p-user-personas-bio{
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.p-user-personas{
+  display: block;
+  font-size: 1.7rem;
+  margin: 1rem auto;
+}
+
 .wireframes-and-usability-tests h3{
   color: #8B8100;
   font-family:"Tajawal";
@@ -763,9 +871,52 @@ h3.mobile-strengths-weaknesses{
   width: 50%;
 }
 
-.trunk-logos img{
-  margin: 2rem 17.5% 0rem 17.5%;
+.trunk-logos{
+  display: grid;
+  grid-template-columns: 6fr 3fr;
+  grid-template-rows: .95fr .95fr 1fr 1fr;
+  margin: 5rem auto 5rem auto;
+  max-width: 60rem;
+  width: 100%;
 }
+
+.trunk-logos img{
+  margin: 0rem;
+  width: 100%;
+}
+
+img.sketches{
+  display: grid;
+  grid-column: 1/2;
+  grid-row: 1/8;
+}
+
+.bw-trunk-logo{
+  display: grid;
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.bw-trunk-logo2{
+  display: grid;
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+img.white-trunk-logos{
+  display: grid;
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+
+img.black-trunk-logos{
+  display: grid;
+  grid-column: 2/3;
+  grid-row: 4/5;
+  margin-top: 3%;
+  /* margin: 0rem; */
+}
+
 
 /* img.white-trunk-logos{
   margin-top: 5rem;
@@ -802,15 +953,19 @@ h2.results{
   width: 90%;
 }
 
+.wireframes2, .wireframe-sketc
+  display: flex;
+  justify-content: center;
+  margin: 3rem auto;
+  max-width: 35rem;
+  width: 80%;
+}
+
 .mobile-original-folder2{
   display: flex;
   justify-content: center;
   margin: 3rem auto 5rem auto;
   width: 90%;
-}
-
-.trunk-mockups{
-  display: none;
 }
 
 img.mobile-trunk-mockups{
@@ -822,7 +977,7 @@ img.mobile-trunk-mockups{
 
 
 .conclusion {
-  margin-bottom: 10rem;
+  margin-bottom: 5rem;
 }
 
 /* End Case Study */
@@ -859,7 +1014,7 @@ img.mobile-trunk-mockups{
   display: flex;
   justify-content: left;
   font-size: 4rem;
-  font-family: sans-serif;
+  font-family: Helvetica;
   font-weight: bold;
   letter-spacing: .3rem;
   margin-left: 10%;
@@ -873,7 +1028,7 @@ h1.hero-about-h1{
 
 .about-name{
   /* color: #E0625E; */
-  font-family: sans-serif;
+  font-family: Helvetica;
   font-size: 4rem;
   font-weight: bold;
   text-transform: uppercase;
@@ -1148,14 +1303,18 @@ h1.hero-about-h1{
   }
 
   .linkedin, .twitter, .email, .github {
-    width: 5rem;
+    width: 3.5rem;
   }
 
   .footer-icons{
-    margin: 2rem 35%;
+    margin: 2rem 30%;
   }
 
-  .trunk-summary h2{
+  .designed h4{
+    font-size: 1.7rem;
+  }
+
+  #trunk-summary h2{
     margin-top: 7rem;
   }
 
@@ -1217,10 +1376,9 @@ h1.hero-about-h1{
     font-size: 8rem;
     justify-content: center;
     letter-spacing: .2rem;
-    margin: 5rem auto;
+    margin: 0rem auto;
     color: #766FC8;
     }
-  }
 
   .mobile-case-study-button{
     display: flex;
@@ -1287,19 +1445,36 @@ h1.hero-about-h1{
     width: 80%;
   }
 
+  .usability-stats{
+    font-size: 2.2rem;
+    font-weight: normal;
+  }
+
   .wireframes-and-usability-tests img{
     margin-left: 12.5%;
     margin-right: 12.5%;
     width: 75%;
   }
 
+  .wireframes-and-usability-tests .wireframes2, .wireframes-and-usability-tests .wireframe-sketches{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 40rem;
+    width: 70%;
+  }
+
+
   .mobile-original-folder2, .mobile-original-file{
     display: none;
   }
 
-  .desktop-original-file, .desktop-original-folder{
+  img.desktop-original-file, img.desktop-original-folder{
     display: flex;
     justify-content: center;
+    margin: 3rem auto;
+    max-width: 50rem;
     width: 80%;
   }
 
@@ -1331,7 +1506,7 @@ h1.hero-about-h1{
     grid-template-rows: 5fr 1fr 5fr;
     margin: auto;
     margin-top: 8rem;
-    max-width: 60rem;
+    max-width: 71rem;
   }
 
   .research1, .research2, .research3, .research4, .research5, .research6{
@@ -1381,6 +1556,37 @@ h1.hero-about-h1{
   }
 
 
+
+
+
+  .user-personas-lily-robert img{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    max-width: 20rem;
+    width: 35%;
+  }
+
+  h2.h2-user-personas{
+    font-size: 4rem;
+  }
+
+  h3.h3-user-personas, h3.h3-user-personas-title{
+    font-size: 3rem;
+  }
+
+  .p-user-personas-bio{
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .p-user-personas{
+    display: block;
+    font-size: 1.8rem;
+    margin: 1rem auto;
+  }
+
+
   /* table.mobile-strengths-weaknesses, h3.mobile-strengths-weaknesses{
     display: none;
   }
@@ -1425,7 +1631,7 @@ h1.hero-about-h1{
     margin: auto;
     margin-top: 5rem;
     max-width: 60rem;
-    width: 90%;
+    width: 100%;
   }
 
   /* img.sketches, img.bw-trunk-logo, img.bw-trunk-logo2,   .trunk-logos img, .styleguide img{
@@ -1441,7 +1647,7 @@ h1.hero-about-h1{
   } */
 
 
-  .trunk-logos{
+  /* .trunk-logos{
     display: grid;
     grid-template-columns: 6fr 3fr;
     grid-template-rows: .95fr .95fr 1fr 1fr;
@@ -1485,7 +1691,7 @@ h1.hero-about-h1{
     grid-row: 4/5;
     margin-top: 3%;
     /* margin: 0rem; */
-  }
+  } */
 
   /* .trunk-logos img{
     margin-bottom: 3rem;
@@ -2148,7 +2354,8 @@ h1.hero-about-h1{
   .hero p{
     font-size: 2.2rem;
     padding-bottom: 2rem;
-    width: 75%;
+    max-width: 67rem;
+    width: 80%;
   }
 
   .bounce {
@@ -2186,7 +2393,7 @@ h1.hero-about-h1{
   .hoverbox-text p{
     color: #fff;
     display: flex;
-    font-family: sans-serif;
+    font-family: Helvetica;
     font-size: 2rem;
     justify-content: center;
     letter-spacing: .2rem;
@@ -2202,11 +2409,11 @@ h1.hero-about-h1{
   }
 
   .my-work{
-    color: #fff;
+    color: #B6ECF8;
     display: inline-block;
     font-family: "Tajawal";
     font-size: 7rem;
-    font-weight: normal;
+    font-weight:lighter;
     letter-spacing: .2rem;
     padding-top: 5rem;
     padding-bottom: 2rem;
@@ -2246,6 +2453,18 @@ h1.hero-about-h1{
   .case-study-button:hover{
     background-color: #B6ECF8;
     transition: background 1s ease;
+  }
+
+  .prototype-button:hover{
+    border-color: #fff;
+    background-color: #2a2a2a;
+  }
+
+  .prototype-button h2:hover{
+    color: #E0625E;
+  }
+  .summary .prototype-button h2{
+    font-size: 2rem;
   }
 
 
@@ -2318,7 +2537,7 @@ h1.hero-about-h1{
     background-size: cover; */
   }
 
-  .trunk-summary {
+  #trunk-summary {
       padding: 2rem 10% 2% 10%;
       width: 100%;
     }
@@ -2349,6 +2568,70 @@ h1.hero-about-h1{
   h2.results{
     margin-left: 20%;
     margin-right: 20%;
+  }
+
+
+
+
+  .user-personas-lily-robert{
+    display: grid;
+    grid-template-columns: 2fr 3fr 1fr 3fr 2fr;
+    grid-auto-rows: 1fr 1fr;
+  }
+
+  .user-personas-lily-robert img{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    /* grid-column: 2/5; */
+    max-width: 15rem;
+    min-width: 10rem;
+    width: 40%;
+  }
+
+  .user-persona-robert{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    /* max-width: 30rem; */
+  }
+
+  .user-persona-lily{
+    grid-column: 4/5;
+    grid-row: 1/2;
+    /* max-width: 30rem; */
+  }
+
+  h2.h2-user-personas{
+    display: block;
+    font-size: 3.5rem;
+    margin: 4rem auto 0rem auto;
+    text-align: center;
+  }
+
+  h3.h3-user-personas{
+    display: block;
+    font-size: 2.5rem;
+    margin: 3rem auto 1rem auto;
+    text-align: left;
+  }
+
+  h3.h3-user-personas-title{
+    display: block;
+    font-size: 2.5rem;
+    margin: 1rem auto 0rem auto;
+    text-align: center;
+  }
+
+  .p-user-personas-bio{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .p-user-personas{
+    display: block;
+    font-size: 1.7rem;
+    margin: 1rem auto;
   }
 
 
@@ -2495,7 +2778,7 @@ h1.hero-about-h1{
 
   .hero-about a{
     color: #fff;
-    font-family: "MadeleinaSans";
+    font-family: "Tajawal";
     font-size: 3.2rem;
   }
 
