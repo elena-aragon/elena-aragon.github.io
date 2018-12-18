@@ -41,7 +41,6 @@ h1{
   font-size: 5rem;
   margin: 4rem 10% 1rem 10%;
   text-align: left;
-  /* text-transform: uppercase; */
 }
 
 h2 {
@@ -49,7 +48,6 @@ h2 {
   font-family:"Tajawal", Helvetica, Arial, sans-serif;
   font-size: 4rem;
   margin: 5rem 10% 1.5rem 10%;
-  /* text-transform: uppercase; */
 }
 
 h3 {
@@ -81,26 +79,30 @@ br {
   line-height: .2rem;
 }
 
+
+
 /*  Nav Bar */
 
 .navbar{
-  background-color: rgba(255, 255, 255, .3);
+  background-color: rgba(255, 255, 255, .4);
   background-size: cover;
+  display: flex;
   height: 8.4rem;
-  margin-left: 0px;
-  margin-right: 0px;
+  justify-content: flex-end;
   padding-left: 0rem;
   width: 100%;
 }
 
 .navigation{
-  display: inline-flex;
-  float: right;
+  display: flex;
+  justify-content: space-between;
+  max-width: 28rem;
+  width: 70%;
 }
 
 .navigation p{
-  font-size: 1.4rem;
-  margin-left: 0rem;
+  font-size: 1.3rem;
+  margin: auto;
   margin-top: 3rem;
   text-align: right;
 }
@@ -109,7 +111,7 @@ br {
   color: #553fa2;
   font-family: Helvetica, sans-serif;
   font-weight: normal;
-  opacity: 1;
+  flex-direction: row;
   text-decoration: none;
   transition: color .5s ease;
 }
@@ -133,28 +135,15 @@ br {
   vertical-align: top;
 }
 
-.about{
-  margin-left: 0rem;
-  margin-right: 1rem;
-  padding-left: 0rem;
-}
-
-.projects{
-  margin-right: 1rem;
-}
-
-.resume{
-  margin-right: 1rem;
-}
-
 .connect a{
-  margin-right: 2rem;
   transition: color 1.2s ease;
 }
 
 .personal-logo{
+  display: flex;
+  justify-content: flex-start;
   margin-bottom: 2.5rem;
-  margin-left: 1rem;
+  margin-left: 1.5rem;
   margin-top: 1rem;
   position: absolute;
   width: 3rem;
@@ -163,29 +152,24 @@ br {
 .selected a{
   font-weight: bold;
   color: #E0625E;
-  /* text-decoration: underline; */
 }
 
-ul{
+/* ul{
   color: #6C6C6C;
   display: flex;
-  /* justify-content: center; */
   flex-direction: column;
   margin: auto;
-  /* margin-left: 8rem; */
   width: 93%;
   list-style-type: none;
-}
+} */
 
-ul p{
+/* ul p{
   color: #2a2a2a;
   font-family: Helvetica, Arial;
   font-size: 1.7rem;
-  /* font-weight: bold; */
   line-height: 2rem;
-  /* margin-left: 1%; */
   margin-bottom: 1rem;
-}
+} */
 
 footer{
   background-color: #D5CECA;
@@ -197,7 +181,10 @@ footer{
 .footer-icons {
   display: flex;
   justify-content: space-between;
-  margin: 2rem 25%;
+  margin: 0rem auto;
+  max-width: 15rem;
+  padding: 2rem 0rem;
+  width: 40%;
 }
 
 #footer-connect h2{
@@ -208,7 +195,6 @@ footer{
   padding-top: 3rem;
   text-align: center;
 }
-
 
 .linkedin, .twitter, .email, .github {
   width: 3rem;
@@ -230,6 +216,7 @@ footer{
 
 
 /* Home Page */
+
 .hero-wrapper{
   background-image: url("../images/mobile-home-background.jpg");
   background-position: center center;
@@ -239,7 +226,7 @@ footer{
 
 .hero{
   height: 36rem;
-  padding: 0rem 8% 15% 3%;
+  padding: 0rem 2rem 15% 2rem;
   width: 100%;
 }
 
@@ -259,7 +246,7 @@ footer{
   color: #553fa2;
   font-size: 3.7rem;
   font-weight: bold;
-  margin: 3rem 0rem 3rem 1rem;
+  margin: 1.5rem 0rem 1.5rem 1rem;
   padding-right: 0rem;
 }
 
@@ -267,12 +254,13 @@ footer{
   color: #4C4C4C;
   font-family: Helvetica;
   font-size: 1.5rem;
-  /* font-weight: bold; */
+  line-height: 1.5;
   margin-left: 1rem;
   margin-right: 1rem;
   padding-bottom: 8rem;
   max-width: 40rem;
 }
+
 
 /* Bouncing Arrow */
 
@@ -346,8 +334,6 @@ footer{
   display: none;
 }
 
-
-
 /* Home page trunk overlay */
 
 .h2-desktop, .p-desktop, .case-study-button{
@@ -375,6 +361,7 @@ p.p-mobile{
   font-weight: lighter;
   justify-content: center;
   margin: auto;
+  max-width: 25rem;
   width: 70%;
 }
 
@@ -411,7 +398,6 @@ p.p-mobile{
 .mobile-case-study-button h2{
   align-items: center;
   color: #B6ECF8;
-  /* display: flex; */
   justify-content: center;
   font-size: 1.5rem;
   letter-spacing: .1rem;
@@ -431,14 +417,11 @@ p.p-mobile{
 }
 
 .hoverbox img {
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-top: 3rem;
+  margin: 3rem 5% auto 5%;
   padding-bottom: 3rem;
   text-align: center;
   width: 90%;
 }
-
 
 /* End home page trunk overlay */
 
@@ -454,10 +437,6 @@ p.p-mobile{
 /* Case Study */
 
 .case-study-wrapper{
-  /* background-image: url("../images/mobile-trunk-background.png"); */
-  /* background-position: top right;
-  background-repeat: no-repeat;
-  background-size: cover; */
   background-color: #EBE4E0;
 }
 
@@ -466,7 +445,6 @@ p.p-mobile{
     width: 100%;
   }
 
-
 .trunk-pic {
     display: flex;
     justify-content: center;
@@ -474,7 +452,6 @@ p.p-mobile{
     max-width: 60rem;
     width: 100%;
   }
-
 
 section.trunk-title h1{
   color: #8B8100;
@@ -489,7 +466,6 @@ section.trunk-title h2{
   color: #2a2a2a;
   text-align: center;
   font-size: 2.8rem;
-  /* font-weight: bold; */
   margin-top: 2rem;
 }
 
@@ -507,8 +483,8 @@ section.trunk-title h2{
 }
 
 .prototype-button:active {
-  box-shadow: 0 5px #666;
   transform: translateY(4px);
+  outline: none;
 }
 
 .summary{
@@ -571,46 +547,6 @@ div#research6{
   grid-row: 5/6;
   grid-column: 8/12;
 }
-
-  /* .grid{
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 5fr 1fr 5fr;
-  }
-
-  div#research1{
-    display: grid;
-    background-color: #2a2a2a;
-    grid-column: 3/5;
-  }
-
-  div#research2{
-    background-color: #2a2a2a;
-    display: grid;
-    grid-column: 5/7;
-    margin-left: 2rem;
-    margin-right: 2rem;
-  }
-
-  div#research3{
-    background-color: #2a2a2a;
-
-    grid-column: 7/9;
-  }
-
-  div#research4{
-    background-color: #2a2a2a;
-
-    grid-row-start: 3;
-    grid-column: 4/6
-  }
-
-  div#research5{
-    background-color: #2a2a2a;
-
-    grid-row-start: 3;
-    grid-column: 6/8
-  } */
 
 .user-flows-image{
   display: flex;
@@ -1087,174 +1023,6 @@ h1.hero-about-h1{
 
 
 
-
-
-
-/* @media screen and (min-width: 400px){
-
-  .hero h3{
-    font-size: 2.5rem;
-  }
-
-  .hero h1{
-    font-size: 4.5rem;
-  }
-
-  .hero p{
-    font-size: 1.6rem;
-  }
-
-  .connect a{
-    background-color: #634db3;
-    border-radius: 20px;
-    color: #fff;
-    line-height: 2rem;
-    margin-right: 2rem;
-    padding: .5rem 1rem;
-    transition: background .3s ease-out;
-  }
-
-  .connect a:hover{
-    background-color: #E0625E;
-    color: #fff;
-    transition: background .3s ease-out;
-  }
-
-  .about-wrapper{
-    background-image: url("../images/about-background.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 60vh;
-  }
-
-  .hero-about{
-      padding: 0rem 10% 15% 1%;
-      width: 100%;
-    }
-
-  .hero-about{
-    padding-bottom: 15rem;
-    padding-top: 5rem;
-  }
-
-  .hero-about h1{
-    color: #634db3;
-    font-size: 5rem;
-    margin-left: 3rem;
-    margin-top: 1rem;
-  }
-} */
-
-
-
-/* @media screen and (min-width: 480px){
-
-  .personal-logo img{
-    margin-top: 1.3rem;
-    width: 3.3rem;
-  }
-
-  .navigation p{
-    margin-top: 2.5rem;
-  }
-
-  .connect{
-    margin-right: 2rem;
-  }
-
-  .footer-icons {
-    margin-left: 25%;
-    margin-right: 25%;
-  }
-
-  #footer-connect h2{
-    font-size: 4rem;
-  }
-
-  .linkedin, .twitter, .email, .github {
-    width: 3rem;
-  }
-
-  .bounce{
-    margin-top: -2rem;
-  }
-
-  h2.h2-mobile{
-    font-size: 6.5rem;
-  }
-
-  .hoverbox-text p{
-    font-size: 2.7rem;
-    width: 100%;
-  }
-
-  .mobile-case-study-button h2{
-    font-size: 1.8rem;
-  }
-
-  .hoverbox img {
-    margin-left: 5%;
-    margin-right: 5%;
-    width: 90%;
-  }
-
-  .prototype-button h2{
-    font-size: 2.6rem;
-    padding: 2rem;
-  }
-
-  td.percent{
-    font-size: 3rem;
-  }
-
-  td.stats{
-    font-size: 1.7rem;
-  }
-
-  #wireframes-and-usability-tests h3{
-    font-size: 2.5rem;
-    margin: 7rem 5rem 5rem 5rem;
-  }
-
-  #wireframes-and-usability-tests img{
-    margin-left: 17.5%;
-    margin-right: 17.5%;
-    width: 65%;
-  }
-
-  .trunk h3{
-    font-size: 2.8rem;
-  }
-
-  .trunk, .trunk-image{
-    margin-left: 5%;
-    margin-right: 5%;
-    width: 90%;
-  }
-
-  .hero-about button{
-    margin-left: 15%;
-  }
-
-  .hero-about h1{
-    margin-left: 2.5rem;
-  }
-
-  .hero-about button {
-    margin-left: 2rem
-  }
-
-  .about-wrapper{
-    height: 30rem;
-  }
-} */
-
-
-
-
-
-
 @media screen and (min-width: 575px){
 
   h1{
@@ -1282,15 +1050,22 @@ h1.hero-about-h1{
     margin: auto 12.5%;
   }
 
+  .navigation{
+    margin-right: 4rem;
+    max-width: 30rem;
+    width: 47%;
+  }
+
   .navigation p{
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     margin-top: 2.8rem;
     margin-right: 1.3rem;
   }
 
   .personal-logo img{
-    margin-top: .8rem;
-    margin-bottom: 2.7rem;
+    margin: .8rem auto 2.7rem 3rem;
+    /* margin-top: .8rem;
+    margin-bottom: 2.7rem; */
     width: 3.8rem;
   }
 
@@ -1303,7 +1078,8 @@ h1.hero-about-h1{
   }
 
   .footer-icons{
-    margin: 2rem 30%;
+    margin: 0rem auto;
+    max-width: 18rem;
   }
 
   .designed h4{
@@ -1346,6 +1122,7 @@ h1.hero-about-h1{
 
   .hero{
     height: 50rem;
+    padding: 0rem 3rem 15% 3rem;
   }
 
   .hero h3{
@@ -1928,7 +1705,7 @@ h1.hero-about-h1{
     margin: auto 12.5%;
   }
 
-  ul{
+  /* ul{
     margin-left: 16rem;
     width: 70%;
   }
@@ -1938,6 +1715,16 @@ h1.hero-about-h1{
     line-height: 2.3rem;
     margin-left: 1%;
     margin-bottom: 1rem;
+  } */
+
+  .navigation{
+    margin-right: 4rem;
+    max-width: 34rem;
+    width: 40%;
+  }
+
+  .navigation p{
+    font-size: 1.8rem;
   }
 
   #footer-connect h2{
@@ -1953,9 +1740,13 @@ h1.hero-about-h1{
     display: flex;
     justify-content: center;
     max-width: 60rem;
-    margin: 8rem auto;
+    margin: 5rem auto 1rem auto;
     width: 80%;
+  }
 
+  #trunk-summary h2{
+    margin: 0rem;
+    /* margin-top: 0rem; */
   }
 
   .summary{
@@ -2294,7 +2085,7 @@ h1.hero-about-h1{
   .personal-logo img{
     margin-bottom: 2.7rem;
     margin-top: 1.2rem;
-    width: 3.8rem;
+    width: 4rem;
   }
 
   .connect{
@@ -2302,9 +2093,7 @@ h1.hero-about-h1{
   }
 
   .footer-icons {
-    margin-left: 40%;
-    margin-right: 40%;
-    margin-top: 2rem;
+    padding: 3rem 0rem;
   }
 
   #footer-connect h2{
@@ -2313,7 +2102,7 @@ h1.hero-about-h1{
   }
 
   .linkedin, .twitter, .email, .github {
-    width: 4rem;
+    width: 3.5rem;
   }
 
   section.trunk-title h1{
@@ -2335,7 +2124,6 @@ h1.hero-about-h1{
 
   .hero h1{
     font-size: 6.5rem;
-    margin: 3rem 1rem;
   }
 
   .hero p{
@@ -2386,7 +2174,7 @@ h1.hero-about-h1{
     justify-content: center;
     letter-spacing: .2rem;
     line-height: 3rem;
-    margin: 3rem auto;
+    margin: 0rem auto 3.5rem auto;
     padding-bottom: 1rem;
     text-align: center;
     width: 80%;
@@ -2402,11 +2190,12 @@ h1.hero-about-h1{
     font-family: "Tajawal";
     font-size: 7rem;
     font-weight:lighter;
-    letter-spacing: .2rem;
+    /* letter-spacing: .2rem; */
     padding-top: 5rem;
     padding-bottom: 2rem;
     margin: 0rem;
     text-align: center;
+    text-transform: uppercase;
     width: 100%;
   }
 
@@ -2505,9 +2294,10 @@ h1.hero-about-h1{
   }
 
   .hoverbox .hoverbox-text {
+    padding: 7rem;
   	position: absolute;
-  	top: 50%;
-  	left: 50%;
+  	top: 47%;
+  	left: 45%;
   	-moz-transform: translate(-50%, -50%);
   	-webkit-transform: translate(-50%, -50%);
   	-ms-transform: translate(-50%, -50%);
@@ -2836,10 +2626,6 @@ h1.hero-about-h1{
   grid-row: 2/3;
   margin: 0rem;
 }
-/*
- .hero-about-wrapper{
-  height: 60rem;
-  } */
 
   .hero-about-wrapper h1{
     margin: 0rem;
@@ -2853,29 +2639,6 @@ h1.hero-about-h1{
   max-width: 50rem;
   width: 100%;
 }
-
-
-/*
-  .hero-about h1{
-    font-size: 7rem;
-    margin-left: 30rem;
-    margin-top: 10rem;
-  }
-
-  .hero-about-wrapper h1, .about-name{
-    font-size: 6rem;
-    margin-bottom: 1rem;
-  }
-
-  .hero-about-wrapper h1{
-    margin-left: 17%;
-
-  } */
-/*
-  img.about-me-photo{
-    margin-top: 2rem;
-    max-width: 70rem;
-  } */
 
   .hero-about a{
     color: #fff;
@@ -2900,67 +2663,15 @@ h1.hero-about-h1{
     margin: 2rem auto;
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
+    width: 48%;
   }
 
 }
 
 
-
-
-/* @media screen and (min-width: 1150px){
-  .personal-logo{
-    margin-top: .7rem;
-  }
-
-  .hero p{
-    padding-bottom: 8rem;
-  }
-
-  .user-flows-image{
-    max-width: 60rem;
-    width: 80%;
-  }
-
-  td.percent{
-    font-size: 4rem;
-    padding-left: 0rem;
-  }
-
-  td.stats{
-    font-size: 2.5rem;
-  }
-
-  .results{
-   margin-left: 0rem;
-  }
-
-  .hoverbox img{
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-  }
-
-  .bounce{
-    margin-top: -1rem;
-  }
-
-  .hero-wrapper{
-    height: 65rem;
-  }
-
-  .hero-about h1{
-    font-size: 7rem;
-    margin-left: 12rem;
-    margin-top: 10rem;
-  }
-
-} */
-
-
 @media screen and (min-width: 1300px){
   .hero-wrapper{
-    height: 70rem;
+    height: 65rem;
   }
 
   .hero h3{
@@ -2972,13 +2683,12 @@ h1.hero-about-h1{
   }
 
   .hero p{
-    font-size: 2.2rem;
     padding-bottom: 8rem;
     width: 70%;
   }
 
   .bounce{
-    margin-top: -3rem;
+    margin-top: -1rem;
   }
 
   .trunk-image {
@@ -2987,15 +2697,13 @@ h1.hero-about-h1{
     width: 25%;
   }
 
+  .hoverbox .hoverbox-text {
+    border: .5px solid #9895bd;
+  }
+
   .trunk{
     margin-left: 20%;
     width: 25%;
-  }
-
-  .footer-icons {
-    margin-left: 40%;
-    margin-right: 40%;
-    margin-top: 1rem;
   }
 
   #footer-connect{
@@ -3005,10 +2713,6 @@ h1.hero-about-h1{
   .about-wrapper{
     height: 60rem;
   }
-/*
-  img.about-me-photo{
-    max-width: 80rem;
-  } */
 
   .hero-about h1{
     font-size: 8rem;
@@ -3016,181 +2720,3 @@ h1.hero-about-h1{
     margin-top: 13rem;
   }
 }
-
-
-
-/* @media screen and (min-width: 1500px){
-  .bounce{
-    margin-top: 6rem;
-  }
-
-  .about-wrapper{
-    height: 70rem;
-  }
-
-  .hero-about h1{
-    font-size: 10rem;
-    margin-left: 15rem;
-    margin-top: 10rem;
-  }
-
-  .hero-about{
-    padding-top: 10rem;
-  }
-} */
-
-
-
-/* @media screen and (min-width: 1900px){
-  p{
-    font-size: 2.5rem;
-    margin: auto 25%;
-  }
-
-  h2{
-    font-size: 4.5rem;
-    margin: 7rem 25% 1rem 25%;
-  }
-
-  .prototype-button {
-    margin-left: 45%;
-    margin-right: 45%;
-    width: 10%;
-  }
-
-  .about-wrapper{
-    height: 70rem;
-  }
-
-  .hero-wrapper{
-    height: 80rem;
-  }
-
-  .hero-about h1{
-    font-size: 9rem;
-    margin-left: 30rem;
-    margin-top: 10rem;
-  }
-
-} */
-
-
-/* @media screen and (min-width: 2500px){ */
-  /* .navbar {
-    height: 11rem;
-  }
-
-  .personal-logo img{
-    width: 5rem;
-  }
-
-  .navigation a{
-    font-size: 3.5rem;
-  }
-
-  .navigation p{
-    margin-top: 3rem;
-  }
-
-  .hero {
-    height: 50vh;
-  }
-
-  .hoverbox-text h2{
-    font-size: 12rem;
-    letter-spacing: .5rem;
-    padding-bottom: 3rem;
-    margin: 0rem;
-    text-align: center;
-    width: 100%;
-  }
-
-  .hoverbox-text p{
-    font-size: 6rem;
-    padding-bottom: 5rem;
-  }
-
-  .case-study-button h2{
-    font-size: 4rem;
-    font-weight: bold;
-    padding: 1.5rem;
-  }
-
-  .trunk-pic {
-    margin-left: 35%;
-    margin-right: 35%;
-    width: 30%;
-  }
-
-  p {
-    font-size: 2.7rem;
-    margin: auto 30%;
-  }
-
-  h2 {
-    margin: 5rem 30% 1rem 30%;
-  }
-
-  .prototype-button {
-    display: flex;
-    justify-content: center;
-    margin: 8rem auto;
-    opacity: 1;
-    width: 30rem;
-  }
-
-  table.stats-table {
-    display: flex;
-    justify-content: center;
-  }
-
-  h2.results{
-    margin-left: 30%;
-  }
-
-  #wireframes-and-usability-tests h3{
-    font-size: 3.5rem;
-    margin: 8rem 30%;
-  }
-
-  #wireframes-and-usability-tests img{
-    margin: auto 35%;
-    width: 30%;
-  }
-
-  .original-file, .original-folder{
-    margin-left: 35%;
-    margin-right: 35%;
-    width: 30%;
-  }
-
-  #branding {
-    margin-top: 10rem;
-  }
-
-  img.sketches, img.bw-trunk-logo{
-    margin: 2rem 40%;
-    width: 20%;
-  }
-
-  img.trunk-colors{
-    margin: 2rem 35%;
-    width: 30%;
-  }
-
-  .about-wrapper{
-    height: 60vh;
-  }
-
-  .hero-about h1{
-    font-size: 10rem;
-    margin-left: 30rem;
-    margin-top: 10rem;
-  }
-
-  .footer-icons {
-    margin-left: 45%;
-    margin-right: 45%;
-    margin-top: 1rem;
-  }
-} */
