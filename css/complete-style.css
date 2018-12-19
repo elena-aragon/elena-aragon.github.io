@@ -1960,7 +1960,7 @@ section.trunk-title h1{
     text-transform: uppercase;
   }
 
-  .hoverbox .case-study-button h2:hover{
+  .hoverbox-text h2:hover, .case-study-button h2:hover{
     color: #2a2a2a;
     font-weight: bold;
   }
