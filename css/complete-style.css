@@ -970,8 +970,7 @@ section.about-wrapper{
   background-image: url("../images/mobile-about-background.png");
   background-size: cover;
   background-position: center;
-  /* background-color: #d2d2d2; */
-  /* height: 70rem; */
+  height: 50rem;
   width: 100%;
 }
 
@@ -979,7 +978,7 @@ section.about-wrapper{
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  margin: auto 10%;
+  margin: 8rem 10% auto 10%;;
   padding-bottom: 4rem;
   max-width: 50rem;
   height: 20%;
@@ -1009,7 +1008,7 @@ section.about-wrapper{
 }
 
 .hero-about-h1{
-  font-size: 5rem;
+  font-size: 6rem;
   grid-column: 1/2;
   grid-row: 2/3;
   margin: 0rem;
@@ -1136,10 +1135,6 @@ h1.hero-about-h1{
 
   .roles{
     grid-column: 1/2;
-  }
-
-  .hero-about-wrapper .hero-about-hey{
-    padding-top: 12rem;
   }
 
   .hero-about-hey{
