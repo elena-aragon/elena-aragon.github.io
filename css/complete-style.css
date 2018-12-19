@@ -16,13 +16,13 @@ body {
 }
 
 @font-face {
-  font-family: "Tajawal";
-  src: url("Tajawal.ttf");
+  font-family: "Montserrat";
+  src: url("MontserratRegular.ttf");
 }
 
 @font-face {
-  font-family: "TajawalBold";
-  src: url("TajawalBold.ttf");
+  font-family: "MontserratBlack";
+  src: url("MontserratExtraBold.ttf");
 }
 
 @font-face {
@@ -37,22 +37,22 @@ body {
 
 h1{
   color: #766FC8;
-  font-family: "Tajawal", Helvetica, Arial, sans-serif;
-  font-size: 5rem;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-size: 4rem;
   margin: 4rem 10% 1rem 10%;
   text-align: left;
 }
 
 h2 {
   color: #1F1F1F;
-  font-family:"Tajawal", Helvetica, Arial, sans-serif;
-  font-size: 4rem;
+  font-family:"Montserrat", Helvetica, Arial, sans-serif;
+  font-size: 3rem;
   margin: 5rem 10% 1.5rem 10%;
 }
 
 h3 {
-  font-family: "Tajawal", Trebuchet, Garamond, sans-serif;
-  font-size: 3rem;
+  font-family: "Montserrat", Trebuchet, Garamond, sans-serif;
+  font-size: 2rem;
   margin: auto 10%;
 }
 
@@ -189,7 +189,7 @@ footer{
 
 #footer-connect h2{
   color: #553fa2;
-  font-family: "Tajawal";
+  font-family: "Montserrat";
   font-size: 3.7rem;
   margin-top: 0rem;
   padding-top: 3rem;
@@ -202,9 +202,9 @@ footer{
 
 .designed h4{
   color: #2a2a2a;
-  font-family: "Tajawal";
-  font-size: 1.3rem;
-  letter-spacing: .1rem;
+  font-family: Helvetica, sans-serif;
+  font-size: .8rem;
+  font-weight: lighter;
   padding-bottom: 4%;
   text-align: center;
 }
@@ -232,7 +232,7 @@ footer{
 
 .hero h3 {
   color: #8B8100;
-  font-family: "Tajawal";
+  font-family: "Montserrat", Trebuchet, Helvetica;
   font-size: 2rem;
   /* font-weight: bold; */
   letter-spacing: .3rem;
@@ -244,7 +244,8 @@ footer{
 
 .hero h1{
   color: #553fa2;
-  font-size: 3.7rem;
+  font-family: "MontserratBlack";
+  font-size: 2.9rem;
   font-weight: bold;
   margin: 1.5rem 0rem 1.5rem 1rem;
   padding-right: 0rem;
@@ -342,11 +343,11 @@ footer{
 
 h2.h2-mobile{
   color: #766FC8;
-  font-family: "Tajawal";
-  font-size: 6rem;
+  font-family: "Montserrat";
+  font-size: 5.5rem;
   font-weight: normal;
-  padding-bottom: 0rem;
-  padding-top: 20%;
+  padding-bottom: 2rem;
+  padding-top: 13%;
   margin: 0rem;
   text-align: center;
   text-transform: uppercase;
@@ -357,11 +358,13 @@ p.p-mobile{
   text-align: center;
   color: #fff;
   display: flex;
-  font-size: 2.2rem;
+  font-size: 2rem;
   font-weight: lighter;
   justify-content: center;
+  line-height: 130%;
   margin: auto;
   max-width: 25rem;
+  padding-bottom: 1rem;
   width: 70%;
 }
 
@@ -369,7 +372,7 @@ p.p-mobile{
   color: #fff;
   font-family: Helvetica;
   font-size: 2.7rem;
-  letter-spacing: .2rem;
+  letter-spacing: .1rem;
   line-height: 3rem;
   margin: 1.5rem 0rem;
   padding-bottom: 1rem;
@@ -399,12 +402,14 @@ p.p-mobile{
   align-items: center;
   color: #B6ECF8;
   justify-content: center;
-  font-size: 1.5rem;
-  letter-spacing: .1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
   margin: 0rem;
-  padding: 1.5rem 1rem 1rem 1rem;
+  letter-spacing: .1rem;
+  padding: 1rem 1rem 1rem 1rem;
   text-decoration: none;
   text-align: center;
+  text-transform: uppercase;
   vertical-align: middle;
 }
 
@@ -455,7 +460,7 @@ p.p-mobile{
 
 section.trunk-title h1{
   color: #8B8100;
-  font-size: 7rem;
+  font-size: 5.5rem;
   font-weight: bold;
   margin: 0rem auto 1rem auto;
   padding-top: 6rem;
@@ -465,7 +470,8 @@ section.trunk-title h1{
 section.trunk-title h2{
   color: #2a2a2a;
   text-align: center;
-  font-size: 2.8rem;
+  font-size: 1.9rem;
+  line-height: 130%;
   margin-top: 2rem;
 }
 
@@ -487,6 +493,38 @@ section.trunk-title h2{
   outline: none;
 }
 
+.roles-deliverables{
+  padding: 2rem 0rem 5rem 0rem;
+  display: grid;
+  grid-template-columns: 9fr 1fr 13fr;
+}
+
+.roles-deliverables h2{
+  font-size: 3rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.roles-deliverables p{
+  font-size: 1.5rem;
+  line-height: 150%;
+  margin: .5rem;
+  text-align: center;
+}
+
+.roles-deliverables a{
+  color: #2a2a2a;
+  font-weight: normal;
+}
+
+.roles{
+  grid-column: 1/2;
+}
+
+.deliverables{
+  grid-column: 3/4;
+}
+
 .summary{
   padding-top: 8%;
 }
@@ -494,13 +532,14 @@ section.trunk-title h2{
 #mockups .prototype-button h2, .summary .prototype-button h2{
   color: #2a2a2a;
   font-family: Helvetica;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   font-weight: normal;
   letter-spacing: .1rem;
+  margin: 0rem;
+  padding: 1rem 2rem 1rem 2rem;
   text-decoration: none;
   text-align: center;
-  padding: 1rem 2rem 1rem 2rem;
-  margin: 0rem;
+  text-transform: uppercase;
 }
 
 .grid{
@@ -513,7 +552,7 @@ section.trunk-title h2{
 #research1, #research2, #research3, #research4, #research5, #research6{
   background-color: #2a2a2a;
   border-radius: 110px;
-  font-family: "Tajawal";
+  font-family: "Montserrat";
   max-width: 15rem;
   min-width: 14rem;
   margin: auto;
@@ -617,7 +656,10 @@ section.solution p{
 
 table.stats-table, table.usability-table{
   display: flex;
-  margin: 1rem 11%;
+  justify-content: center;
+  margin: 1rem auto;
+  max-width: 35rem;
+  width: 80%;
 }
 
 td{
@@ -627,7 +669,7 @@ td{
 
 .percent {
   color: #B6ECF8;
-  font-family: "Tajawal";
+  font-family: "Montserrat";
   font-size: 3rem;
   margin: 0rem;
   text-align: center;
@@ -635,7 +677,7 @@ td{
 
 .stats{
   color: #fff;
-  font-family: "Tajawal";
+  font-family: Helvetica, sans-serif;
   font-size: 1.4rem;
   font-weight: lighter;
   line-height: 140%;
@@ -646,16 +688,15 @@ td{
 
 .usability-percent{
   color: #8B8100;
-  font-family: "Tajawal";
+  font-family: "Montserrat";
   font-size: 4rem;
   text-align: center;
 }
 
 .usability-stats{
   color: #2a2a2a;
-  font-family: "Tajawal";
-  font-size: 1.6rem;
-  font-weight: bold;
+  font-family: Helvetica, sans-serif;
+  font-size: 1.4rem;
   line-height: 140%;
 }
 
@@ -682,7 +723,7 @@ td{
 
 .competitive-analysis li{
   color: #6C6C6C;
-  font-family: "Tajawal";
+  font-family: "Montserrat";
   font-size: 2rem;
   font-weight: bold;
   margin-left: 13%;
@@ -710,7 +751,7 @@ h3.mobile-strengths-weaknesses{
 
 .mobile-strengths-weaknesses p{
   color: #6C6C6C;
-  font-family: "Tajawal";
+  font-family: "Montserrat";
   font-size: 2rem;
   font-weight: bold;
   line-height: 2.2rem;
@@ -721,14 +762,13 @@ h3.mobile-strengths-weaknesses{
   padding: .5rem;
 }
 
-#user-personas h2{
-  display:inline-flex;
-}
-
 .user-personas-lily-robert{
   display: grid;
-  grid-template-columns: 1fr 3fr 1fr 3fr 1fr;
+  grid-template-columns: 3fr 1fr 3fr;
   grid-auto-rows: 1fr 1fr;
+  margin: auto;
+  max-width: 50rem;
+  width: 60%;
 }
 
 .user-personas-lily-robert img{
@@ -742,13 +782,15 @@ h3.mobile-strengths-weaknesses{
 }
 
 .user-persona-robert{
-  grid-column:2/5;
+  grid-column:1/4;
   grid-row: 1/2;
+  margin-top: 10%;
 }
 
 .user-persona-lily{
-  grid-column: 2/5;
+  grid-column: 1/4;
   grid-row: 2/3;
+  margin-top: 10%;
 }
 
 #user-personas h2.h2-user-personas{
@@ -785,7 +827,7 @@ h3.h3-user-personas-title{
 
 #wireframes-and-usability-tests h3{
   color: #8B8100;
-  font-family:"Tajawal";
+  font-family:"Montserrat";
   font-size: 2rem;
   font-weight: bold;
   margin: 4rem 12.5% 2rem 12.5%;
@@ -803,8 +845,8 @@ h3.h3-user-personas-title{
 
 .trunk-logos{
   display: grid;
-  grid-template-columns: 6fr 3fr;
-  grid-template-rows: .95fr .95fr 1fr 1fr;
+  grid-template-columns: 6fr 3.1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
   margin: 5rem auto 5rem auto;
   max-width: 60rem;
   width: 100%;
@@ -843,7 +885,7 @@ img.black-trunk-logos{
   display: grid;
   grid-column: 2/3;
   grid-row: 4/5;
-  margin-top: 3%;
+  /* margin-top: 3%; */
   /* margin: 0rem; */
 }
 
@@ -915,8 +957,12 @@ section.about-wrapper{
 }
 
 .hero-about-wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  grid-template-rows: 1fr 1fr 1.2fr;
+  /* height: 20%; */
+  margin-top: 0rem;
   width: 100%;
-  /* height: 20rem; */
 }
 
 .about-me-photo {
@@ -924,68 +970,57 @@ section.about-wrapper{
 }
 
 img.mobile-about-me-photo {
-  width: 90%;
-  margin: auto;
   display: flex;
   justify-content: center;
-  max-width: 40rem;
-  padding-bottom: 5rem;
-  padding-top: 3rem;
+  grid-column: 1/4;
+  grid-row: 1/4;
+  margin: auto;
+  /* padding-bottom: 5rem;
+  padding-top: 3rem; */
+  width: 100%;
 }
 
 .hero-about-wrapper h1, h1.hero-about-h1{
   color: #2a2a2a;
   display: flex;
-  justify-content: left;
-  font-size: 4rem;
-  font-family: "Tajawal", Helvetica, sans-serif;
-  /* font-weight: bold; */
-  letter-spacing: .3rem;
-  margin-left: 10%;
+  justify-content: right;
+  font-family: "Montserrat", Helvetica, sans-serif;
+  letter-spacing: .1rem;
   margin-top: 0rem;
-  padding-top: 5rem;
+  padding-top: 6rem;
+  z-index: 0;
 }
 
 .hero-about-wrapper .hero-about-hey{
-  font-size: 2.8rem;
+  color: #2a2a2a;
+  font-family: "MontserratBlack";
+  font-weight: bolder;
+}
+
+.hero-about-hey{
+  font-size: 4rem;
+  grid-column: 1/3;
+  grid-row: 1/2;
+  padding-left: 5%;
+  text-align: center;
+}
+
+.hero-about-h1{
+  align-content: baseline;
+  display: flex;
+  justify-content: right;
+  font-size: 4rem;
+  grid-column: 3/4;
+  grid-row: 3/4;
+  margin: 0rem auto;
+  text-align: right;
 }
 
 h1.hero-about-h1{
+  color: #fff;
+  font-family: "MontserratBlack";
+  font-weight: bold;
   padding-top: .5rem;
-}
-
-.about-name{
-  /* color: #E0625E; */
-  font-family: "Tajawal";
-  font-size: 4rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  color:#000;
-  font-weight: bold;
-  -webkit-animation:colorchange 4s ease infinite alternate;
-}
-
-@-webkit-keyframes colorchange {
-  0% {
-    color: #29349B;
-  }
-  5% {
-    color: #29349B;
-  }
-
-  30% {
-
-    color: #766FC8;
-  }
-
-  60% {
-
-    color: #572676;
-  }
-
-  100%{
-    color: #A72C67;
-  }
 }
 
 .bio-about {
@@ -1021,6 +1056,50 @@ h1.hero-about-h1{
 
 /* End About Me */
 
+
+
+
+
+
+@media screen and (min-width: 360px){
+  .hero h1{
+    font-size: 3.3rem
+  }
+}
+
+
+
+
+
+@media screen and (min-width: 400px){
+
+
+  .roles-deliverables{
+    padding: 2rem 2rem 5rem 2rem;
+    grid-template-columns: 10fr 1fr 10fr;
+  }
+
+  .roles-deliverables h2{
+    font-size: 3.5rem;
+  }
+
+  .roles-deliverables p{
+    font-size: 1.7rem;
+  }
+
+  .roles{
+    grid-column: 1/2;
+  }
+
+  .hero-about-hey{
+    font-size: 5rem;
+  }
+
+  h1.hero-about-h1{
+    margin-top: 1.5rem;
+    font-size: 5rem;
+  }
+}
 
 
 @media screen and (min-width: 575px){
@@ -1083,7 +1162,18 @@ h1.hero-about-h1{
   }
 
   .designed h4{
-    font-size: 1.7rem;
+    font-size: 1rem;
+  }
+
+  .roles-deliverables{
+    grid-template-columns: 6fr 1fr 9fr;
+    padding: 2rem 2rem 5rem 2rem;
+    margin: auto;
+    max-width: 50rem;
+  }
+
+  .roles-deliverables h2{
+    font-size: 3.5rem;
   }
 
   #trunk-summary h2{
@@ -1126,12 +1216,12 @@ h1.hero-about-h1{
   }
 
   .hero h3{
-    font-size: 3rem;
+    font-size: 2.5rem;
     padding-top: 10rem;
   }
 
   .hero h1{
-    font-size: 6rem;
+    font-size: 5rem;
   }
 
   .hero p{
@@ -1145,12 +1235,14 @@ h1.hero-about-h1{
   }
 
   h2.h2-mobile{
+    color: #766FC8;
     display: flex;
     font-size: 6rem;
     justify-content: center;
-    letter-spacing: .2rem;
+    letter-spacing: .1rem;
     margin: 1rem auto;
-    color: #766FC8;
+    padding-top: 11%;
+    padding-bottom: 0rem;
     }
 
   .mobile-case-study-button{
@@ -1163,7 +1255,7 @@ h1.hero-about-h1{
   }
 
   .mobile-case-study-button h2{
-    font-size: 1.7rem;
+    font-size: 1.5rem;
   }
 
   table.strengths-weaknesses, .mobile-strengths-weaknesses{
@@ -1186,7 +1278,7 @@ h1.hero-about-h1{
 
   .tablet-strengths-weaknesses p{
     color: #6C6C6C;
-    font-family: "Tajawal";
+    font-family: "Montserrat";
     font-size: 2rem;
     font-weight: bold;
     line-height: 2.2rem;
@@ -1213,13 +1305,13 @@ h1.hero-about-h1{
   table.usability-table{
     display: flex;
     justify-content: center;
-    margin-left: 10%;
-    margin-right: 10%;
-    width: 80%;
+    margin: 2rem auto;
+    max-width: 45rem;
+    width: 70%;
   }
 
   .usability-stats{
-    font-size: 2.2rem;
+    font-size: 1.7rem;
     font-weight: normal;
   }
 
@@ -1296,8 +1388,7 @@ h1.hero-about-h1{
   }
 
   h2.results{
-    font-size: 3.5rem;
-    font-weight: bold;
+    font-size: 3rem;
   }
 
   div#research1{
@@ -1359,116 +1450,18 @@ h1.hero-about-h1{
     margin: 1rem auto;
   }
 
-
-  /* table.mobile-strengths-weaknesses, h3.mobile-strengths-weaknesses{
-    display: none;
-  }
-
-  .strengths-weaknesses{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-  }
-
-  .strengths-weaknesses h3{
-    color: #8B8100;
-    font-size: 4rem;
-    margin-bottom: 1rem;
-    margin-top: 3rem;
-  }
-
-  .strengths-weaknesses p{
-    color: #6C6C6C;
-    font-family: "Tajawal";
-    font-size: 2rem;
-    font-weight: bold;
-    line-height: 2.1rem;
-    text-align: center;
-  }
-
-  .strengths-weaknesses td{
-    padding: .5rem;
-  } */
-
   #wireframes-and-usability-tests h3{
     margin-left: 12.5%;
   }
-
-  /* .trunk-mockups{
-    display: none;
-  } */
 
   img.trunk-mockups{
     display: flex;
     justify-content: center;
     margin: auto;
     margin-top: 5rem;
-    max-width: 60rem;
+    max-width: 80rem;
     width: 100%;
   }
-
-  /* img.sketches, img.bw-trunk-logo, img.bw-trunk-logo2,   .trunk-logos img, .styleguide img{
-    margin: 4rem 25% auto 25%;
-   width: 50%; */
-
-  /* img.sketches{
-    display: flex;
-    justify-content: center;
-    margin: 3rem auto;
-    max-width: 30rem;
-    width: 50%;
-  } */
-
-
-  /* .trunk-logos{
-    display: grid;
-    grid-template-columns: 6fr 3fr;
-    grid-template-rows: .95fr .95fr 1fr 1fr;
-    margin: 5rem auto 5rem auto;
-    max-width: 60rem;
-    width: 100%;
-  }
-
-  .trunk-logos img{
-    margin: 0rem;
-    width: 100%;
-  }
-
-  img.sketches{
-    display: grid;
-    grid-column: 1/2;
-    grid-row: 1/8;
-  }
-
-  .bw-trunk-logo{
-    display: grid;
-    grid-column: 2/3;
-    grid-row: 1/2;
-  }
-
-  .bw-trunk-logo2{
-    display: grid;
-    grid-column: 2/3;
-    grid-row: 2/3;
-  }
-
-  img.white-trunk-logos{
-    display: grid;
-    grid-column: 2/3;
-    grid-row: 3/4;
-  }
-
-  img.black-trunk-logos{
-    display: grid;
-    grid-column: 2/3;
-    grid-row: 4/5;
-    margin-top: 3%;
-    /* margin: 0rem; */
-  */
-
-  /* .trunk-logos img{
-    margin-bottom: 3rem;
-  } */
 
   .original-file, .original-folder{
     margin: 4rem 12.5%;
@@ -1479,9 +1472,16 @@ h1.hero-about-h1{
     height: 80rem;
   }
 
+  .hero-about-wrapper{
+    margin: auto;
+    max-width: 60rem;
+    width: 100%;
+  }
+
   img.mobile-about-me-photo{
-    width: 80%;
-    max-width: 50rem;
+    margin: auto;
+    /* max-width: 50rem; */
+    width: 100%;
   }
 
   .hero-about button{
@@ -1493,7 +1493,7 @@ h1.hero-about-h1{
   }
 
   .hero-about-wrapper h1, .about-name{
-    font-size: 4.5rem;
+    font-size: 6rem;
   }
 
   .competitor-icons{
@@ -1507,173 +1507,6 @@ h1.hero-about-h1{
     width: 30%;
   }
 }
-
-
-
-/* @media screen and (min-width: 680px){
-
-  .navigation p{
-    font-size: 2rem;
-    margin-top: 2.5rem;
-  }
-
-  .about, .projects{
-    margin-right: 2rem;
-  }
-
-  .resume{
-    margin-right: 1.5rem;
-  }
-
-  .connect{
-    margin-right: 2rem;
-  }
-
-  .personal-logo {
-    margin-left: 2rem;
-    margin-top: .5rem;
-  }
-
-  .personal-logo img{
-    margin-bottom: 2.6rem;
-    margin-top: 1.5rem;
-    width: 4rem;
-  }
-
-  #footer-connect h2{
-    font-size: 5rem;
-  }
-
-  .hero {
-    padding: 0rem 10% 15% 10%;
-    height: 50rem;
-  }
-
-  .hero h3{
-    padding-top: 10rem;
-  }
-
-  .hero p{
-    width: 60%;
-  }
-
-  .bounce{
-    margin-top: -2rem;
-  }
-
-  #branding img{
-    margin-left: 30%;
-    margin-right: 30%;
-    width: 40%;
-  }
-
-  img.trunk-style-guide {
-    margin-left: 25%;
-    margin-right: 25%;
-    width: 50%;
-  }
-
-  .prototype-button {
-    margin-left: 35%;
-    margin-right: 35%;
-    width: 30%;
-  }
-
-  .trunk h2{
-    font-size: 7rem;
-  }
-
-  .trunk h3{
-    font-size: 2.7rem;
-  }
-
-  .trunk, .trunk-image{
-    margin-left: 20%;
-    margin-right: 20%;
-    width: 60%;
-  }
-
-  .hero-about{
-    padding-top: 15rem;
-  }
-
-
-  .about-wrapper{
-    height: 40rem;
-  }
-
-  .hero-about h1{
-    font-size: 6rem;
-    margin-left: 3rem;
-    margin-top: -3rem;
-  }
-
-  .hero-about a{
-    font-size: 2.5rem;
-  }
-
-  .hoverbox img{
-    margin-left: 15%;
-    margin-right: 15%;
-    width: 70%;
-  }
-
-  .hoverbox-text p{
-    font-size: 3.4rem;
-    line-height: 4rem;
-  }
-
-  .case-study-button{
-    border: #B6ECF8 solid 3px;
-    border-radius: 20px;
-    margin: 1rem 15% 2rem 15%;
-    transition: background .5s ease-in-out;
-    width: 70%;
-  }
-
-  .case-study-button h2{
-    color: #B6ECF8;
-    font-size: 1.7rem;
-    font-weight: bold;
-  }
-
-  .case-study-button:hover{
-    background-color: #B6ECF8;
-    border-radius: 20px;
-    margin: 1rem auto 2rem auto;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    transition: background .5s ease-in-out;
-    width: 100%;
-
-
-  }
-
-  .case-study-button h2:hover{
-    color: #2a2a2a;
-    font-weight: bold;
-  }
-
-  .strengths-weaknesses h3{
-    font-size: 4rem;
-    margin-bottom: 1rem;
-    margin-top: 3rem;
-  }
-
-  .strengths-weaknesses p{
-    line-height: 2.1rem;
-    font-size: 2rem;
-  }
-
-  .strengths-weaknesses td{
-    padding: 1rem;
-  }
-
-  #user-personas {
-    clear: both;
-  }
-} */
-
 
 
 
@@ -1735,6 +1568,10 @@ h1.hero-about-h1{
     width: 4rem;
 }
 
+.hero h1{
+  font-size: 6rem;
+}
+
 
   img.trunk-pic{
     display: flex;
@@ -1744,8 +1581,57 @@ h1.hero-about-h1{
     width: 80%;
   }
 
-  #trunk-summary h2{
+
+  .roles-deliverables{
+    grid-template-columns: 12fr 1fr 15fr;
+    padding: 2rem 2rem 5rem 2rem;
+    margin: auto;
+    max-width: 50rem;
+  }
+
+  .roles-deliverables h2{
+    font-size: 3.5rem;
+  }
+
+  .roles-deliverables p{
+    font-size: 1.8rem;
+  }
+
+  .roles{
+    grid-column: 1/2;
+  }
+
+  .deliverables{
+    grid-column: 3/4;
+  }
+
+
+  .problem-solution{
+    display: grid;
+    grid-template-columns: 7fr 1fr 7fr;
+    margin: 0rem auto;
+    max-width: 59rem;
+  }
+
+  .problem-solution h2{
+    text-align: center;
+  }
+
+  .problem-solution p{
     margin: 0rem;
+  }
+
+  .problem{
+    grid-column: 1/2;
+  }
+
+  .solution{
+    grid-column: 3/4;
+  }
+
+
+  #trunk-summary h2{
+    margin: 0rem auto;
     /* margin-top: 0rem; */
   }
 
@@ -1762,14 +1648,6 @@ h1.hero-about-h1{
    margin: auto;
    margin-top: 8rem;
  }
-
- /* .percent{
-   font-size: 4.5rem;
- }
-
- .stats{
-   font-size: 2rem;
- } */
 
  .user-flows-image {
     margin: 5rem auto;
@@ -1796,33 +1674,22 @@ h1.hero-about-h1{
     height: 87rem;
   }
 
-  .mobile-about-me-photo{
-    display: none;
-  }
-
-  .hero-about-wrapper{
-    margin-top: 5rem;
-  }
-
-  .hero-about-wrapper h1{
-    margin-left: 15rem;
-  }
-
-  .hero-about-wrapper h1, .about-name{
-    font-size: 5.5rem;
-    font-weight: normal;
+  .hero-about-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-rows: 1fr .5fr 1fr;
+    max-width: 75rem;
   }
 
   img.mobile-about-me-photo{
     display: none;
   }
 
-  .about-me-photo{
-    display: flex;
-    justify-content: center;
-    margin: 6rem auto;
-    max-width: 60rem;
-    width: 70%;
+  img.about-me-photo{
+    display: grid;
+    grid-column: 1/4;
+    grid-row: 1/4;
+    width: 100%;
   }
 
   .bio-about{
@@ -1853,190 +1720,6 @@ h1.hero-about-h1{
 
 
 
-/* @media screen and (orientation: landscape){
-
-  .hero-wrapper{
-    height: 50rem;
-  }
-
-  .hero{
-    padding: 0rem 10% 15% 10%;
-  }
-
-  .hero h3 {
-    font-size: 2.5rem;
-    margin-bottom: .5rem;
-    margin-left: 1rem;
-    padding-top: 3rem;
-  }
-
-  .hero h1{
-    font-size: 3.5rem;
-    margin: 1.5rem 0rem 1.5rem 1rem;
-    padding-right: 0rem;
-  }
-
-  .hero p {
-    color: #4C4C4C;
-    font-size: 1.6rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    padding-bottom: 8rem;
-  }
-
-  .bounce {
-    animation: bounce 3s infinite;
-    color: #2A2A2A;
-    margin-top: -4rem;
-    -moz-animation: bounce 2s infinite;
-    -webkit-animation: bounce 2s infinite;
-  }
-
-  #featured-project {
-  background-color: #2a2a2a;
-  margin-bottom: 0rem;
-  }
-
-  .mobile-case-study-button{
-    margin: 2rem 30%;
-    width: 40%;
-  }
-
-  .hoverbox {
-  	display: inline-block;
-    height: auto;
-  	overflow: hidden;
-    position: relative;
-    width: 100%;
-  }
-
-
-  .hoverbox img {
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 3rem;
-    padding-bottom: 3rem;
-    text-align: center;
-    width: 70%;
-  }
-
-
-  .hero-about {
-    height: 50vh;
-    padding-bottom: 20rem;
-  }
-
-  .hero-about h1{
-    padding-top: 1rem;
-  }
-
-  .hero-about button{
-    margin-bottom: 4rem;
-
-  }
-
-} */
-
-
-
-
-/* @media screen and (min-width: 768px){
-
-  #footer-connect h2{
-    font-size: 5rem;
-    padding-top: 4rem;
-  }
-
-  .hero {
-    height: 80vh;
-  }
-
-  .hero h3{
-    padding-top: 10rem;
-  }
-
-  .hero p{
-    padding-bottom: 8rem;
-    font-size: 2rem;
-  }
-
-  .trunk h2{
-    font-size: 7rem;
-  }
-
-  .trunk h3{
-    font-size: 2.9rem;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-  }
-
-  .trunk, .trunk-image{
-    margin-left: 22.5%;
-    margin-right: 22.5%;
-    width: 55%;
-  }
-
-  .about-wrapper{
-    height: 80vh;
-  }
-
-  .hero-about{
-    padding-bottom: 15rem;
-    padding-top: 15rem;
-  }
-
-  .hero-about h1{
-    color: #634db3;
-    font-size: 7rem;
-    margin-top: 0rem;
-  }
-
-
-  .hero-about a{
-    font-size: 3rem;
-  }
-
-  .bounce{
-    margin-top: 1rem;
-  }
-
-  .hoverbox img{
-    margin-left: 20%;
-    margin-right: 20%;
-    width: 60%;
-  }
-
-  #wireframes-and-usability-tests img{
-    margin: 4rem 20%;
-    width: 60%;
-  }
-
-  .desktop-original-file, .desktop-original-folder{
-    margin: 4rem 20%;
-    width: 60%;
-  }
-
-  .footer-icons {
-    margin-left: 35%;
-    margin-right: 35%;
-    margin-top: 2rem;
-  }
-
-}
-
-
-
-
-@media screen and (min-width: 880px){
-
-  td.stats{
-    font-size: 2.3rem;
-  }
-} */
-
-
-
 
 @media screen and (min-width: 991px){
   h1{
@@ -2046,7 +1729,8 @@ h1.hero-about-h1{
 
   h2 {
     font-size: 4rem;
-    margin: 6rem 20% 1rem 20%;
+    margin: 6rem auto 1rem auto;
+    max-width: 70rem;
 
   }
 
@@ -2061,7 +1745,8 @@ h1.hero-about-h1{
 
   p {
     font-size: 2rem;
-    margin: auto 20%;
+    margin: auto;
+    max-width: 70rem;
   }
 
   ul{
@@ -2118,16 +1803,17 @@ h1.hero-about-h1{
   }
 
   .hero h3 {
-    font-size: 4rem;
+    font-size: 3.5rem;
     padding-top: 10%;
   }
 
   .hero h1{
     font-size: 6.5rem;
+    margin: 2.5rem auto;
   }
 
   .hero p{
-    font-size: 2.5rem;
+    font-size: 2.4rem;
     padding-bottom: 2rem;
     max-width: 67rem;
     width: 80%;
@@ -2156,10 +1842,11 @@ h1.hero-about-h1{
   .hoverbox-text h2{
     color: #766FC8;
     display: block;
-    font-family: "Tajawal";
+    font-family: "Montserrat";
     font-size: 6rem;
-    letter-spacing: .2rem;
+    letter-spacing: .1rem;
     padding-top: 8%;
+    padding-bottom: 1rem;
     margin: 0rem;
     text-align: center;
     width: 100%;
@@ -2172,8 +1859,8 @@ h1.hero-about-h1{
     font-size: 2rem;
     font-weight: lighter;
     justify-content: center;
-    letter-spacing: .2rem;
-    line-height: 3rem;
+    letter-spacing: .1rem;
+    line-height: 2.4rem;
     margin: 0rem auto 3.5rem auto;
     padding-bottom: 1rem;
     text-align: center;
@@ -2181,22 +1868,22 @@ h1.hero-about-h1{
   }
 
   .h2-desktop {
-    font-family: "Tajawal";
+    font-family: "Montserrat";
   }
 
   .my-work{
     color: #B6ECF8;
-    display: inline-block;
-    font-family: "Tajawal";
+    display: flex;
+    font-family: "Montserrat";
     font-size: 7rem;
     font-weight:lighter;
     /* letter-spacing: .2rem; */
     padding-top: 5rem;
     padding-bottom: 2rem;
-    margin: 0rem;
+    margin: auto;
     text-align: center;
     text-transform: uppercase;
-    width: 100%;
+    max-width: 38rem;
   }
 
   .case-study-button{
@@ -2212,10 +1899,11 @@ h1.hero-about-h1{
 
   .case-study-button h2{
     color: #B6ECF8;
-    font-family:"Tajawal";
-    font-size: 1.6rem;
+    font-family:"Montserrat";
+    font-size: 1.4rem;
+    font-weight: bold;
     letter-spacing: .2rem;
-    padding: 1.5rem 0rem 1rem 0rem;
+    padding: 1rem 0rem 1rem 0rem;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
@@ -2239,8 +1927,43 @@ h1.hero-about-h1{
   .prototype-button h2:hover{
     color: #E0625E;
   }
+
+
+  .roles-deliverables{
+    grid-template-columns: 13fr 1fr 15fr;
+    padding: 2rem 2rem 5rem 2rem;
+    margin: auto;
+    max-width: 70rem;
+  }
+
+  .roles-deliverables h2{
+    font-size: 3.5rem;
+  }
+
+  .roles-deliverables p{
+    font-size: 2rem;
+  }
+
+  .roles{
+    grid-column: 1/2;
+  }
+
+  .deliverables{
+    grid-column: 3/4;
+  }
+
   .summary .prototype-button h2{
     font-size: 2rem;
+  }
+
+
+  .problem-solution{
+    margin: auto;
+    max-width: 70rem;
+  }
+
+  .problem-solution p{
+    margin: 0rem;
   }
 
 
@@ -2307,12 +2030,6 @@ h1.hero-about-h1{
 
   /* End home page trunk overlay */
 
-  .case-study-wrapper{
-    /* background-image: url("../images/trunk-background.png");
-    background-position: top right;
-    background-repeat: no-repeat;
-    background-size: cover; */
-  }
 
   .trunk-pic {
       display: flex;
@@ -2345,8 +2062,7 @@ h1.hero-about-h1{
   }
 
   h2.results{
-    margin-left: 20%;
-    margin-right: 20%;
+    margin: 5rem auto 2rem auto;
   }
 
   .user-flows-image {
@@ -2357,8 +2073,10 @@ h1.hero-about-h1{
 
   .user-personas-lily-robert{
     display: grid;
-    grid-template-columns: 2fr 3fr 1fr 3fr 2fr;
+    grid-template-columns: 3fr 1fr 3fr;
     grid-auto-rows: 1fr 1fr;
+    margin: auto;
+    max-width: 70rem;
   }
 
   .user-personas-lily-robert img{
@@ -2372,13 +2090,13 @@ h1.hero-about-h1{
   }
 
   .user-persona-robert{
-    grid-column: 2/3;
+    grid-column: 1/2;
     grid-row: 1/2;
     /* max-width: 30rem; */
   }
 
   .user-persona-lily{
-    grid-column: 4/5;
+    grid-column: 3/4;
     grid-row: 1/2;
     /* max-width: 30rem; */
   }
@@ -2442,8 +2160,8 @@ h1.hero-about-h1{
   }
 
   table.usability-table{
-    margin-right: 20%;
-    width: auto;
+    margin: auto;
+    width: 80%;
   }
 
   #wireframes-and-usability-tests img{
@@ -2456,35 +2174,17 @@ h1.hero-about-h1{
     margin-left: 20%;
   }
 
-  /* .wireframe-images{
+
+  .wireframe-images{
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr 3fr 1fr;
-    grid-auto-rows: 1fr;
-  }
-
-  #wireframes-and-usability-tests .wireframe-sketches{
-    grid-column: 2/3;
-    margin: 0rem;
+    /* display: flex; */
+    grid-template-columns: 1fr 18fr 1fr 14fr 1fr;
+    grid-template-rows: 1fr 20fr 1fr;
+    /* justify-content: center; */
+    margin: 5rem auto;
+    max-width: 70rem;
     width: 100%;
   }
-
-  #wireframes-and-usability-tests .wireframes2{
-    grid-column: 4/5;
-    margin: 0rem;
-    width: 100%;
-  } */
-
-
-.wireframe-images{
-  display: grid;
-  /* display: flex; */
-  grid-template-columns: 1fr 18fr 1fr 14fr 1fr;
-  grid-template-rows: 1fr 20fr 1fr;
-  /* justify-content: center; */
-  margin: 5rem auto;
-  max-width: 70rem;
-  width: 100%;
-}
 
   #wireframes-and-usability-tests .wireframe-sketches{
     display: flex;
@@ -2540,8 +2240,8 @@ h1.hero-about-h1{
     justify-content: center;
     margin: auto;
     margin-top: 5rem;
-    max-width: 90rem;
-    width: 90%;
+    max-width: 110rem;
+    width: 100%;
   }
 
   .styleguide{
@@ -2596,7 +2296,7 @@ h1.hero-about-h1{
   }
 
   .designed h4{
-    font-size: 2rem;
+    font-size: 1.3rem;
   }
 
   footer {
@@ -2604,45 +2304,36 @@ h1.hero-about-h1{
   }
 
 
-.hero-about-wrapper{
-  display: grid;
-  grid-template-columns: 6fr 1fr 10fr;
-  grid-template-rows: 1fr 1fr 3fr;
-  margin: 10rem auto 5rem auto;
-  max-width: 100rem;
-  width: 80%;
-}
+  .hero-about-wrapper{
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 5rem auto 5rem auto;
+    max-width: 80rem;
+    width: 80%;
+  }
 
-.hero-about-wrapper .hero-about-hey{
-  font-size: 4rem;
-  grid-column: 1/2;
-  grid-row: 1/2;
-  margin: 0rem;
-  padding-top: 0rem;
-}
-
-.hero-about-h1, .about-name{
-  grid-column: 1/2;
-  grid-row: 2/3;
-  margin: 0rem;
-}
+  .hero-about-wrapper .hero-about-hey{
+    font-size: 6rem;
+    margin: 0rem auto;
+  }
 
   .hero-about-wrapper h1{
     margin: 0rem;
     text-align: left;
   }
 
-.about-me-photo{
-  grid-column: 3/4;
-  grid-row: 1/4;
-  margin: 0rem;
-  max-width: 50rem;
-  width: 100%;
-}
+  .hero-about-wrapper .hero-about-hey{
+    font-size: 6.5rem;
+    grid-column: 1/2;
+  }
+
+  .hero-about-wrapper .hero-about-h1{
+    font-size: 6.5rem;
+  }
 
   .hero-about a{
     color: #fff;
-    font-family: "Tajawal";
+    font-family: "Montserrat";
     font-size: 3.2rem;
   }
 
@@ -2679,7 +2370,7 @@ h1.hero-about-h1{
   }
 
   .hero h1{
-    font-size: 7.5rem;
+    font-size: 6.8rem;
   }
 
   .hero p{

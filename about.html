@@ -25,13 +25,18 @@
 
   <body>
   <section class="about-wrapper">
+    <div class="personal-logo">
+      <a href="./index.html">
+
+        <img src="images/grey-ea-logo.png" alt="personal logo" class="personal-logo">
+        <!-- <img src="images/blue-ea-logo.png" alt="personal logo" class="blue-personal-logo"> -->
+      </a>
+    </div>
     <nav class="navbar">
       <div class="navigation">
-        <div class="selected">
         <p class="about">
           <a href="./about.html">About</a>
         </p>
-      </div>
         <p class="projects">
           <a href="./trunk.html">Projects</a>
         </p>
@@ -41,15 +46,12 @@
         <p class="connect">
           <a href="#footer-connect">Connect</a>
         </p></div>
-        <div class="personal-logo">
-          <a href="./index.html">
-            <img src="images/grey-ea-logo.png" alt="personal logo" class="personal-logo">
-          </a>
-        </div>
+
     </nav>
+
     <section class="hero-about-wrapper">
       <h1 class="hero-about-hey">Hey!</h1>
-        <h1 class="hero-about-h1">I'm <br><span class="about-name"> ELENA.</span></h1>
+        <h1 class="hero-about-h1">I'm<br>Elena.</h1>
 
 
       <img src="images/about-background.png" alt="about me background" class="about-me-photo">
@@ -127,9 +129,9 @@
     </div>
 
     <footer>
-    <section id="footer-connect">
+    <!-- <section id="footer-connect">
       <h2>Let's Connect!</h2>
-    </section>
+    </section> -->
     <section class="footer-icons">
           <a href="https://www.linkedin.com/in/elena-aragon" target="_blank">
             <img src="images/linkedin.png" alt="linkedin logo" class="linkedin">
@@ -151,14 +153,10 @@
 
   </footer>
   <script>
-    ScrollReveal().reveal('.hero-about-hey', {delay: 50});
-    ScrollReveal().reveal('.hero-about-h1', {delay: 300});
-    ScrollReveal().reveal('.about-me-photo', {delay: 500});
-    ScrollReveal().reveal('.mobile-about-me-photo', {delay: 300});
-
-
-    // ScrollReveal().reveal('.hero-about button' , {delay: 800});
-    // ScrollReveal().reveal('.bio-about' , {delay: 300});
+    ScrollReveal().reveal('.hero-about-hey', {delay: 100});
+    ScrollReveal().reveal('h1.hero-about-h1', {delay: 500});
+    // ScrollReveal().reveal('.about-me-photo', {delay: 50});
+    // ScrollReveal().reveal('.mobile-about-me-photo', {delay: 50});
   </script>
   </body>
 </html>
