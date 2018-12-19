@@ -197,21 +197,12 @@ footer{
   width: 40%;
 }
 
-#footer-connect h2{
-  color: #553fa2;
-  font-family: "Montserrat";
-  font-size: 3.7rem;
-  margin-top: 0rem;
-  padding-top: 3rem;
-  text-align: center;
-}
-
 .linkedin, .twitter, .email, .github {
   width: 3rem;
 }
 
 .designed h4{
-  color: #000;
+  color: #fff;
   font-family: Helvetica, sans-serif;
   font-size: .8rem;
   font-weight: lighter;
@@ -400,11 +391,13 @@ p.p-mobile{
   margin: 3rem auto 1rem auto;
   max-width: 20rem;
   min-width: 17rem;
+  outline: none;
   width: 50%;
 }
 
 .mobile-case-study-button:active {
   box-shadow: 0 5px #666;
+  outline: none;
   transform: translateY(4px);
 }
 
@@ -548,11 +541,13 @@ section.trunk-title h2{
   font-weight: normal;
   letter-spacing: .1rem;
   margin: 0rem;
-  padding: 1rem 2rem 1rem 2rem;
+  padding: 1.5rem 2rem 1rem 2rem;
   text-decoration: none;
   text-align: center;
   text-transform: uppercase;
 }
+
+
 
 .grid{
   display: grid;
@@ -1965,7 +1960,7 @@ section.trunk-title h1{
     text-transform: uppercase;
   }
 
-  .case-study-button h2:hover{
+  .hoverbox .case-study-button h2:hover{
     color: #2a2a2a;
     font-weight: bold;
   }
@@ -1980,7 +1975,7 @@ section.trunk-title h1{
     background-color: #2a2a2a;
   }
 
-  .prototype-button h2:hover{
+  #mockups .prototype-button h2:hover, .summary .prototype-button h2:hover{
     color: #E0625E;
   }
 
