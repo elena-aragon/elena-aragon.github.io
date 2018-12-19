@@ -970,7 +970,7 @@ section.about-wrapper{
   background-image: url("../images/mobile-about-background.png");
   background-size: cover;
   background-position: center;
-  height: 50rem;
+  height: 45rem;
   width: 100%;
 }
 
@@ -978,7 +978,7 @@ section.about-wrapper{
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  margin: 8rem 10% auto 10%;;
+  margin: 7rem 10% auto 10%;;
   padding-bottom: 4rem;
   max-width: 50rem;
   height: 20%;
@@ -1008,7 +1008,7 @@ section.about-wrapper{
 }
 
 .hero-about-h1{
-  font-size: 6rem;
+  font-size: 4.5rem;
   grid-column: 1/2;
   grid-row: 2/3;
   margin: 0rem;
@@ -1138,12 +1138,12 @@ h1.hero-about-h1{
   }
 
   .hero-about-hey{
-    font-size: 3.2rem;
+    font-size: 3rem;
   }
 
   h1.hero-about-h1{
     margin-bottom: 3rem;
-    font-size: 7rem;
+    font-size: 5.5rem;
   }
 }
 
@@ -1540,6 +1540,8 @@ h1.hero-about-h1{
   }
 
   h1.hero-about-h1{
+    font-family:"Montserrat";
+    font-size: 8rem;
     padding-top: 3rem;
     margin-bottom: 0rem;
   }
@@ -2368,7 +2370,7 @@ section.trunk-title h1{
 
 
   .hero-about-wrapper{
-    margin: 10rem 6rem;
+    margin: 8rem 6rem;
     max-width: 170rem;
     width: 90%;
   }
