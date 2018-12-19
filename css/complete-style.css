@@ -489,7 +489,6 @@ section.trunk-title h2{
   margin: 5rem auto 2rem auto;
   max-width: 25rem;
   opacity: 1;
-  transition: background .4s ease;
   width: 60%;
 }
 
@@ -1960,12 +1959,13 @@ section.trunk-title h1{
     text-transform: uppercase;
   }
 
-  .hoverbox-text h2:hover, .case-study-button h2:hover{
+  .case-study-button h2:hover{
     color: #2a2a2a;
     font-weight: bold;
   }
 
   .case-study-button:hover{
+    color: #2a2a2a;
     background-color: #B6ECF8;
     transition: background 1s ease;
   }
@@ -1977,6 +1977,7 @@ section.trunk-title h1{
 
   #mockups .prototype-button h2:hover, .summary .prototype-button h2:hover{
     color: #E0625E;
+    transition: all .4s ease;
   }
 
   section.trunk-title h2{
