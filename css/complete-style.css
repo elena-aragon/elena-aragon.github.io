@@ -57,7 +57,7 @@ h2 {
   color: #1F1F1F;
   font-family:"MontserratSemiBold", Helvetica, Arial, sans-serif;
   font-size: 3rem;
-  margin: 5rem 10% 1.5rem 10%;
+  margin: 4rem 10% 1.5rem 10%;
 }
 
 h3 {
@@ -489,7 +489,8 @@ section.trunk-title h2{
   text-align: center;
   font-size: 3rem;
   letter-spacing: .2rem;
-  margin: 10rem auto 0rem auto;
+  margin: 8rem auto 0rem auto;
+  max-width: 25rem;
 
 }
 
@@ -1166,7 +1167,7 @@ h1.hero-about-h1{
 
   h2 {
     font-size: 3.5rem;
-    margin: 6rem 12.5% 1rem 12.5%;
+    margin: 5rem 12.5% 1rem 12.5%;
 
   }
 
@@ -1253,6 +1254,7 @@ h1.hero-about-h1{
 
   .secondary-headers{
     font-size: 3.5rem;
+    max-width: 30rem;
     width: 50%;
   }
 
@@ -1402,7 +1404,7 @@ h1.hero-about-h1{
     grid-template-rows: 10fr 1fr 10fr;
     margin: 6rem auto;
     max-width: 51rem;
-    width: 80%;
+    width: 85%;
   }
 
   /* #research1, #research2, #research3, #research4, #research5, #research6{
@@ -1788,7 +1790,7 @@ h1.hero-about-h1{
 
   h2 {
     font-size: 4rem;
-    margin: 6rem auto 1rem auto;
+    margin: 5rem auto 1rem auto;
     max-width: 70rem;
 
   }
@@ -2006,6 +2008,7 @@ h1.hero-about-h1{
 
   .secondary-headers{
     font-size: 3.8rem;
+    max-width:35rem;
     width: 30%;
   }
 
