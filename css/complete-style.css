@@ -55,7 +55,7 @@ h1{
 
 h2 {
   color: #1F1F1F;
-  font-family:"Montserrat", Helvetica, Arial, sans-serif;
+  font-family:"MontserratSemiBold", Helvetica, Arial, sans-serif;
   font-size: 3rem;
   margin: 5rem 10% 1.5rem 10%;
 }
@@ -106,8 +106,9 @@ br {
 .navigation{
   display: flex;
   justify-content: space-between;
+  margin-right: 2rem;
   max-width: 28rem;
-  width: 70%;
+  width: 65%;
 }
 
 .navigation p{
@@ -153,7 +154,7 @@ br {
   display: flex;
   justify-content: flex-start;
   margin-bottom: 2.5rem;
-  margin-left: 1.5rem;
+  margin-left: 1rem;
   margin-top: 1rem;
   position: absolute;
   width: 3rem;
@@ -227,7 +228,7 @@ footer{
 
 .hero{
   height: 36rem;
-  padding: 0rem 2rem 15% 2rem;
+  padding: 0rem 0rem 15% 0rem;
   width: 100%;
 }
 
@@ -238,7 +239,7 @@ footer{
   /* font-weight: bold; */
   letter-spacing: .3rem;
   margin-bottom: .5rem;
-  margin-left: 1rem;
+  margin-left: 2rem;
   padding-top: 6rem;
   text-transform: uppercase;
 }
@@ -247,17 +248,14 @@ footer{
   color: #553fa2;
   font-family: "MontserratSemiBold";
   font-size: 2.9rem;
-  font-weight: bold;
-  margin: 1.5rem 0rem 1.5rem 1rem;
-  padding-right: 0rem;
+  margin: 1.5rem 0rem 1.5rem 2rem;
 }
 
 .hero p {
   color: #4C4C4C;
-  font-family: Helvetica;
   font-size: 1.5rem;
   line-height: 1.5;
-  margin-left: 1rem;
+  margin-left: 2rem;
   margin-right: 1rem;
   padding-bottom: 8rem;
   max-width: 40rem;
@@ -271,7 +269,8 @@ footer{
   color: #2A2A2A;
   display: flex;
   justify-content: center;
-  margin-top: -3rem;
+  margin-top: 0rem;
+  margin-left: -3rem;
   -moz-animation: bounce 2s infinite;
   -webkit-animation: bounce 2s infinite;
 }
@@ -358,10 +357,8 @@ h2.h2-mobile{
 p.p-mobile{
   text-align: center;
   color: #fff;
-  display: flex;
   font-size: 2rem;
   font-weight: lighter;
-  justify-content: center;
   line-height: 130%;
   margin: auto;
   max-width: 25rem;
@@ -450,7 +447,7 @@ p.p-mobile{
 }
 
 #trunk-summary {
-    padding: 2rem 10% 2% 10%;
+    /* padding: 2rem 10% 2% 10%; */
     width: 100%;
   }
 
@@ -480,6 +477,22 @@ section.trunk-title h2{
   margin-top: 2rem;
 }
 
+.primary-headers{
+  font-size: 4rem;
+  color: #2a2a2a;
+  font-weight: bold;
+  margin-bottom: 0rem;
+  text-align: center;
+}
+
+.secondary-headers{
+  text-align: center;
+  font-size: 3rem;
+  letter-spacing: .2rem;
+  margin: 10rem auto 0rem auto;
+
+}
+
 .prototype-button{
   background: #E0625E;
   border-color: #E0625E;
@@ -488,6 +501,7 @@ section.trunk-title h2{
   border-width: 1.5px;
   margin: 5rem auto 2rem auto;
   max-width: 25rem;
+  min-width: 20rem;
   opacity: 1;
   width: 60%;
 }
@@ -540,7 +554,7 @@ section.trunk-title h2{
   font-weight: normal;
   letter-spacing: .1rem;
   margin: 0rem;
-  padding: 1.5rem 2rem 1rem 2rem;
+  padding: 1.4rem 2rem 1rem 2rem;
   text-decoration: none;
   text-align: center;
   text-transform: uppercase;
@@ -552,20 +566,31 @@ section.trunk-title h2{
   display: grid;
   grid-template-columns: 20fr 1fr 20fr;
   grid-template-rows: 5fr 1fr 5fr 1fr 5fr;
-  margin-top: 5rem;
-  margin: 5rem 1rem 5rem 1rem;
+  margin: 5rem auto 5rem auto;
+  max-width: 30rem;
+
+
 }
 
-#research1, #research2, #research3, #research4, #research5, #research6{
+#research1, #research2, #research3, #research4, #research5, #research6 {
+    background-color: #2a2a2a;
+    border-radius: 100px;
+    font-family: "Montserrat";
+    max-width: 15rem;
+    min-width: 14rem;
+    min-height: 14.5rem;
+    margin: auto;
+    padding: 3.5rem 1.5rem 2rem 1.5rem;
+  }
+
+/* #research1, #research2, #research3, #research4, #research5, #research6{
   background-color: #2a2a2a;
-  border-radius: 100px;
+  border-radius: 50%;
   font-family: "Montserrat";
-  max-width: 15rem;
-  min-width: 14rem;
-  min-height: 14.5rem;
+  height: 8rem;
   margin: auto;
-  padding: 3.5rem 1.5rem 2rem 1.5rem;
-}
+  padding: 3.5rem 1rem;
+} */
 
 div#research1{
   grid-column: 1/2;
@@ -642,7 +667,6 @@ img.wireframes1{
 }
 
 .summary h1{
-  clear: right;
   margin-top: 0rem;
   padding-top: 3rem;
   text-align: center;
@@ -655,10 +679,6 @@ img.wireframes1{
 
 section.solution p{
   padding-bottom: 2rem;
-}
-
-.process h1{
-  text-align: center;
 }
 
 
@@ -690,7 +710,7 @@ td{
   font-size: 1.4rem;
   font-weight: lighter;
   line-height: 140%;
-  margin: 0rem;
+  /* margin: 0rem; */
   text-align: center;
 }
 
@@ -713,12 +733,10 @@ td{
 }
 
 .competitor-icons{
-  display: inline-flex;
-  justify-content: center;
+  display: flex;
   justify-content: space-around;
-  padding-left: 15%;
-  padding-right: 15%;
   margin: 3rem auto 1rem auto;
+  max-width: 30rem;
   width: 100%;
 
 }
@@ -726,7 +744,7 @@ td{
 .google-drive, .dropbox{
   height: 20%;
   max-width: 12rem;
-  width: 30%;
+  width: 8rem;
 }
 
 .competitive-analysis li{
@@ -803,21 +821,22 @@ h3.mobile-strengths-weaknesses{
 
 #user-personas h2.h2-user-personas{
   display: block;
-  font-size: 3.5rem;
+  font-size: 2.7rem;
   margin: 4rem auto 0rem auto;
   text-align: center;
 }
 
 h3.h3-user-personas{
   display: block;
-  font-size: 2.5rem;
+  font-size: 2.1rem;
+  font-weight: bold;
   margin: 3rem auto 1rem auto;
   text-align: left;
 }
 
 h3.h3-user-personas-title{
   display: block;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   margin: 1rem auto 0rem auto;
   text-align: center;
 }
@@ -830,6 +849,7 @@ h3.h3-user-personas-title{
 .p-user-personas{
   display: block;
   font-size: 1.7rem;
+  line-height: 1.4;
   margin: 1rem auto;
 }
 
@@ -987,15 +1007,12 @@ section.about-wrapper{
   letter-spacing: .1rem;
   margin-top: 0rem;
   padding-top: 6rem;
-  z-index: 0;
 }
 
 .hero-about-wrapper .hero-about-hey{
   color: #8b8100;
   font-family:"Montserrat";
   font-size: 2.8rem;
-  grid-column: 1/2;
-  grid-row: 1/2;
   letter-spacing: .3rem;
   margin: 0rem;
   text-align: left;
@@ -1065,15 +1082,13 @@ h1.hero-about-h1{
     /* grid-template-columns: 1fr 1fr 3fr 3fr 3fr 1fr 1fr 3fr 3fr 3fr 1fr 1fr;
     grid-template-rows: 5fr 1fr 5fr 1fr 5fr; */
     margin: 5rem auto;
-    max-width: 40rem;
+    max-width: 30rem;
   }
 
   #research1, #research2, #research3, #research4, #research5, #research6{
     background-color: #2a2a2a;
     border-radius: 110px;
     font-family: "Montserrat";
-    max-width: 15rem;
-    min-width: 14rem;
     margin: auto;
     padding: 3rem 1.5rem;
   }
@@ -1131,7 +1146,7 @@ h1.hero-about-h1{
     grid-column: 1/2;
   }
 
-  .hero-about-hey{
+  .hero-about-wrapper .hero-about-hey{
     font-size: 3rem;
   }
 
@@ -1205,17 +1220,11 @@ h1.hero-about-h1{
     font-size: 1rem;
   }
 
-
-
   .roles-deliverables{
     grid-template-columns: 6fr 1fr 9fr;
     padding: 2rem 2rem 5rem 2rem;
     margin: auto;
     max-width: 50rem;
-  }
-
-  .roles-deliverables h2{
-    font-size: 3.5rem;
   }
 
   #trunk-summary h2{
@@ -1237,20 +1246,18 @@ h1.hero-about-h1{
     margin-top: 2rem;
   }
 
+  .primary-headers{
+    font-size: 4.7rem;
+    margin-bottom: 2rem;
+  }
+
+  .secondary-headers{
+    font-size: 3.5rem;
+    width: 50%;
+  }
+
   td.stats{
     font-size: 2.2rem;
-  }
-
-  ul{
-    margin-left: 14rem;
-    width: 70%;
-  }
-
-  ul p{
-    font-size: 2.2rem;
-    line-height: 2.3rem;
-    margin-left: 1%;
-    margin-bottom: 1rem;
   }
 
 
@@ -1260,7 +1267,7 @@ h1.hero-about-h1{
 
   .hero{
     height: 50rem;
-    padding: 0rem 3rem 15% 3rem;
+    /* padding: 0rem auto 15% auto; */
   }
 
   .hero h3{
@@ -1294,10 +1301,7 @@ h1.hero-about-h1{
     }
 
   .mobile-case-study-button{
-    display: flex;
-    justify-content: center;
     margin: 3rem auto;
-    /* margin-bottom: 5rem; */
     width: 40%;
     max-width: 25rem;
   }
@@ -1324,26 +1328,12 @@ h1.hero-about-h1{
     margin: 3rem auto 1rem auto;
   }
 
-  .tablet-strengths-weaknesses p{
-    color: #6C6C6C;
-    font-family: "Montserrat";
-    font-size: 2rem;
-    font-weight: bold;
-    line-height: 2.2rem;
-    text-align: center;
-  }
-
-  .tablet-strengths-weaknesses td{
-    padding: .5rem;
-  }
-
   .hoverbox img {
     display: flex;
-    justify-content: center;
     width: 80%;
     margin: auto;
-    max-width: 60rem;
     margin-bottom: 5rem;
+    max-width: 60rem;
   }
 
   h2.results{
@@ -1408,29 +1398,34 @@ h1.hero-about-h1{
   }
 
   .grid{
-    display: grid;
     grid-template-columns: 10fr 1fr 10fr 1fr 10fr;
     grid-template-rows: 10fr 1fr 10fr;
     margin: 6rem auto;
-    max-width: 60rem;
+    max-width: 51rem;
+    width: 80%;
   }
 
-  #research1, #research2, #research3, #research4, #research5, #research6{
-    background-color: #2a2a2a;
-    /* border-radius: 150px; */
-    min-width: 16rem;
-    max-width: 17rem;
-    min-height: 16rem;
-    max-height: 25rem;
-    padding: 4rem 2rem 1rem 2rem;
-  }
+  /* #research1, #research2, #research3, #research4, #research5, #research6{
+    padding: 2rem;
+    height: 11rem;
+    width: 11rem;
+  } */
 
+#research1, #research2, #research3, #research4, #research5, #research6{
+  background-color: #2a2a2a;
+  min-width: 16rem;
+  max-width: 17rem;
+  min-height: 16rem;
+  max-height: 25rem;
+  padding: 3rem 2rem 1rem 2rem;
+}
   .percent{
     font-size: 3rem;
+    margin-top: 1rem;
   }
 
   .stats{
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     max-height: 6rem;
   }
 
@@ -1527,7 +1522,6 @@ h1.hero-about-h1{
   }
 
   .hero-about-wrapper .hero-about-hey{
-    color: #8b8100;
     font-size: 4rem;
     padding-top: 10rem;
 
@@ -1540,10 +1534,10 @@ h1.hero-about-h1{
     margin-bottom: 0rem;
   }
 
-  .competitor-icons{
+  /* .competitor-icons{
     padding-left: 25%;
     padding-right: 25%;
-  }
+  } */
 
   .google-drive, .dropbox{
     height: 30%;
@@ -1563,7 +1557,6 @@ h1.hero-about-h1{
   }
 
   h2 {
-    font-size: 3.5rem;
     margin: 6rem 12.5% 2rem 12.5%;
   }
 
@@ -1612,25 +1605,33 @@ h1.hero-about-h1{
     width: 4rem;
 }
 
-.hero h1{
-  font-size: 6rem;
-}
+  .hero h1{
+    font-size: 6rem;
+  }
 
-section.trunk-title h2{
-  font-size: 2.4rem;
-}
+  section.trunk-title h2{
+    font-size: 2.4rem;
+  }
 
-section.trunk-title h1{
-  font-size: 7rem;
-}
+  section.trunk-title h1{
+    font-size: 7rem;
+  }
 
 
   img.trunk-pic{
-    display: flex;
-    justify-content: center;
     max-width: 60rem;
     margin: 5rem auto 1rem auto;
     width: 80%;
+  }
+
+  .primary-headers{
+    font-size: 5rem;
+    margin-bottom: 2rem;
+  }
+
+  .secondary-headers{
+    font-size: 4rem;
+    width: 50%;
   }
 
 
@@ -1639,14 +1640,6 @@ section.trunk-title h1{
     padding: 2rem 2rem 5rem 2rem;
     margin: auto;
     max-width: 50rem;
-  }
-
-  .roles-deliverables h2{
-    font-size: 3.5rem;
-  }
-
-  .roles-deliverables p{
-    font-size: 1.8rem;
   }
 
   .roles{
@@ -1696,10 +1689,28 @@ section.trunk-title h1{
  }
 
  .grid{
-   max-width: 65rem;
+   max-width: 50rem;
    margin: auto;
-   margin-top: 8rem;
+   margin-top: 4rem;
  }
+
+ p.percent{
+   font-size: 3.2rem;
+   margin-top: 1rem;
+ }
+
+ p.stats{
+   font-size: 1.6rem;
+   padding: 0rem .4rem;
+   margin: 0rem;
+ }
+
+ #research1, #research2, #research3,
+ #research4, #research5, #research6 {
+    padding: 2.7rem;
+    margin: 0rem;
+}
+
 
  .user-flows-image {
     margin: 5rem auto;
@@ -1708,7 +1719,6 @@ section.trunk-title h1{
 }
 
  .trunk-mockups{
-   display: flex;
    justify-content: center;
    margin: 3rem auto 5rem auto;
    width: 90%;
@@ -1753,10 +1763,10 @@ section.trunk-title h1{
     font-size: 1.8rem;
   }
 
-  .competitor-icons{
+  /* .competitor-icons{
     padding-left: 30%;
     padding-right: 30%;
-  }
+  } */
 
   .google-drive, .dropbox{
     height: 30%;
@@ -1849,22 +1859,23 @@ section.trunk-title h1{
 
   .hero {
     padding-bottom: 8rem;
-    padding-left: 6rem;
   }
 
   .hero h3 {
     font-size: 3.5rem;
     padding-top: 10%;
+    margin: auto 4rem;
   }
 
   .hero h1{
     font-size: 6.5rem;
-    margin: 2.5rem 1rem;
+    margin: 2.5rem 4rem;
   }
 
   .hero p{
     font-size: 2.4rem;
     padding-bottom: 2rem;
+    margin: auto 4rem;
     max-width: 67rem;
     width: 80%;
   }
@@ -1899,7 +1910,6 @@ section.trunk-title h1{
     padding-bottom: 1rem;
     margin: 0rem;
     text-align: center;
-    width: 100%;
   }
 
   .hoverbox-text p{
@@ -1927,11 +1937,9 @@ section.trunk-title h1{
     font-family: "Montserrat";
     font-size: 7rem;
     font-weight:lighter;
-    /* letter-spacing: .2rem; */
     padding-top: 5rem;
     padding-bottom: 2rem;
     margin: auto;
-    text-align: center;
     text-transform: uppercase;
     max-width: 38rem;
   }
@@ -1940,11 +1948,9 @@ section.trunk-title h1{
     background: #2a2a2a;
     border: #B6ECF8 solid 1px;
     border-radius: 20px;
-    cursor: pointer;
     display: block;
     margin: 1rem auto 2rem auto;
     max-width: 20rem;
-    width: 100%;
   }
 
   .case-study-button h2{
@@ -1993,15 +1999,21 @@ section.trunk-title h1{
     font-size: 7.5rem;
   }
 
+  .primary-headers{
+    font-size: 5.2rem;
+    margin-bottom: 2rem;
+  }
+
+  .secondary-headers{
+    font-size: 3.8rem;
+    width: 30%;
+  }
+
   .roles-deliverables{
     grid-template-columns: 13fr 1fr 15fr;
     padding: 2rem 2rem 5rem 2rem;
     margin: auto;
     max-width: 70rem;
-  }
-
-  .roles-deliverables h2{
-    font-size: 3.5rem;
   }
 
   .roles-deliverables p{
@@ -2036,30 +2048,19 @@ section.trunk-title h1{
   	box-sizing: border-box;
   }
 
-  .hoverbox {
-  	display: inline-block;
-    height: auto;
-  	overflow: hidden;
-    position: relative;
-  	width: 100%;
-  }
-
   .hoverbox img {
     margin-left: auto;
     margin-right: auto;
     margin-top: 3rem;
     padding-bottom: 3rem;
-    text-align: center;
     width: 80%;
   }
 
   .hoverbox .hoverbox-layer-bottom {
-  	display: block;
     transition: all 1s ease;
   }
 
   .hoverbox .hoverbox-layer-top {
-    color: #fff;
     bottom: 0;
     height: 100%;
     left: 0;
@@ -2096,15 +2097,13 @@ section.trunk-title h1{
 
 
   .trunk-pic {
-      display: flex;
-      justify-content: center;
       margin: 3rem auto 3rem auto;
       max-width: 70rem;
       width: 100%;
   }
 
   #trunk-summary {
-      padding: 2rem 10% 2% 10%;
+      padding: 2rem auto 2% auto;
       width: 100%;
     }
 
@@ -2278,10 +2277,10 @@ section.trunk-title h1{
     width: 80%;
   }
 
-  .competitor-icons{
+  /* .competitor-icons{
     padding-left: 35%;
     padding-right: 35%;
-  }
+  } */
 
   .google-drive, .dropbox{
     height: 30%;
@@ -2332,14 +2331,12 @@ section.trunk-title h1{
   }
 
   .trunk{
-    float: left;
     margin-left: 15%;
     margin-right: 1rem;
     width: 30%;
   }
 
   .trunk-image {
-    float: right;
     margin-left: 1rem;
     margin-right: 15%;
     margin-top: 3rem;
@@ -2426,8 +2423,6 @@ section.trunk-title h1{
 
   .hoverbox img{
     margin: 2rem auto;
-    margin-left: auto;
-    margin-right: auto;
     width: 48%;
   }
 
