@@ -561,8 +561,6 @@ section.trunk-title h2{
   text-transform: uppercase;
 }
 
-
-
 .grid{
   display: grid;
   grid-template-columns: 20fr 1fr 20fr;
@@ -583,15 +581,6 @@ section.trunk-title h2{
     margin: auto;
     padding: 3.5rem 1.5rem 2rem 1.5rem;
   }
-
-/* #research1, #research2, #research3, #research4, #research5, #research6{
-  background-color: #2a2a2a;
-  border-radius: 50%;
-  font-family: "Montserrat";
-  height: 8rem;
-  margin: auto;
-  padding: 3.5rem 1rem;
-} */
 
 div#research1{
   grid-column: 1/2;
@@ -862,11 +851,6 @@ h3.h3-user-personas-title{
   margin: 4rem 12.5% 2rem 12.5%;
 }
 
-#branding img{
-  /* margin: 2rem 17.5% 2rem 17.5%; */
-  /* width: 65%; */
-}
-
 .bw-trunk-logo img, .bw-trunk-logos2 img{
   margin: 0rem 25% auto 25%;
   width: 50%;
@@ -918,11 +902,6 @@ img.black-trunk-logos{
   /* margin: 0rem; */
 }
 
-
-/* img.white-trunk-logos{
-  margin-top: 5rem;
-} */
-
 .trunk-typography, .trunk-colors{
   display: flex;
   justify-content: center;
@@ -967,7 +946,6 @@ img.mobile-trunk-mockups{
   margin-top: 5rem;
   width: 100%;
 }
-
 
 .conclusion {
   margin-bottom: 5rem;
@@ -1463,10 +1441,6 @@ h1.hero-about-h1{
     grid-column: 5/6;
   }
 
-
-
-
-
   .user-personas-lily-robert img{
     display: flex;
     justify-content: center;
@@ -1535,11 +1509,6 @@ h1.hero-about-h1{
     padding-top: 3rem;
     margin-bottom: 0rem;
   }
-
-  /* .competitor-icons{
-    padding-left: 25%;
-    padding-right: 25%;
-  } */
 
   .google-drive, .dropbox{
     height: 30%;
@@ -1619,7 +1588,6 @@ h1.hero-about-h1{
     font-size: 7rem;
   }
 
-
   img.trunk-pic{
     max-width: 60rem;
     margin: 5rem auto 1rem auto;
@@ -1636,7 +1604,6 @@ h1.hero-about-h1{
     width: 50%;
   }
 
-
   .roles-deliverables{
     grid-template-columns: 12fr 1fr 15fr;
     padding: 2rem 2rem 5rem 2rem;
@@ -1651,7 +1618,6 @@ h1.hero-about-h1{
   .deliverables{
     grid-column: 3/4;
   }
-
 
   .problem-solution{
     display: grid;
@@ -1764,11 +1730,6 @@ h1.hero-about-h1{
   .bio-about p{
     font-size: 1.8rem;
   }
-
-  /* .competitor-icons{
-    padding-left: 30%;
-    padding-right: 30%;
-  } */
 
   .google-drive, .dropbox{
     height: 30%;
