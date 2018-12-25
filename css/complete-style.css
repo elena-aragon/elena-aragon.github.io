@@ -482,22 +482,22 @@ section.trunk-title h2{
   font-size: 4rem;
   color: #2a2a2a;
   font-weight: bold;
-  margin-bottom: 0rem;
+  margin-bottom: 3rem;
   text-align: center;
 }
 
 .secondary-headers{
   text-align: center;
-  font-size: 3rem;
+  font-size: 2.8rem;
   letter-spacing: .2rem;
   margin: 8rem auto 0rem auto;
-  max-width: 25rem;
+  max-width: 30rem;
 
 }
 
 .prototype-button{
-  background: #E0625E;
-  border-color: #E0625E;
+  background: #2a2a2a;
+  border-color: #B6ECF8;
   border-radius: 20px;
   border-style: solid;
   border-width: 1.5px;
@@ -513,14 +513,21 @@ section.trunk-title h2{
   outline: none;
 }
 
+
 .roles-deliverables{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: auto;
+}
+
+/* .roles-deliverables{
   display: flex;
   justify-content: center;
   flex-direction: column;
   padding: 2rem 0rem 5rem 0rem;
   margin: 0rem auto;
   width: 20rem;
-}
+} */
 
 ul{
   list-style: circle;
@@ -567,10 +574,10 @@ ul{
 }
 
 #mockups .prototype-button h2, .summary .prototype-button h2{
-  color: #2a2a2a;
+  color: #B6ECF8;
   font-family: Helvetica;
-  font-size: 1.5rem;
-  font-weight: normal;
+  font-size: 1.4rem;
+  font-weight: lighter;
   letter-spacing: .1rem;
   margin: 0rem;
   padding: 1.4rem 2rem 1rem 2rem;
@@ -695,13 +702,13 @@ section.solution p{
 table.stats-table, table.usability-table{
   display: flex;
   justify-content: center;
-  margin: 1rem auto;
+  margin: 1rem 10%;
   max-width: 35rem;
   width: 80%;
 }
 
 td{
-  padding: 1rem;
+  padding: 1rem 1rem 0rem 1rem;
   vertical-align: middle;
 }
 
@@ -735,6 +742,7 @@ td{
   color: #2a2a2a;
   font-family: Helvetica, sans-serif;
   font-size: 1.4rem;
+  font-weight: normal;
   line-height: 140%;
 }
 
@@ -803,8 +811,8 @@ h3.mobile-strengths-weaknesses{
   grid-template-columns: 3fr 1fr 3fr;
   grid-auto-rows: 1fr 1fr;
   margin: auto;
-  max-width: 50rem;
-  width: 60%;
+  max-width: 40rem;
+  width: 100%;
 }
 
 .user-personas-lily-robert img{
@@ -818,25 +826,33 @@ h3.mobile-strengths-weaknesses{
 }
 
 .user-persona-robert{
+  background-color: #2a2a2a;
   grid-column:1/4;
   grid-row: 1/2;
   margin-top: 10%;
+  padding: 2rem;
 }
 
 .user-persona-lily{
+  background-color: #2a2a2a;
   grid-column: 1/4;
   grid-row: 2/3;
   margin-top: 10%;
+  padding: 2rem;
 }
 
 #user-personas h2.h2-user-personas{
+  color: #8e88d6;
   display: block;
-  font-size: 2.7rem;
+  font-size: 3.3rem;
+  font-weight: normal;
+
   margin: 4rem auto 0rem auto;
   text-align: center;
 }
 
 h3.h3-user-personas{
+  color: #B6ECF8;
   display: block;
   font-size: 2.1rem;
   font-weight: bold;
@@ -845,6 +861,7 @@ h3.h3-user-personas{
 }
 
 h3.h3-user-personas-title{
+  color: #fff;
   display: block;
   font-size: 2.2rem;
   margin: 1rem auto 0rem auto;
@@ -852,11 +869,13 @@ h3.h3-user-personas-title{
 }
 
 .p-user-personas-bio{
+  color: #fff;
   font-size: 1.5rem;
   text-align: center;
 }
 
 .p-user-personas{
+  color: #fff;
   display: block;
   font-size: 1.7rem;
   line-height: 1.4;
@@ -1267,8 +1286,8 @@ h1.hero-about-h1{
 
   .secondary-headers{
     font-size: 3.5rem;
-    max-width: 30rem;
-    width: 50%;
+    max-width: 36rem;
+    width: 55%;
   }
 
   td.stats{
@@ -1358,7 +1377,7 @@ h1.hero-about-h1{
   table.usability-table{
     display: flex;
     justify-content: center;
-    margin: 2rem auto;
+    margin: 2rem 12.5%;
     max-width: 45rem;
     width: 70%;
   }
@@ -1382,7 +1401,7 @@ h1.hero-about-h1{
     width: 70%;
   }
 
-  img.original-file, img.original-folder{
+  img.original-file, img.original-folder, #wireframes-and-usability-tests .original-file{
     display: flex;
     justify-content: center;
     margin: 3rem auto;
@@ -1476,6 +1495,10 @@ h1.hero-about-h1{
     grid-column: 5/6;
   }
 
+  .user-persona-robert, .user-persona-lily{
+    padding: 3rem;
+  }
+
   .user-personas-lily-robert img{
     display: flex;
     justify-content: center;
@@ -1484,8 +1507,8 @@ h1.hero-about-h1{
     width: 35%;
   }
 
-  h2.h2-user-personas{
-    font-size: 4rem;
+  #user-personas h2.h2-user-personas{
+    font-size: 4.2rem;
   }
 
   h3.h3-user-personas, h3.h3-user-personas-title{
@@ -1639,7 +1662,8 @@ h1.hero-about-h1{
 
   .secondary-headers{
     font-size: 4rem;
-    width: 50%;
+    max-width: 37rem;
+    width: 55%;
   }
 
   .roles-deliverables{
@@ -1980,12 +2004,12 @@ h1.hero-about-h1{
   }
 
   .prototype-button:hover{
-    border-color: #fff;
-    background-color: #2a2a2a;
+    border-color: #B6ECF8;
+    background-color: #B6ECF8;
   }
 
   #mockups .prototype-button h2:hover, .summary .prototype-button h2:hover{
-    color: #E0625E;
+    color: #2a2a2a;
     transition: all .4s ease;
   }
 
@@ -2005,8 +2029,8 @@ h1.hero-about-h1{
 
   .secondary-headers{
     font-size: 3.8rem;
-    max-width:35rem;
-    width: 30%;
+    max-width: 45rem;
+    width: 37%;
   }
 
   .roles-deliverables{
@@ -2022,22 +2046,18 @@ h1.hero-about-h1{
 
   .roles{
     grid-column: 1/2;
-    column-count: 2;
-    width: 20rem;
+    /* column-count: 2; */
+    width: 22rem;
   }
 
   .deliverables{
     grid-column: 2/3;
-    column-count: 2;
-    width: 20rem;
-  }
-
-  li{
-    width: 50%;
+    /* column-count: 2; */
+    width: 22rem;
   }
 
   .summary .prototype-button h2{
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
 
 
@@ -2144,10 +2164,10 @@ h1.hero-about-h1{
 
   .user-personas-lily-robert{
     display: grid;
-    grid-template-columns: 3fr 1fr 3fr;
+    grid-template-columns: 17fr 1fr 17fr;
     grid-auto-rows: 1fr 1fr;
     margin: auto;
-    max-width: 70rem;
+    max-width: 90rem;
   }
 
   .user-personas-lily-robert img{
@@ -2163,12 +2183,14 @@ h1.hero-about-h1{
   .user-persona-robert{
     grid-column: 1/2;
     grid-row: 1/2;
+    padding: 4rem;
     /* max-width: 30rem; */
   }
 
   .user-persona-lily{
     grid-column: 3/4;
     grid-row: 1/2;
+    padding: 4rem;
     /* max-width: 30rem; */
   }
 
@@ -2231,8 +2253,10 @@ h1.hero-about-h1{
   }
 
   table.usability-table{
-    margin: auto;
-    width: 80%;
+    margin: auto 5%;
+    text-align: left;
+    max-width: 80%;
+    width:80%;
   }
 
   #wireframes-and-usability-tests img{
@@ -2279,7 +2303,7 @@ h1.hero-about-h1{
     display: none;
   }
 
-  img.original-file, img.original-folder{
+  img.original-file, img.original-folder, #wireframes-and-usability-tests .original-file{
     margin: 5rem auto;
     max-width: 75rem;
     width: 80%;
