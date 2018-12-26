@@ -445,6 +445,7 @@ p.p-mobile{
 .case-study-wrapper{
   /* background-color: #bbadb5; */
   background-color: #d7dbe4;
+  scroll-behavior: smooth;
 }
 
 #trunk-summary {
@@ -497,7 +498,6 @@ section.trunk-title h2{
 
 .prototype-button{
   background: #2a2a2a;
-  border-color: #B6ECF8;
   border-radius: 20px;
   border-style: solid;
   border-width: 1.5px;
@@ -987,7 +987,7 @@ img.mobile-trunk-mockups{
 }
 
 .conclusion {
-  margin-bottom: 5rem;
+  padding-bottom: 5rem;
 }
 
 /* End Case Study */
