@@ -515,22 +515,12 @@ section.trunk-title h2{
   outline: none;
 }
 
-
 .roles-deliverables{
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin: auto;
   padding-bottom: 4rem;
 }
-
-/* .roles-deliverables{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  padding: 2rem 0rem 5rem 0rem;
-  margin: 0rem auto;
-  width: 20rem;
-} */
 
 ul{
   list-style: circle;
@@ -1084,11 +1074,7 @@ h1.hero-about-h1{
   color: #8e88d6;
 }
 
-
-
 /* End About Me */
-
-
 
 
 
@@ -1144,11 +1130,7 @@ h1.hero-about-h1{
 }
 
 
-
-
-
 @media screen and (min-width: 400px){
-
 
   .roles-deliverables{
     display: grid;
@@ -1442,20 +1424,14 @@ h1.hero-about-h1{
     width: 85%;
   }
 
-  /* #research1, #research2, #research3, #research4, #research5, #research6{
-    padding: 2rem;
-    height: 11rem;
-    width: 11rem;
-  } */
-
-#research1, #research2, #research3, #research4, #research5, #research6{
+  #research1, #research2, #research3, #research4, #research5, #research6{
   background-color: #2a2a2a;
   min-width: 16rem;
   max-width: 17rem;
   min-height: 16rem;
   max-height: 25rem;
-  padding: 3rem 2rem 1rem 2rem;
-}
+  padding: 3rem 2rem 1rem 2rem;}
+
   .percent{
     font-size: 3rem;
     margin-top: 1rem;
@@ -1578,8 +1554,6 @@ h1.hero-about-h1{
 }
 
 
-
-
 @media screen and (min-width: 768px){
 
   h1{
@@ -1606,18 +1580,6 @@ h1.hero-about-h1{
     margin: auto 12.5%;
   }
 
-  /* ul{
-    margin-left: 16rem;
-    width: 70%;
-  }
-
-  ul p{
-    font-size: 2.2rem;
-    line-height: 2.3rem;
-    margin-left: 1%;
-    margin-bottom: 1rem;
-  } */
-
   .navigation{
     margin-right: 4rem;
     max-width: 34rem;
@@ -1634,7 +1596,7 @@ h1.hero-about-h1{
 
   .linkedin, .twitter, .email, .github {
     width: 4rem;
-}
+  }
 
   .hero h1{
     font-size: 6rem;
@@ -1715,39 +1677,38 @@ h1.hero-about-h1{
     padding-top: 5rem;
   }
 
- h2.h2-mobile{
+  h2.h2-mobile{
    padding-top: 5%;
  }
 
- .grid{
+  .grid{
    max-width: 50rem;
    margin: auto;
    margin-top: 4rem;
  }
 
- p.percent{
+  p.percent{
    font-size: 3.2rem;
    margin-top: 1rem;
  }
 
- p.stats{
+  p.stats{
    font-size: 1.6rem;
    padding: 0rem .4rem;
    margin: 0rem;
  }
 
- #research1, #research2, #research3,
- #research4, #research5, #research6 {
+  #research1, #research2, #research3,
+  #research4, #research5, #research6 {
     padding: 2.7rem;
     margin: 0rem;
-}
-
+  }
 
  .user-flows-image {
     margin: 5rem auto;
     max-width: 52rem;
     width: 80%;
-}
+  }
 
  .trunk-mockups{
    justify-content: center;
@@ -1805,10 +1766,6 @@ h1.hero-about-h1{
     width: 30%;
   }
 }
-
-
-
-
 
 
 @media screen and (min-width: 991px){
@@ -2272,7 +2229,6 @@ h1.hero-about-h1{
     margin-left: 20%;
   }
 
-
   .wireframe-images{
     display: grid;
     /* display: flex; */
@@ -2312,11 +2268,6 @@ h1.hero-about-h1{
     width: 80%;
   }
 
-  /* .competitor-icons{
-    padding-left: 35%;
-    padding-right: 35%;
-  } */
-
   .google-drive, .dropbox{
     height: 30%;
     max-width: 12rem;
@@ -2342,14 +2293,13 @@ h1.hero-about-h1{
     width: 100%;
   }
 
-  .styleguide{
+  .styleguide {
   display: grid;
   grid-template-columns: 10fr 1fr 10fr;
   grid-template-rows: 1fr 3fr 1fr;
   margin: 3rem auto;
   max-width: 85rem;
-  width: 80%;
- }
+  width: 80%;}
 
   img.trunk-typography{
     margin: 0rem;
@@ -2399,7 +2349,6 @@ h1.hero-about-h1{
     height: 65rem;
     background-image: url("../images/about-background.png");
   }
-
 
   .hero-about-wrapper{
     margin: 18rem 6rem 18rem 10rem;
@@ -2520,6 +2469,5 @@ h1.hero-about-h1{
   .hero-about-wrapper .hero-about-h1{
     font-size: 6.8rem;
   }
-
 
 }
