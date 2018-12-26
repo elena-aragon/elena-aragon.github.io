@@ -57,6 +57,7 @@ h2 {
   color: #1F1F1F;
   font-family:"MontserratSemiBold", Helvetica, Arial, sans-serif;
   font-size: 3rem;
+  line-height: 130%;
   margin: 4rem 10% 1.5rem 10%;
 }
 
@@ -498,6 +499,7 @@ section.trunk-title h2{
 
 .prototype-button{
   background: #2a2a2a;
+  border-color: #B6ECF8;
   border-radius: 20px;
   border-style: solid;
   border-width: 1.5px;
@@ -518,6 +520,7 @@ section.trunk-title h2{
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin: auto;
+  padding-bottom: 4rem;
 }
 
 /* .roles-deliverables{
