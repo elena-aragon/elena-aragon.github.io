@@ -1923,8 +1923,8 @@ h1.hero-about-h1{
     padding-top: 5rem;
     padding-bottom: 2rem;
     margin: auto;
+    text-align: center;
     text-transform: uppercase;
-    max-width: 38rem;
   }
 
   .case-study-button{
