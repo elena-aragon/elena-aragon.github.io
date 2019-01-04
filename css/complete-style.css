@@ -668,7 +668,7 @@ img.wireframes1{
 
 .summary a:hover, #research a:hover, .competitive-analysis a:hover,
 #user-personas a:hover, #user-stories-and-flows a:hover,
-#wireframes-and-usability-tests a:hover, #branding a:hover,
+#wireframes-and-usability-tests a:hover, .back-top a:hover, #branding a:hover,
 #mockups a:hover{
   color: #E0625E;
   transition: color .5s ease;
