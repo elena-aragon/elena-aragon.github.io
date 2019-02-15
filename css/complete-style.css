@@ -163,7 +163,6 @@ br {
 
 .navigation .selected{
   color: #E0625E;
-  text-decoration: underline;
   font-weight: bold;
 }
 
@@ -327,7 +326,7 @@ footer{
 /* End Bouncing Arrow */
 
 
-#featured-project {
+#featured-project, #other-projects {
   background-color: #2a2a2a;
   margin-bottom: 0rem;
 }
@@ -367,7 +366,7 @@ p.p-mobile{
   width: 70%;
 }
 
-.hoverbox-text p{
+.hoverbox-text p, .hoverbox-text2 p{
   color: #fff;
   font-family: Helvetica;
   font-size: 2.7rem;
@@ -414,7 +413,7 @@ p.p-mobile{
   vertical-align: middle;
 }
 
-.hoverbox {
+.hoverbox, .hoverbox2 {
 	display: inline-block;
   height: auto;
 	overflow: hidden;
@@ -422,7 +421,7 @@ p.p-mobile{
 	width: 100%;
 }
 
-.hoverbox img {
+.hoverbox img, .hoverbox2 img {
   margin: 3rem 5% auto 5%;
   padding-bottom: 3rem;
   text-align: center;
@@ -506,7 +505,7 @@ section.trunk-title h2, section.evalueat-title h2{
   max-width: 25rem;
   min-width: 20rem;
   opacity: 1;
-  width: 60%;
+  width: 78%;
 }
 
 .prototype-button:active {
@@ -1398,7 +1397,7 @@ h1.hero-about-h1{
     margin: 3rem auto 1rem auto;
   }
 
-  .hoverbox img {
+  .hoverbox img, .hoverbox2 img {
     display: flex;
     width: 80%;
     margin: auto;
@@ -1920,21 +1919,18 @@ h1.hero-about-h1{
 
   /* Home page trunk overlay */
 
-  h2.h2-mobile, p.p-mobile, .mobile-case-study-button{
-    display: none;
-  }
 
-  .hoverbox:hover .hoverbox-layer-bottom{
+  .hoverbox:hover .hoverbox-layer-bottom, .hoverbox2:hover .hoverbox-layer-bottom2{
     transform: translatex(21vw);
     transition: all 1s ease;
   }
 
-  .hoverbox:hover .hoverbox-layer-top{
+  .hoverbox:hover .hoverbox-layer-top, .hoverbox2:hover .hoverbox-layer-top2{
     transform: translateX(-21vw);
     transition: all 1s ease;
   }
 
-  .hoverbox-text h2{
+  .hoverbox-text h2, .hoverbox-text2 h2{
     color: #766FC8;
     display: block;
     font-family: "Montserrat";
@@ -1946,7 +1942,7 @@ h1.hero-about-h1{
     text-align: center;
   }
 
-  .hoverbox-text p{
+  .hoverbox-text p, .hoverbox-text2 p{
     color: #fff;
     display: flex;
     font-family: Helvetica;
@@ -1961,7 +1957,7 @@ h1.hero-about-h1{
     width: 80%;
   }
 
-  .h2-desktop {
+  h2.h2-desktop {
     font-family: "Montserrat";
   }
 
@@ -2084,11 +2080,12 @@ h1.hero-about-h1{
 
 
   .hoverbox,
-  .hoverbox * {
+  .hoverbox * , .hoverbox2 .hoverbox2 *{
   	box-sizing: border-box;
+    display: block;
   }
 
-  .hoverbox img {
+  .hoverbox img, .hoverbox2 img {
     margin-left: auto;
     margin-right: auto;
     margin-top: 3rem;
@@ -2096,11 +2093,11 @@ h1.hero-about-h1{
     width: 80%;
   }
 
-  .hoverbox .hoverbox-layer-bottom {
+  .hoverbox .hoverbox-layer-bottom, .hoverbox2 .hoverbox-layer-bottom2 {
     transition: all 1s ease;
   }
 
-  .hoverbox .hoverbox-layer-top {
+  .hoverbox .hoverbox-layer-top, .hoverbox2 .hoverbox-layer-top2 {
     bottom: 0;
     height: 100%;
     left: 0;
@@ -2117,11 +2114,12 @@ h1.hero-about-h1{
   }
 
   .hoverbox:hover .hoverbox-layer-top,
-  .hoverbox.active .hoverbox-layer-top {
+  .hoverbox.active .hoverbox-layer-top, .hoverbox2:hover .hoverbox-layer-top2,
+  .hoverbox.active2 .hoverbox-layer-top2 {
   	opacity: 1;
   }
 
-  .hoverbox .hoverbox-text {
+  .hoverbox .hoverbox-text, .hoverbox2 .hoverbox-text2{
     padding: 7rem;
   	position: absolute;
   	top: 47%;
@@ -2131,6 +2129,11 @@ h1.hero-about-h1{
   	-ms-transform: translate(-50%, -50%);
   	transform: translate(-50%, -50%);
   }
+
+
+    h2.h2-mobile, p.p-mobile, .mobile-case-study-button{
+      display: none;
+    }
 
 
   /* End home page trunk overlay */
@@ -2414,7 +2417,7 @@ h1.hero-about-h1{
     width: 90%;
   }
 
-  #featured-project h1{
+  #featured-project h1, #other-projects h1{
     font-size: 7rem;
   }
 
@@ -2481,7 +2484,7 @@ h1.hero-about-h1{
     padding-top: 5rem;
   }
 
-  .hoverbox img{
+  .hoverbox img, .hoverbox2 img{
     margin: 2rem auto;
     width: 48%;
   }
@@ -2529,7 +2532,7 @@ h1.hero-about-h1{
     width: 25%;
   }
 
-  .hoverbox .hoverbox-text {
+  .hoverbox .hoverbox-text , .hoverbox2 .hoverbox-text2{
     border: .5px solid #9895bd;
   }
 
