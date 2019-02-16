@@ -1124,6 +1124,10 @@ h1.hero-about-h1{
   min-width: 30rem;
   width: 80%;
 }
+
+.evalueat-usability2{
+  display: none;
+}
 /* End About Me */
 
 
@@ -2498,7 +2502,17 @@ h1.hero-about-h1{
     justify-content: center;
     margin: 3rem auto;
     max-width: 100rem;
+    min-width: 90rem;
     width: 60%;
+  }
+
+  img.evalueat-usability2{
+    display: flex;
+    justify-content: center;
+    margin: 3rem auto;
+    max-width: 100rem;
+    min-width: 50rem;
+    width: 40%;
   }
 
 }
