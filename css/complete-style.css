@@ -1924,7 +1924,7 @@ h1.hero-about-h1{
   /* Home page trunk overlay */
 
 
-  .hoverbox:hover .hoverbox-layer-bottom, .hoverbox2:hover .hoverbox-layer-bottom2{
+  /* .hoverbox:hover .hoverbox-layer-bottom, .hoverbox2:hover .hoverbox-layer-bottom2{
     transform: translatex(21vw);
     transition: all 1s ease;
   }
@@ -1932,7 +1932,27 @@ h1.hero-about-h1{
   .hoverbox:hover .hoverbox-layer-top, .hoverbox2:hover .hoverbox-layer-top2{
     transform: translateX(-21vw);
     transition: all 1s ease;
+  } */
+
+  .hoverbox:hover .hoverbox-layer-bottom{
+    transform: translatex(21vw);
+    transition: all 1s ease;
   }
+
+  .hoverbox:hover .hoverbox-layer-top{
+    transform: translateX(-21vw);
+    transition: all 1s ease;
+  }
+
+  .hoverbox2:hover .hoverbox-layer-bottom2{
+      transform: translatex(-21vw);
+      transition: all 1s ease;
+    }
+
+    .hoverbox2:hover .hoverbox-layer-top2{
+      transform: translateX(21vw);
+      transition: all 1s ease;
+    }
 
   .hoverbox-text h2, .hoverbox-text2 h2{
     color: #766FC8;
