@@ -1326,6 +1326,11 @@ h1.hero-about-h1{
     margin: 0rem auto 5rem auto;
     width: 30rem;
   }
+	
+section.webtrition-title h1{
+	font-size: 2rem;
+	}
+
 
   section.trunk-title h1, section.evalueat-title h1, section.webtrition-title h1{
     font-size: 6rem;
