@@ -480,6 +480,10 @@ section.trunk-title h1, section.evalueat-title h1, section.webtrition-title h1{
   text-align: center;
 }
 
+section.webtrition-title h1{
+	font-size: 4.5rem;
+}
+
 section.trunk-title h2, section.evalueat-title h2, section.webtrition-title h2{
   color: #5f5e5e;
   text-align: center;
@@ -1327,9 +1331,6 @@ h1.hero-about-h1{
     width: 30rem;
   }
 	
-section.webtrition-title h1{
-	font-size: 2rem;
-	}
 
 
   section.trunk-title h1, section.evalueat-title h1, section.webtrition-title h1{
