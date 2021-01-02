@@ -2222,7 +2222,7 @@ h1.hero-about-h1{
   }
 
 
-    h2.h2-mobile, p.p-mobile, .mobile-case-study-button{
+    h3.h3-mobile, p.p-mobile, .mobile-case-study-button{
       display: none;
     }
 
