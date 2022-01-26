@@ -1,4 +1,4 @@
-* {
+#linos-summary* {
   box-sizing: border-box;
 }
 *::before,
@@ -461,12 +461,12 @@ p.p-mobile{
   scroll-behavior: smooth;
 }
 
-#trunk-summary, #evalueat-summary, #riddlemecash-summary {
+#trunk-summary, #evalueat-summary, #riddlemecash-summary, #linos-summary {
     /* padding: 2rem 10% 2% 10%; */
     width: 100%;
   }
 
-.trunk-pic, .evalueat-pic{
+.trunk-pic, .evalueat-pic, .linos-pic{
     display: flex;
     justify-content: center;
     margin: 3rem auto 3rem auto;
@@ -492,7 +492,7 @@ p.p-mobile{
   display: none;
 }
 
-section.trunk-title h1, section.evalueat-title h1, section.webtrition-title h1{
+section.trunk-title h1, section.evalueat-title h1, section.webtrition-title h1, section.linos-title h1{
   color: #8B8100;
   font-size: 5.5rem;
   font-family:"MontserratExtraBold";
@@ -512,7 +512,7 @@ section.riddlemecash-title h1{
   text-align: center;
 }
 
-section.trunk-title h2, section.evalueat-title h2, section.webtrition-title h2, section.riddlemecash-title h2{
+section.trunk-title h2, section.evalueat-title h2, section.webtrition-title h2, section.riddlemecash-title h2, section.linos-title h2{
   color: #5f5e5e;
   text-align: center;
   font-size: 1.9rem;
@@ -548,6 +548,10 @@ section.trunk-title h2, section.evalueat-title h2, section.webtrition-title h2, 
   min-width: 20rem;
   opacity: 100%;
   width: 78%;
+}
+
+.voice-documentation .prototype-button {
+  max-width: 40rem;
 }
 
 .prototype-button:active {
@@ -606,7 +610,10 @@ ul{
   padding-top: 8%;
 }
 
-#mockups .prototype-button h2, .summary .prototype-button h2, .analysis-prototype .prototype-button h2, .forecasting-prototype .prototype-button h2, .pending-prototype .prototype-button h2{
+#mockups .prototype-button h2, .summary .prototype-button h2,
+.analysis-prototype .prototype-button h2, .forecasting-prototype .prototype-button h2,
+.pending-prototype .prototype-button h2, .voice-documentation .prototype-button h2,
+#linos-summary .prototype-button h2{
   color: #B6ECF8;
   font-family: Helvetica;
   font-size: 1.4rem;
@@ -673,6 +680,38 @@ div#research6{
   justify-content: center;
   margin: 1rem auto;
   max-width: 40rem;
+  width: 100%;
+}
+
+.linos-user-persona {
+  display: flex;
+  justify-content: center;
+  margin: 1rem auto;
+  max-width: 77rem;
+  width: 100%;
+}
+
+.linos-user-flow {
+  display: flex;
+  justify-content: center;
+  margin: 1rem auto;
+  max-width: 80rem;
+  width: 100%;
+}
+
+.linos-wireframes{
+  display: flex;
+  justify-content: center;
+  margin: 1rem auto;
+  max-width: 70rem;
+  width: 100%;
+}
+
+.linos-logo{
+  display: flex;
+  justify-content: center;
+  margin: 1rem auto;
+  max-width: 15rem;
   width: 100%;
 }
 
@@ -1365,21 +1404,21 @@ h1.hero-about-h1{
     max-width: 50rem;
   }
 
-  #trunk-summary h2, #evalueat-summary h2, #riddlemecash-summary h2{
+  #trunk-summary h2, #evalueat-summary h2, #riddlemecash-summary h2, #linos-summary h2{
     margin-top: 2rem;
   }
 
-  section.trunk-title h2, section.evalueat-title h2, section.webtrition-title h2, section.riddlemecash-title h2{
+  section.trunk-title h2, section.evalueat-title h2, section.webtrition-title h2, section.riddlemecash-title h2, section.linos-title h2{
     font-size: 2.3rem;
     margin: 0rem auto 5rem auto;
     width: 30rem;
   }
 
-  section.trunk-title h1, section.evalueat-title h1, section.webtrition-title h1, section.riddlemecash-title h1{
+  section.trunk-title h1, section.evalueat-title h1, section.webtrition-title h1, section.riddlemecash-title h1, section.linos-title h1{
     font-size: 6rem;
   }
 
-  .trunk-title h2, .evalueat-title h2, .webtrition-title h2, .riddlemecash-title h2{
+  .trunk-title h2, .evalueat-title h2, .webtrition-title h2, .riddlemecash-title h2, .linos-title h2{
     font-size: 3rem;
     margin-top: 2rem;
   }
@@ -1722,15 +1761,15 @@ h1.hero-about-h1{
     font-size: 6rem;
   }
 
-  section.trunk-title h2, section.evalueat-title h2, section.webtrition-title h2{
+  section.trunk-title h2, section.evalueat-title h2, section.webtrition-title h2, section.riddlemecash-title h2, section.linos-title h2{
     font-size: 2.4rem;
   }
 
-  section.trunk-title h1, section.evalueat-title h1, section.webtrition-title h1{
+  section.trunk-title h1, section.evalueat-title h1, section.webtrition-title h1, section.riddlemecash-title h1, section.linos-title h1{
     font-size: 7rem;
   }
 
-  .trunk-pic, .evalueat-pic img, #evalueat-summary img{
+  .trunk-pic, .evalueat-pic img, #evalueat-summary img, .linos-pic img{
     max-width: 60rem;
     display: flex;
     margin: 5rem auto 1rem auto;
@@ -1789,7 +1828,7 @@ h1.hero-about-h1{
   }
 
 
-  #trunk-summary h2, #evalueat-summary h2, #riddlemecash-summary h2{
+  #trunk-summary h2, #evalueat-summary h2, #riddlemecash-summary h2, #linos-summary h2{
     margin: 0rem auto;
     /* margin-top: 0rem; */
   }
@@ -1953,7 +1992,7 @@ h1.hero-about-h1{
     width: 3.5rem;
   }
 
-  section.trunk-title h1, section.evalueat-title h1, section.webtrition-title h1, section.riddlemecash-title h1{
+  section.trunk-title h1, section.evalueat-title h1, section.webtrition-title h1, section.riddlemecash-title h1, section.linos-title h1{
     font-size: 7rem;
   }
 
@@ -2092,7 +2131,7 @@ h1.hero-about-h1{
     font-weight: bold;
   }
 
-  #mockups .prototype-button h2, .summary .prototype-button h2{
+  #mockups .prototype-button h2, .summary .prototype-button h2, .voice-documentation .prototype-button h2, #linos-summary .prototype-button h2{
     transition: all .4s ease;
   }
 
@@ -2107,17 +2146,20 @@ h1.hero-about-h1{
     background-color: #B6ECF8;
   }
 
-  #mockups .prototype-button h2:hover, .summary .prototype-button h2:hover{
+  #mockups .prototype-button h2:hover, .summary .prototype-button h2:hover,
+  .forecasting-prototype .prototype-button h2:hover, .pending-prototype .prototype-button h2:hover,
+  .analysis-prototype .prototype-button h2:hover, .voice-documentation .prototype-button h2:hover,
+  #linos-summary .prototype-button h2:hover{
     color: #2a2a2a;
     transition: all .4s ease;
   }
 
-  section.trunk-title h2, section.evalueat-title h2, section.webtrition-title h2, section.riddlemecash-title h2{
+  section.trunk-title h2, section.evalueat-title h2, section.webtrition-title h2, section.riddlemecash-title h2, section.linos-title h2{
     font-size: 2.5rem;
     width: 35rem;
   }
 
-  section.trunk-title h1, section.evalueat-title h1, section.webtrition-title h1, section.riddlemecash-title h1{
+  section.trunk-title h1, section.evalueat-title h1, section.webtrition-title h1, section.riddlemecash-title h1, section.linos-title h1{
     font-size: 7.5rem;
   }
 
@@ -2155,7 +2197,7 @@ h1.hero-about-h1{
     width: 22rem;
   }
 
-  .summary .prototype-button h2{
+  .summary .prototype-button h2, .voice-documentation .prototype-button h2, .linos-summary .prototype-button h2{
     font-size: 1.6rem;
   }
 
@@ -2215,6 +2257,7 @@ h1.hero-about-h1{
   	position: absolute;
   	top: 47%;
   	left: 49%;
+    min-width: 40rem;
   	-moz-transform: translate(-50%, -50%);
   	-webkit-transform: translate(-50%, -50%);
   	-ms-transform: translate(-50%, -50%);
@@ -2230,7 +2273,7 @@ h1.hero-about-h1{
   /* End home page trunk overlay */
 
 
-  .trunk-pic, .evalueat-pic {
+  .trunk-pic, .evalueat-pic, .linos-pic {
       margin: 3rem auto 3rem auto;
       max-width: 70rem;
       width: 100%;
@@ -2247,12 +2290,12 @@ h1.hero-about-h1{
     display: none;
   }
 
-  #trunk-summary, #evalueat-summary, #riddlemecash-summary{
+  #trunk-summary, #evalueat-summary, #riddlemecash-summary, #linos-summary{
       padding: 2rem auto 2% auto;
       width: 100%;
     }
 
-  .trunk-title h2, .evalueat-title h2, .webtrition-title h2, .riddlemecash-title h2{
+  .trunk-title h2, .evalueat-title h2, .webtrition-title h2, .riddlemecash-title h2, .linos-title h2{
     font-size: 4rem;
     margin-top: 2rem;
   }
