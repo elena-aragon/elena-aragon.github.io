@@ -691,6 +691,14 @@ div#research6{
   width: 100%;
 }
 
+.linos-journey-map {
+  display: flex;
+  justify-content: center;
+  margin: 1rem auto;
+  max-width: 100rem;
+  width: 100%;
+}
+
 .linos-user-flow {
   display: flex;
   justify-content: center;
